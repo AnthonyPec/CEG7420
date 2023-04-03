@@ -1,0 +1,86 @@
+{
+  "__libc_csu_init": {
+    "label": "init", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_init": {
+    "label": "init", 
+    "param1": "EVP_PKEY_CTX", 
+    "int": 1, 
+    "return": "int"
+  }, 
+  "_start": {
+    "param1": "void);", 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "main": {
+    "string": [
+      "IOLI Crackme Level 0x00\\n", 
+      "Password: ", 
+      "%s", 
+      "250382", 
+      "Password OK :)\\n", 
+      "Invalid Password!\\n"
+    ], 
+    "label": "main", 
+    "param1": "void);", 
+    "int": 5, 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    "char *": 1, 
+    "printf(.*)": 4, 
+    "if (.*)": 1, 
+    "scanf(.*)": 1, 
+    "return": "undefined4"
+  }, 
+  "__i686.get_pc_thunk.bx": {
+    "label": "get", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__libc_csu_fini": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__do_global_dtors_aux": {
+    "param1": "void);", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "_fini": {
+    "param1": "undefined4", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__do_global_ctors_aux": {
+    "param1": "void);", 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": "undefined4", 
+    ".*\\+": 1
+  }, 
+  "FUN_08048310": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "frame_dummy": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "FUN_08048384": {
+    "param1": "undefined4", 
+    "param2": "undefined4", 
+    "if (.*)": 1, 
+    "return": "undefined4"
+  }
+}

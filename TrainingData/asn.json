@@ -1,0 +1,1568 @@
+{
+  "GetMyVersion": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "FreeSigner": {
+    "param1": "Signer", 
+    "param2": "void", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "wc_PemGetHeaderFooter": {
+    "label": "get", 
+    "param3": "char", 
+    "param1": "int", 
+    "int": 2, 
+    "param2": "char", 
+    "return": "int"
+  }, 
+  "SetLength": {
+    "label": "set", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "GetValidity": {
+    "label": "get", 
+    "param3": "int", 
+    "param1": "DecodedCert", 
+    "int": 8, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "CalcHashId": {
+    "param3": "byte", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SkipObjectId": {
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "FreeDecodedCert": {
+    "param1": "DecodedCert", 
+    "int": 2, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "DecodeECC_DSA_Sig": {
+    "param3": "mp_int", 
+    "param4": "mp_int", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_EccPrivateKeyDecode": {
+    "param3": "ecc_key", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 12, 
+    "param2": "word32", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "wc_BuildEccKeyDer": {
+    "param5": "int", 
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "ecc_key", 
+    "int": 22, 
+    "param2": "byte", 
+    "memcpy(.*)": 5, 
+    "return": "int"
+  }, 
+  "eccToPKCS8": {
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "ecc_key", 
+    "int": 10, 
+    "param2": "byte", 
+    "memset(.*)": 1, 
+    "return": "int"
+  }, 
+  "MatchBaseName": {
+    "param5": "int", 
+    "param3": "int", 
+    "param4": "char", 
+    "param1": "int", 
+    "int": 10, 
+    "param2": "char", 
+    "return 0": 1, 
+    "return": "int"
+  }, 
+  "GetSet_ex": {
+    "param5": "int", 
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_EccPublicKeyToDer_ex": {
+    "param5": "int", 
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "wc_ValidateDate": {
+    "param3": "int", 
+    "param1": "byte", 
+    "int": 12, 
+    "param2": "byte", 
+    "return 0": 5, 
+    "return": "int"
+  }, 
+  "wc_EccPrivateKeyToPKCS8": {
+    "param3": "word32", 
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "ToTraditional": {
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetHashId": {
+    "label": "get", 
+    "param3": "byte", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "int", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "DecodeECC_DSA_Sig_Bin": {
+    "param5": "byte", 
+    "param6": "word32", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 8, 
+    "param2": "word32", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "GetSignature": {
+    "label": "get", 
+    "param1": "DecodedCert", 
+    "int": 4, 
+    "return": "int"
+  }, 
+  "wc_GetDateInfo": {
+    "param5": "int", 
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 3, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "wc_FreeDer": {
+    "param1": "DerBuffer", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "GetCertName": {
+    "param7": "word32", 
+    "param5": "byte", 
+    "param6": "word32", 
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "int", 
+    "param1": "DecodedCert", 
+    "int": 21, 
+    "param2": "char", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "GetIntPositive": {
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "mp_int", 
+    "int": 7, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "wc_EccPrivateKeyToDer": {
+    "param3": "word32", 
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "FreeSignatureCtx": {
+    "param1": "SignatureCtx", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "SetMyVersion": {
+    "label": "set", 
+    "param3": "int", 
+    "param1": "word32", 
+    "int": 3, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "wc_GetKeyOID": {
+    "param5": "int", 
+    "param6": "void", 
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 3, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetLength_ex": {
+    "param5": "int", 
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 11, 
+    "param2": "word32", 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "AltNameNew": {
+    "param1": "void", 
+    "memset(.*)": 1, 
+    "return": "DNS_entry"
+  }, 
+  "wc_CreatePKCS8Key": {
+    "param7": "word32", 
+    "param5": "int", 
+    "param6": "byte", 
+    "label": "create", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "wc_RsaPublicKeyDecode": {
+    "param3": "RsaKey", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetOctetString8Bit": {
+    "label": "set", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "wc_EccKeyDerSize": {
+    "param1": "ecc_key", 
+    "int": 2, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "wc_RsaPublicKeyDecode_ex": {
+    "param7": "word32", 
+    "param5": "word32", 
+    "param6": "byte", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 13, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetLength": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_EncodeSignature": {
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "byte", 
+    "memcpy(.*)": 3, 
+    "return": "word32"
+  }, 
+  "StoreEccKey": {
+    "param5": "byte", 
+    "param6": "word32", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "DecodedCert", 
+    "int": 9, 
+    "param2": "byte", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "GetInteger16Bit": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_AllocDer": {
+    "param3": "int", 
+    "param4": "void", 
+    "param1": "DerBuffer", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_FreeDecodedCert": {
+    "param1": "DecodedCert", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "GetInt": {
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "mp_int", 
+    "int": 7, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "GetAlgoV2": {
+    "param5": "int", 
+    "label": "get", 
+    "param3": "int", 
+    "param4": "int", 
+    "param1": "int", 
+    "int": 2, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "wc_DhKeyDecode": {
+    "param3": "DhKey", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "IsSigAlgoECDSA": {
+    "param1": "int", 
+    "int": 1, 
+    "return": "int"
+  }, 
+  "CheckAlgoV2": {
+    "label": "check", 
+    "param3": "int", 
+    "param1": "int", 
+    "int": 4, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "DecodeCertExtensions": {
+    "param1": "DecodedCert", 
+    "int": 7, 
+    "goto": 1, 
+    "return": "int"
+  }, 
+  "wc_EccKeyToDer": {
+    "param3": "word32", 
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "FreeNameSubtrees": {
+    "param1": "Base_entry", 
+    "param2": "void", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "EncryptContent": {
+    "param7": "int", 
+    "param8": "int", 
+    "param5": "char", 
+    "param6": "int", 
+    "param9": "byte", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 15, 
+    "param2": "word32", 
+    "memcpy(.*)": 3, 
+    "param10": "word32", 
+    "param11": "int", 
+    "param12": "WC_RNG", 
+    "param13": "void", 
+    "return": "int"
+  }, 
+  "MakeSigner": {
+    "label": "make", 
+    "param1": "void", 
+    "memset(.*)": 1, 
+    "return": "Signer"
+  }, 
+  "KeyPemToDerPassCb": {
+    "param3": "int", 
+    "param4": "void", 
+    "param1": "char", 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "SetASNInt": {
+    "label": "set", 
+    "param3": "byte", 
+    "param1": "int", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "SetSequence": {
+    "label": "set", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "DateLessThan": {
+    "param1": "tm", 
+    "int": 1, 
+    "param2": "tm", 
+    "return": "int"
+  }, 
+  "wc_CheckPrivateKey": {
+    "param5": "Key_Sum", 
+    "label": "check", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 9, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "DecodeNameConstraints": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "min": {
+    "param1": "word32", 
+    "param2": "word32", 
+    "return": "word32"
+  }, 
+  "ConfirmNameConstraints": {
+    "param1": "Signer", 
+    "int": 10, 
+    "param2": "DecodedCert", 
+    "return 0": 5, 
+    "return": "int"
+  }, 
+  "is_leading_bit_set": {
+    "label": "set", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "DecodeSubtree": {
+    "param3": "Base_entry", 
+    "param4": "void", 
+    "param1": "byte", 
+    "int": 10, 
+    "param2": "int", 
+    "while(.*)": 1, 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "DateGreaterThan": {
+    "param1": "tm", 
+    "int": 1, 
+    "param2": "tm", 
+    "return": "int"
+  }, 
+  "wc_GetTime": {
+    "label": "get", 
+    "param1": "void", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetOID": {
+    "param5": "int", 
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "GetName": {
+    "label": "get", 
+    "param3": "int", 
+    "param1": "DecodedCert", 
+    "int": 6, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "DecodeSubjKeyId": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "SetASNIntMP": {
+    "label": "set", 
+    "param3": "byte", 
+    "param1": "mp_int", 
+    "int": 9, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "GetSigAlg": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "DecodedCert", 
+    "int": 4, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "AllocDer": {
+    "param3": "int", 
+    "param4": "void", 
+    "param1": "DerBuffer", 
+    "int": 4, 
+    "param2": "word32", 
+    "memset(.*)": 1, 
+    "return": "int"
+  }, 
+  "StoreECC_DSA_Sig_Bin": {
+    "param5": "byte", 
+    "param6": "word32", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "word32", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "SetOctetString": {
+    "label": "set", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "DecodeRsaPssParams": {
+    "param5": "int", 
+    "param3": "wc_HashType", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 8, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_GetSerialNumber": {
+    "param5": "word32", 
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "wc_GetPubX509": {
+    "label": "get", 
+    "param3": "int", 
+    "param1": "DecodedCert", 
+    "int": 4, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "GetBoolean": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "DecodeNsCertType": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "GetASNInt": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_DecryptPKCS8Key": {
+    "param3": "char", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_GetPubKeyDerFromCert": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "DecodedCert", 
+    "int": 3, 
+    "param2": "byte", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "DecodeExtensionType": {
+    "param5": "DecodedCert", 
+    "param6": "int", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 63, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "CheckAlgo": {
+    "param5": "int", 
+    "label": "check", 
+    "param3": "int", 
+    "param4": "int", 
+    "param1": "int", 
+    "int": 2, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "ParseCert": {
+    "param3": "int", 
+    "param4": "void", 
+    "param1": "DecodedCert", 
+    "int": 4, 
+    "param2": "int", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "Pkcs8Pad": {
+    "param3": "int", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "SetSerialNumber": {
+    "param5": "int", 
+    "label": "set", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 9, 
+    "param2": "word32", 
+    "while(.*)": 1, 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "SetASNLength": {
+    "label": "set", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "IsSigAlgoECC": {
+    "param1": "int", 
+    "int": 2, 
+    "return": "int"
+  }, 
+  "PemToDer": {
+    "param7": "int", 
+    "param5": "void", 
+    "param6": "EncryptedInfo", 
+    "param3": "int", 
+    "param4": "DerBuffer", 
+    "param1": "uchar", 
+    "int": 19, 
+    "param2": "long", 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "StoreECC_DSA_Sig": {
+    "param3": "mp_int", 
+    "param4": "mp_int", 
+    "param1": "byte", 
+    "int": 11, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "CheckBitString": {
+    "param5": "int", 
+    "param6": "byte", 
+    "label": "check", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetASNHeader": {
+    "param5": "word32", 
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "GetNameHash": {
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetObjectId": {
+    "label": "set", 
+    "param1": "int", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "ToTraditionalEnc": {
+    "param5": "word32", 
+    "param3": "char", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetCurve": {
+    "label": "set", 
+    "param3": "size_t", 
+    "param1": "ecc_key", 
+    "int": 3, 
+    "param2": "byte", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "TraditionalEnc": {
+    "param7": "int", 
+    "param8": "int", 
+    "param5": "char", 
+    "param6": "int", 
+    "param14": "void", 
+    "param9": "int", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 9, 
+    "param2": "word32", 
+    "param10": "byte", 
+    "param11": "word32", 
+    "param12": "int", 
+    "param13": "WC_RNG", 
+    "return": "int"
+  }, 
+  "btoi": {
+    "param1": "byte", 
+    "return": "word32"
+  }, 
+  "GetExplicitVersion": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "StoreRsaKey": {
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "DecodedCert", 
+    "int": 6, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "CheckCurve": {
+    "label": "check", 
+    "param1": "word32", 
+    "int": 3, 
+    "return": "int"
+  }, 
+  "DecryptContent": {
+    "param3": "char", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 16, 
+    "param2": "word32", 
+    "goto": 10, 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "DecodeAuthKeyId": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "wc_CertPemToDer": {
+    "param5": "int", 
+    "param3": "uchar", 
+    "param4": "int", 
+    "param1": "uchar", 
+    "int": 5, 
+    "param2": "int", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "AddAltName": {
+    "param1": "DecodedCert", 
+    "param2": "DNS_entry", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "wc_EccPublicKeyDerSize": {
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "trim_leading_zeros": {
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetASNTag": {
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "ToTraditional_ex": {
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetAlgoId": {
+    "param5": "word32", 
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetExplicit": {
+    "label": "set", 
+    "param3": "byte", 
+    "param1": "byte", 
+    "param2": "word32", 
+    "return": "word32"
+  }, 
+  "SkipEndOfLineChars": {
+    "param1": "char", 
+    "param2": "char", 
+    "while(.*)": 1, 
+    "return": "char"
+  }, 
+  "DecodeToKey": {
+    "param1": "DecodedCert", 
+    "int": 9, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "ForceZero": {
+    "param1": "void", 
+    "param2": "word32", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "SetHeader": {
+    "label": "set", 
+    "param3": "byte", 
+    "param1": "byte", 
+    "param2": "word32", 
+    "return": "word32"
+  }, 
+  "GetTime": {
+    "label": "get", 
+    "param3": "int", 
+    "param1": "int", 
+    "int": 3, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "GetSet": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "RsaPssHashOidToType": {
+    "param1": "word32", 
+    "int": 2, 
+    "param2": "wc_HashType", 
+    "return": "int"
+  }, 
+  "GetSequence": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetShortInt": {
+    "label": "set", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "word32", 
+    "memset(.*)": 1, 
+    "return": "int"
+  }, 
+  "ExtractDate": {
+    "param3": "tm", 
+    "param4": "int", 
+    "param1": "uchar", 
+    "int": 2, 
+    "param2": "uchar", 
+    "memset(.*)": 1, 
+    "return 0": 1, 
+    "return": "int"
+  }, 
+  "SetSet": {
+    "label": "set", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "PermittedListOk": {
+    "param3": "byte", 
+    "param1": "DNS_entry", 
+    "int": 6, 
+    "param2": "Base_entry", 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "DecodeAltNames": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 88, 
+    "param2": "int", 
+    "while(.*)": 1, 
+    "memcpy(.*)": 4, 
+    "return": "int"
+  }, 
+  "DecodeCrlDist": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "wc_PemToDer": {
+    "param7": "int", 
+    "param5": "void", 
+    "param6": "EncryptedInfo", 
+    "param3": "int", 
+    "param4": "DerBuffer", 
+    "param1": "uchar", 
+    "int": 4, 
+    "param2": "long", 
+    "return": "int"
+  }, 
+  "GetDate": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "int", 
+    "param1": "DecodedCert", 
+    "int": 7, 
+    "param2": "int", 
+    "memset(.*)": 1, 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "DecodePolicyConstraints": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 12, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "DecodeConstructedOtherName": {
+    "param5": "int", 
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "DecodedCert", 
+    "int": 7, 
+    "param2": "byte", 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "GetObjectId": {
+    "param5": "word32", 
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetOctetString": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_CheckPrivateKeyCert": {
+    "label": "check", 
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_DhParamsLoad": {
+    "param5": "byte", 
+    "param6": "word32", 
+    "label": "load", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 12, 
+    "param2": "word32", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "wc_EccPublicKeyToDer": {
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "ConfirmSignature": {
+    "param7": "byte", 
+    "param8": "word32", 
+    "param5": "word32", 
+    "param6": "word32", 
+    "param9": "word32", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "SignatureCtx", 
+    "int": 9, 
+    "param2": "byte", 
+    "goto": 13, 
+    "memcpy(.*)": 1, 
+    "param10": "byte", 
+    "param11": "word32", 
+    "param12": "byte", 
+    "return": "int"
+  }, 
+  "wc_KeyPemToDer": {
+    "param5": "char", 
+    "param3": "uchar", 
+    "param4": "int", 
+    "param1": "uchar", 
+    "int": 5, 
+    "param2": "int", 
+    "memset(.*)": 1, 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "GetSequence_ex": {
+    "param5": "int", 
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "UnTraditionalEnc": {
+    "param7": "int", 
+    "param8": "int", 
+    "param5": "char", 
+    "param6": "int", 
+    "param9": "byte", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 4, 
+    "param2": "word32", 
+    "param10": "word32", 
+    "param11": "int", 
+    "param12": "WC_RNG", 
+    "param13": "void", 
+    "return": "int"
+  }, 
+  "GetDateInfo": {
+    "param5": "int", 
+    "param6": "word32", 
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetASNHeader_ex": {
+    "param5": "word32", 
+    "param6": "int", 
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "wc_ParseCert": {
+    "param3": "int", 
+    "param4": "void", 
+    "param1": "DecodedCert", 
+    "int": 1, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "wc_SetTimeCb": {
+    "label": "set", 
+    "param1": "wc_time_cb", 
+    "return 0": 1, 
+    "return": "int"
+  }, 
+  "InitSignatureCtx": {
+    "label": "init", 
+    "param3": "int", 
+    "param1": "SignatureCtx", 
+    "param2": "void", 
+    "memset(.*)": 1, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "wc_InitDecodedCert": {
+    "label": "init", 
+    "param3": "word32", 
+    "param4": "void", 
+    "param1": "DecodedCert", 
+    "param2": "byte", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "wc_RsaPrivateKeyDecode": {
+    "param3": "RsaKey", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "RsaPssHashOidToSigOid": {
+    "param1": "word32", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "IsInExcludedList": {
+    "param3": "byte", 
+    "param1": "DNS_entry", 
+    "int": 3, 
+    "param2": "Base_entry", 
+    "while(.*)": 1, 
+    "return 0": 1, 
+    "return": "int"
+  }, 
+  "c32toa": {
+    "param1": "word32", 
+    "param2": "byte", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "GetInteger7Bit": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 3, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_GetDateAsCalendarTime": {
+    "label": "get", 
+    "param3": "byte", 
+    "param4": "tm", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "FreeAltNames": {
+    "param1": "DNS_entry", 
+    "param2": "void", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "wc_Time": {
+    "param1": "time_t", 
+    "int": 1, 
+    "return": "time_t"
+  }, 
+  "wc_EccKeyToPKCS8": {
+    "param3": "word32", 
+    "param1": "ecc_key", 
+    "int": 1, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "HashForSignature": {
+    "param7": "int", 
+    "param5": "int", 
+    "param6": "int", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 3, 
+    "param2": "word32", 
+    "return 0": 4, 
+    "goto": 3, 
+    "return": "int"
+  }, 
+  "FreeSignerTable": {
+    "param3": "void", 
+    "param1": "Signer", 
+    "int": 2, 
+    "param2": "int", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "GetHeader": {
+    "param5": "word32", 
+    "param6": "int", 
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "byte", 
+    "return": "int"
+  }, 
+  "GetCertHeader": {
+    "label": "get", 
+    "param1": "DecodedCert", 
+    "int": 6, 
+    "return": "int"
+  }, 
+  "SetASNNull": {
+    "label": "set", 
+    "param1": "byte", 
+    "return": "int"
+  }, 
+  "FreeDer": {
+    "param1": "DerBuffer", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "wc_RsaPublicKeyDecodeRaw": {
+    "param5": "RsaKey", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetASNNull": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "ParseCertRelative": {
+    "param3": "int", 
+    "param4": "void", 
+    "param1": "DecodedCert", 
+    "int": 22, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "DecodeKeyUsage": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "DecodeExtKeyUsage": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "int", 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "wc_CreateEncryptedPKCS8Key": {
+    "param7": "int", 
+    "param8": "int", 
+    "param5": "char", 
+    "param6": "int", 
+    "param14": "void", 
+    "param9": "int", 
+    "label": "create", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 6, 
+    "param2": "word32", 
+    "param10": "byte", 
+    "param11": "word32", 
+    "param12": "int", 
+    "param13": "WC_RNG", 
+    "return": "int"
+  }, 
+  "SetImplicit": {
+    "label": "set", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "wc_GetPkcs8TraditionalOffset": {
+    "label": "get", 
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "wc_EncryptPKCS8Key": {
+    "param7": "int", 
+    "param8": "int", 
+    "param5": "char", 
+    "param6": "int", 
+    "param14": "void", 
+    "param9": "int", 
+    "param3": "byte", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 17, 
+    "param2": "word32", 
+    "memset(.*)": 1, 
+    "memcpy(.*)": 6, 
+    "param10": "byte", 
+    "param11": "word32", 
+    "param12": "int", 
+    "param13": "WC_RNG", 
+    "return": "int"
+  }, 
+  "GetASNObjectId": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "GetSigName": {
+    "label": "get", 
+    "param1": "int", 
+    "return": "char"
+  }, 
+  "GetShortInt": {
+    "label": "get", 
+    "param3": "int", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "word32", 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "RsaPssHashOidToMgf1": {
+    "param1": "word32", 
+    "int": 2, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "BytePrecision": {
+    "param1": "word32", 
+    "while(.*)": 1, 
+    "return": "word32"
+  }, 
+  "ToTraditionalInline_ex": {
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 17, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "ToTraditionalInline": {
+    "param3": "word32", 
+    "param1": "byte", 
+    "int": 1, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetAlgoID": {
+    "label": "set", 
+    "param3": "int", 
+    "param4": "int", 
+    "param1": "int", 
+    "int": 2, 
+    "param2": "byte", 
+    "goto": 1, 
+    "memcpy(.*)": 5, 
+    "return": "word32"
+  }, 
+  "GetCertKey": {
+    "label": "get", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "DecodedCert", 
+    "int": 18, 
+    "param2": "byte", 
+    "goto": 1, 
+    "return": "int"
+  }, 
+  "OidFromId": {
+    "param3": "word32", 
+    "param1": "word32", 
+    "param2": "word32", 
+    "return": "byte"
+  }, 
+  "DecodeBasicCaConstraint": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 12, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "SetBitString": {
+    "label": "set", 
+    "param3": "byte", 
+    "param1": "word32", 
+    "param2": "byte", 
+    "return": "word32"
+  }, 
+  "wc_GetCTC_HashOID": {
+    "label": "get", 
+    "param1": "int", 
+    "int": 2, 
+    "return": "int"
+  }, 
+  "InitDecodedCert": {
+    "label": "init", 
+    "param3": "word32", 
+    "param4": "void", 
+    "param1": "DecodedCert", 
+    "param2": "byte", 
+    "memset(.*)": 1, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "SetDigest": {
+    "label": "set", 
+    "param3": "byte", 
+    "param1": "byte", 
+    "param2": "word32", 
+    "memcpy(.*)": 1, 
+    "return": "word32"
+  }, 
+  "wc_EccPublicKeyDecode": {
+    "param3": "ecc_key", 
+    "param4": "word32", 
+    "param1": "byte", 
+    "int": 16, 
+    "param2": "word32", 
+    "return": "int"
+  }, 
+  "SetEccPublicKey": {
+    "param5": "int", 
+    "label": "set", 
+    "param3": "int", 
+    "param4": "int", 
+    "param1": "byte", 
+    "int": 11, 
+    "param2": "ecc_key", 
+    "memcpy(.*)": 2, 
+    "return": "int"
+  }, 
+  "DecodeAuthInfo": {
+    "param3": "DecodedCert", 
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "int", 
+    "return": "int"
+  }
+}

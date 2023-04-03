@@ -1,0 +1,1564 @@
+{
+  "_Rb_tree_iterator": {
+    "param3": "_Base_ptr", 
+    "param1": "_Rb_tree_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "copyright": {
+    "= .*\\+.*\\+ 0x.*": 1, 
+    "label": "copy", 
+    "param1": "Tag", 
+    "int": 2, 
+    "return": "String", 
+    ".*\\+": 1
+  }, 
+  "setCopyright": {
+    "label": "copy", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "operator=": {
+    "param1": "List<TagLib::ASF::Attribute>", 
+    "param2": "List<TagLib::ASF::Attribute>", 
+    "return": "List<TagLib::ASF::Attribute>"
+  }, 
+  "year": {
+    "param1": "Tag", 
+    "int": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": "uint"
+  }, 
+  "~Tag": {
+    "param1": "Tag", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "setArtist": {
+    "label": "set", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "operator==": {
+    "param1": "_Self", 
+    "param2": "_Self", 
+    ".*\\-": 1, 
+    "return": "bool"
+  }, 
+  "operator--": {
+    "param1": "_Rb_tree_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    ".*\\-": 2, 
+    "return": "_Self"
+  }, 
+  "setProperties": {
+    "break": 2, 
+    "label": "set", 
+    "param1": "Tag", 
+    "int": 12, 
+    "param2": "PropertyMap", 
+    "if (.* == 0)": 10, 
+    "while(.*)": 3, 
+    "goto": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 16, 
+    "return": "PropertyMap", 
+    ".*\\+": 13
+  }, 
+  "deallocate": {
+    "param3": "pointer", 
+    "param4": "size_type", 
+    "param1": "new_allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "int": 1, 
+    "param2": "_TagLib::StringList>_>_>*this", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_erase_aux": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "const_iterator", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": "void"
+  }, 
+  "_M_get_Node_allocator": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "label": "get", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return": "_Node_allocator"
+  }, 
+  "_M_clone_node<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::StringList>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::StringList>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::StringList>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Const_Link_type", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "_Alloc_node", 
+    ".*\\-": 3, 
+    "return": "_Link_type"
+  }, 
+  "construct": {
+    "param5": "_TagLib::StringList>", 
+    "param3": "pointer", 
+    "param4": "pair<const_TagLib::String", 
+    "param1": "new_allocator<std::pair<const_TagLib::String", 
+    "int": 1, 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_clear": {
+    "param1": "_List_base<TagLib::ASF::Attribute", 
+    "int": 2, 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "ListPrivateBase": {
+    "param1": "ListPrivateBase", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "_M_insert_<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::String>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::String>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::String>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Base_ptr", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "_Base_ptr", 
+    ".*\\-": 4, 
+    "param11": "value_type", 
+    "param12": "_Alloc_node", 
+    "if (.*)": 2, 
+    "return": "iterator", 
+    ".*\\+": 1
+  }, 
+  "~TagPrivate": {
+    "param1": "TagPrivate", 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "return": "void"
+  }, 
+  "_M_inc_size": {
+    "param3": "size_t", 
+    "param1": "_List_base<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "allocator": {
+    "param3": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param4": "_TagLib::StringList>_>_>*__a);", 
+    "param1": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>_>*this", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_Rb_tree": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param14": "_std::less<TagLib::String>", 
+    "param15": "_std::allocator<std::pair<const_TagLib::String", 
+    "param9": "_Rb_tree<TagLib::String", 
+    "param16": "_TagLib::StringList>_>_>*__x);", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    "param10": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "param11": "_TagLib::StringList>", 
+    "param12": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "if (.*)": 1, 
+    "param13": "_TagLib::StringList>_>", 
+    "return": "void"
+  }, 
+  "~ListPrivate": {
+    "param1": "ListPrivate<TagLib::ASF::Attribute>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_rightmost": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Base_ptr"
+  }, 
+  "__iterator_category<std::_List_iterator<TagLib::ASF::Attribute>_>": {
+    "param1": "_List_iterator<TagLib::ASF::Attribute>", 
+    "return": "iterator_category"
+  }, 
+  "operator->": {
+    "param1": "_Rb_tree_const_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    ".*\\-": 1, 
+    "return": "pointer"
+  }, 
+  "_M_lower_bound": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "while(.*)": 1, 
+    "param10": "_Base_ptr", 
+    ".*\\-": 3, 
+    "param11": "String", 
+    "if (.*)": 1, 
+    "return": "iterator"
+  }, 
+  "_Alloc_node": {
+    "param7": "_std::less<TagLib::String>", 
+    "param8": "_std::allocator<std::pair<const_TagLib::String", 
+    "param5": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param6": "_TagLib::StringList>_>", 
+    "param9": "_TagLib::StringList>_>_>*__t);", 
+    "param3": "_std::pair<const_TagLib::String", 
+    "param4": "_TagLib::StringList>", 
+    "param1": "_Alloc_node", 
+    "param2": "_Rb_tree<TagLib::String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "operator*": {
+    "param1": "_Rb_tree_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    ".*\\-": 1, 
+    "return": "reference"
+  }, 
+  "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String,_TagLib::String>_>_>": {
+    "param3": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param4": "_TagLib::String>_>_>", 
+    "param1": "allocator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__addressof<const_TagLib::ASF::Attribute>": {
+    "label": "add", 
+    "param1": "Attribute", 
+    "return": "Attribute"
+  }, 
+  "~map": {
+    "param5": "_TagLib::String>_>_>*this);", 
+    "param3": "_std::less<TagLib::String>", 
+    "param4": "_std::allocator<std::pair<const_TagLib::String", 
+    "param1": "map<TagLib::String", 
+    "param2": "_TagLib::String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_const_cast": {
+    "param1": "_Rb_tree_const_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    ".*\\-": 1, 
+    "return": "iterator"
+  }, 
+  "operator()<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>": {
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param1": "_Alloc_node", 
+    "param2": "pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Link_type"
+  }, 
+  "_List_iterator": {
+    "param1": "_List_iterator<TagLib::String>", 
+    "param2": "_List_node_base", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "new_allocator": {
+    "param1": "new_allocator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "destroy": {
+    "label": "destroy", 
+    "param3": "pointer", 
+    "param1": "new_allocator<std::pair<const_TagLib::String", 
+    "int": 1, 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__addressof<const_std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>": {
+    "label": "add", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "return": "pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>"
+  }, 
+  "~List": {
+    "param1": "List<TagLib::ASF::Attribute>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "contains": {
+    "param3": "String", 
+    "param1": "Map<TagLib::String", 
+    "param2": "_TagLib::String>", 
+    ".*\\-": 2, 
+    "return": "bool"
+  }, 
+  "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>_>": {
+    "param3": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param4": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*param_1);", 
+    "param1": "allocator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param3": "size_type", 
+    "param4": "void", 
+    "param1": "new_allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "int": 2, 
+    "param2": "_TagLib::StringList>_>_>*this", 
+    "if (.*)": 1, 
+    "return": "pointer"
+  }, 
+  "size": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this);", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "size_type"
+  }, 
+  "_M_clone_node<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::String>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::String>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::String>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Const_Link_type", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "_Alloc_node", 
+    ".*\\-": 3, 
+    "return": "_Link_type"
+  }, 
+  "~MapPrivate": {
+    "param1": "MapPrivate<TagLib::String", 
+    "param2": "_TagLib::String>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_S_right": {
+    "param1": "_Base_ptr", 
+    ".*\\-": 1, 
+    "return": "_Link_type"
+  }, 
+  "key_comp": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this);", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return": "less<TagLib::String>"
+  }, 
+  "_List_impl": {
+    "param1": "_List_impl", 
+    "param2": "_Node_alloc_type", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_copy<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::StringList>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::StringList>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::StringList>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Const_Link_type", 
+    "label": "copy", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "while(.*)": 1, 
+    "param10": "_Base_ptr", 
+    ".*\\-": 13, 
+    "param11": "_Alloc_node", 
+    "if (.*)": 2, 
+    "return": "_Link_type"
+  }, 
+  "_M_initialize_dispatch<std::_List_const_iterator<TagLib::ASF::Attribute>_>": {
+    "label": "init", 
+    "param3": "_List_const_iterator<TagLib::ASF::Attribute>", 
+    "param4": "_List_const_iterator<TagLib::ASF::Attribute>", 
+    "param1": "list<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "begin": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "iterator"
+  }, 
+  "Map": {
+    "param1": "Map<TagLib::String", 
+    "int": 1, 
+    "param2": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "~list": {
+    "param1": "list<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_create_node": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "value_type", 
+    "label": "create", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return": "_Link_type"
+  }, 
+  "operator[]": {
+    "param5": "_TagLib::String>_>_>*this", 
+    "param6": "key_type", 
+    "param3": "_std::less<TagLib::String>", 
+    "param4": "_std::allocator<std::pair<const_TagLib::String", 
+    "param1": "map<TagLib::String", 
+    "param2": "_TagLib::String", 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": "mapped_type"
+  }, 
+  "artist": {
+    "param1": "Tag", 
+    "int": 2, 
+    "return": "String", 
+    ".*\\+": 1
+  }, 
+  "_M_erase": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "operator++": {
+    "param1": "_Rb_tree_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    ".*\\-": 2, 
+    "return": "_Self"
+  }, 
+  "setGenre": {
+    "label": "set", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_insert": {
+    "param3": "iterator", 
+    "param4": "value_type", 
+    "param1": "list<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "__cxx_global_var_init": {
+    "label": "init", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "advance<std::_List_iterator<TagLib::ASF::Attribute>,_unsigned_int>": {
+    "param1": "_List_iterator<TagLib::ASF::Attribute>", 
+    "int": 4, 
+    "param2": "uint", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "genre": {
+    "label": "gen", 
+    "param1": "Tag", 
+    "int": 4, 
+    "if (.*)": 1, 
+    "return": "String", 
+    ".*\\+": 4
+  }, 
+  "attribute": {
+    "param1": "Tag", 
+    "int": 1, 
+    "param2": "String", 
+    "return": "AttributeList", 
+    ".*\\+": 1
+  }, 
+  "~new_allocator": {
+    "param1": "new_allocator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "allocator<std::_List_node<TagLib::ASF::Attribute>_>": {
+    "param1": "allocator<TagLib::ASF::Attribute>", 
+    "param2": "allocator<std::_List_node<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "map": {
+    "param7": "_TagLib::StringList", 
+    "param8": "_std::less<TagLib::String>", 
+    "param5": "_TagLib::StringList>_>_>*this", 
+    "param6": "map<TagLib::String", 
+    "param9": "_std::allocator<std::pair<const_TagLib::String", 
+    "param3": "_std::less<TagLib::String>", 
+    "param4": "_std::allocator<std::pair<const_TagLib::String", 
+    "param1": "map<TagLib::String", 
+    "param2": "_TagLib::StringList", 
+    "return;": 1, 
+    "param10": "_TagLib::StringList>_>_>*__x);", 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_List_node_header": {
+    "param1": "_List_node_header", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__clang_call_terminate": {
+    "param1": "void);", 
+    "return": "void"
+  }, 
+  "erase": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "key_type", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "size_type"
+  }, 
+  "make_pair<const_char_*,_const_char_*>": {
+    "label": "make", 
+    "param1": "char", 
+    "param2": "char", 
+    "char *": 16, 
+    "return": "pair<const_char_*,_const_char_*>"
+  }, 
+  "_M_insert_unique_": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "const_iterator", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "value_type", 
+    "return": "iterator"
+  }, 
+  "_M_end": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Base_ptr"
+  }, 
+  "__addressof<const_std::pair<const_TagLib::String,_TagLib::StringList>_>": {
+    "label": "add", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>", 
+    "return": "pair<const_TagLib::String,_TagLib::StringList>"
+  }, 
+  "_M_clone_node<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Const_Link_type", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "_Alloc_node", 
+    ".*\\-": 3, 
+    "return": "_Link_type"
+  }, 
+  "~allocator": {
+    "param1": "allocator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "~_Rb_tree_impl": {
+    "param1": "_Rb_tree_impl<std::less<TagLib::String>", 
+    "param2": "_false>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "addAttribute": {
+    "label": "add", 
+    "param3": "Attribute", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": "void"
+  }, 
+  "~_List_base": {
+    "param1": "_List_base<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "operator()<std::pair<const_TagLib::String,_TagLib::String>_>": {
+    "param3": "_TagLib::String>", 
+    "param1": "_Alloc_node", 
+    "param2": "pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Link_type"
+  }, 
+  "_S_select_on_copy": {
+    "label": "copy", 
+    "param1": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>_>*__a);", 
+    "return": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String,_TagLib::StringList>_>_>"
+  }, 
+  "_M_begin": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Const_Link_type"
+  }, 
+  "_M_drop_node": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_copy": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param14": "_std::less<TagLib::String>", 
+    "param15": "_std::allocator<std::pair<const_TagLib::String", 
+    "param9": "_Rb_tree<TagLib::String", 
+    "param16": "_TagLib::StringList>_>_>*__x);", 
+    "label": "copy", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "_std::pair<const_TagLib::String", 
+    "param11": "_TagLib::StringList>", 
+    "param12": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param13": "_TagLib::StringList>_>", 
+    "return": "_Link_type"
+  }, 
+  "setComment": {
+    "label": "set", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "__addressof<std::pair<const_TagLib::String,_TagLib::String>_>": {
+    "label": "add", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::String>", 
+    "return": "pair<const_TagLib::String,_TagLib::String>"
+  }, 
+  "Tag": {
+    "param1": "Tag", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "~pair": {
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "swap<TagLib::List<TagLib::String>::ListPrivate<TagLib::String>_*>": {
+    "param1": "ListPrivate<TagLib::String>", 
+    "param2": "ListPrivate<TagLib::String>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_get_insert_unique_pos": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "if (.* != 0)": 1, 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "key_type", 
+    "label": "get", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "while(.*)": 1, 
+    "goto": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 4, 
+    "return": "pair<std::_Rb_tree_node_base_*,_std::_Rb_tree_node_base_*>"
+  }, 
+  "__addressof<const_std::pair<const_TagLib::String,_TagLib::String>_>": {
+    "label": "add", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::String>", 
+    "return": "pair<const_TagLib::String,_TagLib::String>"
+  }, 
+  "_List_base": {
+    "param3": "_Node_alloc_type", 
+    "param1": "_List_base<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "rating": {
+    "= .*\\+.*\\+ 0x.*": 1, 
+    "param1": "Tag", 
+    "int": 2, 
+    "return": "String", 
+    ".*\\+": 1
+  }, 
+  "_M_leftmost": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Base_ptr"
+  }, 
+  "empty": {
+    "param1": "list<TagLib::String", 
+    "param2": "_std::allocator<TagLib::String>_>", 
+    ".*\\-": 1, 
+    "return": "bool"
+  }, 
+  "operator()<std::pair<const_TagLib::String,_TagLib::StringList>_>": {
+    "param3": "_TagLib::StringList>", 
+    "param1": "_Alloc_node", 
+    "param2": "pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Link_type"
+  }, 
+  "__addressof<const_TagLib::String>": {
+    "label": "add", 
+    "param1": "String", 
+    "return": "String"
+  }, 
+  "ref": {
+    "param1": "RefCounterOld", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "__addressof<TagLib::String>": {
+    "label": "add", 
+    "param1": "String", 
+    "return": "String"
+  }, 
+  "removeUnsupportedProperties": {
+    "break": 1, 
+    "param1": "Tag", 
+    "param2": "StringList", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": "void"
+  }, 
+  "_M_copy<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::String>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::String>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::String>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Const_Link_type", 
+    "label": "copy", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "while(.*)": 1, 
+    "param10": "_Base_ptr", 
+    ".*\\-": 13, 
+    "param11": "_Alloc_node", 
+    "if (.*)": 2, 
+    "return": "_Link_type"
+  }, 
+  "find": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "key_type", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "if (.*)": 2, 
+    "return": "iterator"
+  }, 
+  "setAlbum": {
+    "label": "set", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "List": {
+    "param1": "List<TagLib::String>", 
+    "int": 1, 
+    "param2": "List<TagLib::String>", 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": "void"
+  }, 
+  "_M_insert_<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Base_ptr", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "_Base_ptr", 
+    ".*\\-": 4, 
+    "param11": "value_type", 
+    "param12": "_Alloc_node", 
+    "if (.*)": 2, 
+    "return": "iterator", 
+    ".*\\+": 1
+  }, 
+  "_M_destroy_node": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "label": "destroy", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "equal_range": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "key_type", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "goto": 2, 
+    "while(.*)": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 3, 
+    "return": "pair<std::_Rb_tree_iterator<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>,_std::_Rb_tree_iterator<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>_>"
+  }, 
+  "_M_init": {
+    "label": "init", 
+    "param1": "_List_node_header", 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": "void"
+  }, 
+  "ListPrivate": {
+    "param3": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "param1": "ListPrivate<TagLib::ASF::Attribute>", 
+    "param2": "list<TagLib::ASF::Attribute", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "operator!=": {
+    "param1": "_Self", 
+    "param2": "_Self", 
+    ".*\\-": 1, 
+    "return": "bool"
+  }, 
+  "_Rb_tree_header": {
+    "param1": "_Rb_tree_header", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "MapPrivate": {
+    "param7": "_TagLib::StringList>_>_>*m);", 
+    "param5": "_std::less<TagLib::String>", 
+    "param6": "_std::allocator<std::pair<const_TagLib::String", 
+    "param3": "map<TagLib::String", 
+    "param4": "_TagLib::StringList", 
+    "param1": "MapPrivate<TagLib::String", 
+    "param2": "_TagLib::StringList>", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "swap": {
+    "param1": "List<TagLib::ASF::Attribute>", 
+    "param2": "List<TagLib::ASF::Attribute>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_insert_unique_<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::String>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::String>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::String>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "const_iterator", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "int": 1, 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "value_type", 
+    "param11": "_Alloc_node", 
+    "if (.*)": 1, 
+    "return": "iterator"
+  }, 
+  "count": {
+    "param1": "RefCounterOld", 
+    ".*\\-": 1, 
+    "return": "int"
+  }, 
+  "__advance<std::_List_iterator<TagLib::ASF::Attribute>,_int>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "_List_iterator<TagLib::ASF::Attribute>", 
+    "int": 4, 
+    "param2": "int", 
+    "return;": 1, 
+    "while(.*)": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 2
+  }, 
+  "setTitle": {
+    "label": "set", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "__addressof<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>": {
+    "label": "add", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "return": "pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>"
+  }, 
+  "get_allocator": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "label": "get", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return": "allocator_type"
+  }, 
+  "list": {
+    "param3": "list<TagLib::ASF::Attribute", 
+    "param4": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "param1": "list<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "_S_key": {
+    "param1": "_Const_Base_ptr", 
+    "return": "String"
+  }, 
+  "max_size": {
+    "param1": "new_allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>_>*this);", 
+    "return": "size_type"
+  }, 
+  "TagPrivate": {
+    "param1": "TagPrivate", 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "return": "void"
+  }, 
+  "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String,_TagLib::StringList>_>_>": {
+    "param3": "allocator<std::_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param4": "_TagLib::StringList>_>_>*param_1);", 
+    "param1": "allocator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_GLOBAL__sub_I_asftag.cpp": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "allocator<std::_List_node<TagLib::String>_>": {
+    "param1": "allocator<TagLib::String>", 
+    "param2": "allocator<std::_List_node<TagLib::String>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_get_node": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "label": "get", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "int": 1, 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return": "_Link_type"
+  }, 
+  "_List_const_iterator": {
+    "param1": "_List_const_iterator<TagLib::String>", 
+    "param2": "iterator", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "__addressof<std::pair<const_TagLib::String,_TagLib::StringList>_>": {
+    "label": "add", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>", 
+    "return": "pair<const_TagLib::String,_TagLib::StringList>"
+  }, 
+  "_Rb_tree_key_compare": {
+    "label": "compare", 
+    "param1": "_Rb_tree_key_compare<std::less<TagLib::String>_>", 
+    "param2": "less<TagLib::String>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "removeItem": {
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "RefCounterOld": {
+    "param1": "RefCounterOld", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "deref": {
+    "param1": "RefCounterOld", 
+    "int": 1, 
+    ".*\\-": 2, 
+    "return": "bool"
+  }, 
+  "translateKey": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "param1": "String", 
+    "int": 2, 
+    "while(.*)": 1, 
+    "if (.*)": 2, 
+    "return": "String", 
+    ".*\\+": 3
+  }, 
+  "~Map": {
+    "param1": "Map<TagLib::String", 
+    "param2": "_TagLib::String>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "~_Rb_tree": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this);", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "~_List_impl": {
+    "param1": "_List_impl", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "insert": {
+    "param7": "value_type", 
+    "param5": "_TagLib::String>_>_>*this", 
+    "param6": "iterator", 
+    "param3": "_std::less<TagLib::String>", 
+    "param4": "_std::allocator<std::pair<const_TagLib::String", 
+    "param1": "map<TagLib::String", 
+    "param2": "_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "iterator"
+  }, 
+  "setTrack": {
+    "label": "set", 
+    "param1": "Tag", 
+    "int": 1, 
+    "param2": "uint", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_valptr": {
+    "param1": "_Rb_tree_node<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>_>", 
+    ".*\\-": 1, 
+    "return": "pair<const_TagLib::String,_TagLib::StringList>"
+  }, 
+  "push_back": {
+    "param3": "value_type", 
+    "param1": "list<TagLib::ASF::Attribute", 
+    "param2": "_std::allocator<TagLib::ASF::Attribute>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "title": {
+    "param1": "Tag", 
+    "int": 1, 
+    "return": "String", 
+    ".*\\+": 1
+  }, 
+  "attributeListMap": {
+    "param1": "Tag", 
+    ".*\\-": 1, 
+    "return": "AttributeListMap"
+  }, 
+  "setAttribute": {
+    "label": "set", 
+    "param3": "AttributeList", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_get_insert_hint_unique_pos": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "if (.* != 0)": 1, 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "const_iterator", 
+    "label": "get", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "key_type", 
+    ".*\\-": 2, 
+    "if (.*)": 11, 
+    "return": "pair<std::_Rb_tree_node_base_*,_std::_Rb_tree_node_base_*>"
+  }, 
+  "__cxx_global_var_init.5": {
+    "label": "init", 
+    "param1": "void);", 
+    "return;": 1, 
+    "char *": 94, 
+    "return": "void", 
+    ".*\\+": 44
+  }, 
+  "_S_minimum": {
+    "param1": "_Base_ptr", 
+    "return": "_Base_ptr"
+  }, 
+  "end": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "iterator"
+  }, 
+  "track": {
+    "param1": "Tag", 
+    "int": 2, 
+    ".*\\-": 8, 
+    "if (.*)": 3, 
+    "return": "uint"
+  }, 
+  "album": {
+    "param1": "Tag", 
+    "int": 4, 
+    "if (.*)": 1, 
+    "return": "String", 
+    ".*\\+": 4
+  }, 
+  "_Rb_tree_impl": {
+    "param3": "_Rb_tree_impl<std::less<TagLib::String>", 
+    "param4": "_false>", 
+    "param1": "_Rb_tree_impl<std::less<TagLib::String>", 
+    "param2": "_false>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "operator()": {
+    "param3": "pair<const_TagLib::String", 
+    "param4": "_TagLib::String>", 
+    "param1": "_Select1st<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    ".*\\-": 1, 
+    "return": "first_type"
+  }, 
+  "__addressof<TagLib::ASF::Attribute>": {
+    "label": "add", 
+    "param1": "Attribute", 
+    "return": "Attribute"
+  }, 
+  "isEmpty": {
+    "param1": "List<TagLib::String>", 
+    ".*\\-": 1, 
+    "return": "bool"
+  }, 
+  "_M_insert_unique_<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "const_iterator", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "int": 1, 
+    "param2": "_std::pair<const_TagLib::String", 
+    "param10": "value_type", 
+    "param11": "_Alloc_node", 
+    "if (.*)": 1, 
+    "return": "iterator"
+  }, 
+  "clear": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this);", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_Rb_tree_const_iterator": {
+    "param3": "iterator", 
+    "param1": "_Rb_tree_const_iterator<std::pair<const_TagLib::String", 
+    "param2": "_TagLib::String>_>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "setYear": {
+    "label": "set", 
+    "param1": "Tag", 
+    "int": 1, 
+    "param2": "uint", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_S_left": {
+    "param1": "_Base_ptr", 
+    ".*\\-": 1, 
+    "return": "_Link_type"
+  }, 
+  "pair": {
+    "param3": "pair<const_TagLib::String", 
+    "param4": "_TagLib::StringList>", 
+    "param1": "pair<const_TagLib::String", 
+    "param2": "_TagLib::StringList>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "swap<TagLib::List<TagLib::ASF::Attribute>::ListPrivate<TagLib::ASF::Attribute>_*>": {
+    "param1": "ListPrivate<TagLib::ASF::Attribute>", 
+    "param2": "ListPrivate<TagLib::ASF::Attribute>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_S_maximum": {
+    "param1": "_Base_ptr", 
+    "return": "_Base_ptr"
+  }, 
+  "_M_put_node": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_copy<std::_Rb_tree<TagLib::String,_std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>,_std::_Select1st<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>,_std::less<TagLib::String>,_std::allocator<std::pair<const_TagLib::String,_TagLib::List<TagLib::ASF::Attribute>_>_>_>::_Alloc_node>": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Const_Link_type", 
+    "label": "copy", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "while(.*)": 1, 
+    "param10": "_Base_ptr", 
+    ".*\\-": 13, 
+    "param11": "_Alloc_node", 
+    "if (.*)": 2, 
+    "return": "_Link_type"
+  }, 
+  "_M_construct_node": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return;": 1, 
+    "param10": "value_type", 
+    "return": "void"
+  }, 
+  "lower_bound": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::String>_>_>*this", 
+    "param5": "_TagLib::String>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "key_type", 
+    "param3": "_TagLib::String>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "return": "iterator"
+  }, 
+  "_M_root": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::StringList>_>_>*this);", 
+    "param5": "_TagLib::StringList>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param3": "_TagLib::StringList>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    ".*\\-": 1, 
+    "return": "_Base_ptr"
+  }, 
+  "detach": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "Map<TagLib::String", 
+    "int": 2, 
+    "param2": "_TagLib::StringList>", 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 4
+  }, 
+  "comment": {
+    "= .*\\+.*\\+ 0x.*": 1, 
+    "param1": "Tag", 
+    "int": 2, 
+    "return": "String", 
+    ".*\\+": 1
+  }, 
+  "setRating": {
+    "label": "set", 
+    "param1": "Tag", 
+    "param2": "String", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_upper_bound": {
+    "param7": "_std::allocator<std::pair<const_TagLib::String", 
+    "param8": "_TagLib::List<TagLib::ASF::Attribute>_>_>_>*this", 
+    "param5": "_TagLib::List<TagLib::ASF::Attribute>_>_>", 
+    "param6": "_std::less<TagLib::String>", 
+    "param9": "_Link_type", 
+    "param3": "_TagLib::List<TagLib::ASF::Attribute>_>", 
+    "param4": "_std::_Select1st<std::pair<const_TagLib::String", 
+    "param1": "_Rb_tree<TagLib::String", 
+    "param2": "_std::pair<const_TagLib::String", 
+    "while(.*)": 1, 
+    "param10": "_Base_ptr", 
+    ".*\\-": 3, 
+    "param11": "String", 
+    "if (.*)": 1, 
+    "return": "iterator"
+  }, 
+  "properties": {
+    "break": 2, 
+    "= .*\\+.*\\+ 0x.*": 2, 
+    "param1": "Tag", 
+    "int": 13, 
+    "if (.* == 0)": 6, 
+    "while(.*)": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 9, 
+    "return": "PropertyMap", 
+    ".*\\+": 10
+  }, 
+  "append": {
+    "param1": "List<TagLib::ASF::Attribute>", 
+    "param2": "Attribute", 
+    ".*\\-": 1, 
+    "return": "List<TagLib::ASF::Attribute>"
+  }, 
+  "_M_reset": {
+    "label": "set", 
+    "param1": "_Rb_tree_header", 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": "void"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "inflateCodesUsed": {
+    "param1": "z_streamp", 
+    "int": 3, 
+    "if (.*)": 1, 
+    "return": "ulong"
+  }, 
+  "inflateReset2": {
+    "label": "set", 
+    "param1": "z_streamp", 
+    "int": 12, 
+    "param2": "int", 
+    "if (.*)": 6, 
+    "return": "int"
+  }, 
+  "inflateCopy": {
+    "label": "copy", 
+    "param1": "z_streamp", 
+    "int": 19, 
+    "param2": "z_streamp", 
+    "memcpy(.*)": 3, 
+    "if (.*)": 5, 
+    "return": "int"
+  }, 
+  "inflateEnd": {
+    "param1": "z_streamp", 
+    "int": 4, 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "inflateUndermine": {
+    "param1": "z_streamp", 
+    "int": 2, 
+    "param2": "int", 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "inflatePrime": {
+    "param3": "int", 
+    "param1": "z_streamp", 
+    "int": 10, 
+    "param2": "int", 
+    "if (.*)": 3, 
+    "return": "int"
+  }, 
+  "inflateSync": {
+    "param1": "z_streamp", 
+    "int": 24, 
+    "while(.*)": 1, 
+    "if (.*)": 5, 
+    "return": "int"
+  }, 
+  "inflateSetDictionary": {
+    "label": "set", 
+    "param3": "uInt", 
+    "param1": "z_streamp", 
+    "int": 8, 
+    "param2": "Bytef", 
+    "if (.*)": 5, 
+    "return": "int"
+  }, 
+  "inflateInit2_": {
+    "label": "init", 
+    "param3": "char", 
+    "param4": "int", 
+    "param1": "z_streamp", 
+    "int": 4, 
+    "param2": "int", 
+    "if (.*)": 6, 
+    "return": "int"
+  }, 
+  "inflateSyncPoint": {
+    "param1": "z_streamp", 
+    "int": 6, 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "inflateInit_": {
+    "label": "init", 
+    "param3": "int", 
+    "param1": "z_streamp", 
+    "int": 1, 
+    "param2": "char", 
+    "return": "int"
+  }, 
+  "inflateGetDictionary": {
+    "label": "get", 
+    "param3": "uInt", 
+    "param1": "z_streamp", 
+    "int": 10, 
+    "param2": "Bytef", 
+    "memcpy(.*)": 2, 
+    "if (.*)": 3, 
+    "return": "int"
+  }, 
+  "inflateResetKeep": {
+    "label": "set", 
+    "param1": "z_streamp", 
+    "int": 9, 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "inflate": {
+    "param1": "z_streamp", 
+    "int": 118, 
+    "param2": "int", 
+    "goto": 58, 
+    "while(.*)": 13, 
+    "memcpy(.*)": 2, 
+    "if (.*)": 129, 
+    "return": "int"
+  }, 
+  "inflateGetHeader": {
+    "label": "get", 
+    "param1": "z_streamp", 
+    "int": 3, 
+    "param2": "gz_headerp", 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "inflateMark": {
+    "param1": "z_streamp", 
+    "int": 11, 
+    "if (.*)": 3, 
+    "return": "long"
+  }, 
+  "fixedtables": {
+    "param1": "inflate_state", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "inflateStateCheck": {
+    "label": "test", 
+    "param1": "z_streamp", 
+    "int": 1, 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "syncsearch": {
+    "label": "search", 
+    "param3": "uint", 
+    "param1": "uint", 
+    "int": 4, 
+    "param2": "uchar", 
+    "if (.*)": 3, 
+    "return": "uint"
+  }, 
+  "inflateReset": {
+    "label": "set", 
+    "param1": "z_streamp", 
+    "int": 3, 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "inflateValidate": {
+    "label": "validate", 
+    "param1": "z_streamp", 
+    "int": 8, 
+    "param2": "int", 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "updatewindow": {
+    "label": "update", 
+    "param3": "uint", 
+    "param1": "z_streamp", 
+    "int": 23, 
+    "param2": "Bytef", 
+    "return 0": 1, 
+    "memcpy(.*)": 3, 
+    "if (.*)": 8, 
+    "return": "int"
+  }
+}

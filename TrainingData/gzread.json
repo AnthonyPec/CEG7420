@@ -1,0 +1,117 @@
+{
+  "gz_read": {
+    "label": "read", 
+    "param3": "z_size_t", 
+    "param1": "gz_statep", 
+    "int": 13, 
+    "param2": "voidp", 
+    "return 0": 5, 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "memcpy(.*)": 1, 
+    "return": "z_size_t"
+  }, 
+  "gzread": {
+    "label": "read", 
+    "param3": "uint", 
+    "param1": "gzFile", 
+    "int": 1, 
+    "param2": "voidp", 
+    "return": "int"
+  }, 
+  "gzclose_r": {
+    "label": "close", 
+    "param1": "gzFile", 
+    "int": 8, 
+    "return": "int"
+  }, 
+  "gzfread": {
+    "label": "read", 
+    "param3": "z_size_t", 
+    "param4": "gzFile", 
+    "param1": "voidp", 
+    "param2": "z_size_t", 
+    "return": "z_size_t"
+  }, 
+  "gzgetc": {
+    "label": "get", 
+    "param1": "gzFile", 
+    "int": 13, 
+    "return": "int"
+  }, 
+  "gz_skip": {
+    "param1": "gz_statep", 
+    "int": 17, 
+    "param2": "off64_t", 
+    "while(.*)": 2, 
+    "return 0": 2, 
+    "return": "int"
+  }, 
+  "gz_load": {
+    "label": "load", 
+    "param3": "uint", 
+    "param4": "uint", 
+    "param1": "gz_statep", 
+    "int": 7, 
+    "param2": "uchar", 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "gzdirect": {
+    "param1": "gzFile", 
+    "int": 3, 
+    "return": "int"
+  }, 
+  "gzungetc": {
+    "label": "get", 
+    "param1": "int", 
+    "int": 28, 
+    "param2": "gzFile", 
+    "return": "int"
+  }, 
+  "gzgetc_": {
+    "label": "get", 
+    "param1": "gzFile", 
+    "int": 1, 
+    "return": "int"
+  }, 
+  "gz_fetch": {
+    "label": "fetch", 
+    "param1": "gz_statep", 
+    "int": 2, 
+    "return 0": 3, 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "gz_look": {
+    "param1": "gz_statep", 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "return 0": 2, 
+    "memcpy(.*)": 1, 
+    "return": "int"
+  }, 
+  "gz_decomp": {
+    "param1": "gz_statep", 
+    "int": 4, 
+    "while(.*)": 1, 
+    "return 0": 1, 
+    "return": "int"
+  }, 
+  "gz_avail": {
+    "param1": "gz_statep", 
+    "int": 4, 
+    "while(.*)": 1, 
+    "return": "int"
+  }, 
+  "gzgets": {
+    "label": "get", 
+    "param3": "int", 
+    "param1": "gzFile", 
+    "int": 17, 
+    "param2": "char", 
+    "while(.*)": 1, 
+    "memcpy(.*)": 1, 
+    "return": "char"
+  }
+}

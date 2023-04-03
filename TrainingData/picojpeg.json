@@ -1,0 +1,587 @@
+{
+  "getBits": {
+    "if (.* < \\d*)": 2, 
+    "if (.* < .*)": 2, 
+    "label": "get", 
+    "param1": "byte", 
+    "int": 5, 
+    "param2": "undefined", 
+    ".*\\-": 6, 
+    "if (.*)": 2, 
+    "return": "uint"
+  }, 
+  "getBits1": {
+    "label": "get", 
+    "param1": "undefined", 
+    "return": "undefined2"
+  }, 
+  "getBits2": {
+    "label": "get", 
+    "param1": "undefined", 
+    "return": "undefined2"
+  }, 
+  "skipVariableMarker": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "void);", 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "undefined", 
+    ".*\\+": 1
+  }, 
+  "upsampleCb": {
+    "param1": "byte", 
+    "int": 11, 
+    "param2": "byte", 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "return": "void", 
+    ".*\\+": 13
+  }, 
+  "imul_b2": {
+    "param1": "short", 
+    "int": 1, 
+    "return": "int", 
+    ".*\\+": 1
+  }, 
+  "idctRows": {
+    "= .*\\+.*\\+ 0x.*": 3, 
+    "param1": "void);", 
+    "int": 41, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 16, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 34
+  }, 
+  "imul_b5": {
+    "param1": "short", 
+    "int": 1, 
+    "return": "int", 
+    ".*\\+": 1
+  }, 
+  "imul_b4": {
+    "param1": "short", 
+    "int": 1, 
+    "return": "int", 
+    ".*\\+": 1
+  }, 
+  "fillInBuf": {
+    "label": "fill", 
+    "param1": "void);", 
+    "return;": 1, 
+    "char *": 1, 
+    "if (.*)": 1, 
+    "return": "void"
+  }, 
+  "upsampleCrH": {
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "byte", 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "return": "void", 
+    ".*\\+": 11
+  }, 
+  "getMaxHuffCodes": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "get", 
+    "param1": "byte", 
+    "if (.*)": 1, 
+    "return": "undefined4"
+  }, 
+  "huffDecode": {
+    "if (.* != 0)": 1, 
+    "break": 1, 
+    "param1": "int", 
+    "int": 7, 
+    "param2": "int", 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    "return 0": 1, 
+    "char *": 3, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": "undefined", 
+    ".*\\+": 5
+  }, 
+  "readDHTMarker": {
+    "if (.* < \\d*)": 4, 
+    "if (.* < .*)": 4, 
+    "label": "read", 
+    "param1": "void);", 
+    "int": 4, 
+    "while(.*)": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 4, 
+    "return": "undefined", 
+    ".*\\+": 7
+  }, 
+  "readDRIMarker": {
+    "label": "read", 
+    "param1": "void);", 
+    "if (.*)": 1, 
+    "return": "undefined"
+  }, 
+  "getExtendOffset": {
+    "break": 16, 
+    "label": "get", 
+    "param1": "undefined", 
+    "int": 1, 
+    ".*\\-": 15, 
+    "return": "int", 
+    "case": 16
+  }, 
+  "upsampleCr": {
+    "param1": "byte", 
+    "int": 11, 
+    "param2": "byte", 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "return": "void", 
+    ".*\\+": 13
+  }, 
+  "huffExtend": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "ushort", 
+    "int": 1, 
+    "param2": "undefined", 
+    "if (.*)": 1, 
+    "return": "int", 
+    ".*\\+": 1
+  }, 
+  "arithmeticRightShift8L": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "uint", 
+    "int": 2, 
+    "if (.*)": 1, 
+    "return": "uint"
+  }, 
+  "readDQTMarker": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 1, 
+    "if (.* < .*)": 3, 
+    "label": "read", 
+    "param1": "void);", 
+    "int": 4, 
+    "if (.* == 0)": 2, 
+    "while(.*)": 1, 
+    "return 0": 1, 
+    "for (.*)": 1, 
+    "char *": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 8, 
+    "return": "undefined", 
+    ".*\\+": 4
+  }, 
+  "clamp": {
+    "if (.* < \\d*)": 3, 
+    "if (.* < .*)": 3, 
+    "param1": "ushort", 
+    "return 0": 2, 
+    "char *": 1, 
+    "if (.*)": 3, 
+    "return": "undefined"
+  }, 
+  "pjpeg_decode_mcu": {
+    "param1": "void);", 
+    "if (.* == 0)": 1, 
+    "char *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 4, 
+    "return": "char", 
+    ".*\\+": 1
+  }, 
+  "stuffChar": {
+    "param1": "undefined", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "init": {
+    "label": "init", 
+    "param1": "EVP_PKEY_CTX", 
+    "return 0": 1, 
+    "return": "int"
+  }, 
+  "copyY": {
+    "label": "copy", 
+    "param1": "byte", 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "char *": 1, 
+    ".*\\-": 1, 
+    "return": "void", 
+    ".*\\+": 8
+  }, 
+  "checkQuantTables": {
+    "break": 1, 
+    "label": "check", 
+    "param1": "void);", 
+    "int": 4, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    "return 0": 2, 
+    "char *": 1, 
+    "if (.*)": 3, 
+    "return": "undefined", 
+    ".*\\+": 2
+  }, 
+  "subAndClamp": {
+    "if (.* < \\d*)": 3, 
+    "if (.* < .*)": 3, 
+    "param1": "byte", 
+    "param2": "short", 
+    "return 0": 2, 
+    "char *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": "undefined"
+  }, 
+  "convertCr": {
+    "label": "convert", 
+    "param1": "byte", 
+    "int": 5, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "char *": 1, 
+    ".*\\-": 3, 
+    "return": "void", 
+    ".*\\+": 9
+  }, 
+  "createWinogradQuant": {
+    "label": "create", 
+    "param1": "int", 
+    "int": 5, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 4
+  }, 
+  "replicateSignBit16": {
+    "break": 16, 
+    "param1": "undefined", 
+    "int": 1, 
+    ".*\\-": 16, 
+    "return": "int", 
+    "case": 16
+  }, 
+  "pjpeg_decode_init": {
+    "label": "init", 
+    "param3": "undefined4", 
+    "param4": "byte", 
+    "param1": "uint", 
+    "int": 12, 
+    "param2": "undefined4", 
+    "char *": 2, 
+    "if (.*)": 8, 
+    "return": "char"
+  }, 
+  "transformBlock": {
+    "break": 15, 
+    "label": "transform", 
+    "param1": "char", 
+    "return;": 1, 
+    "if (.*)": 3, 
+    "return": "void", 
+    "case": 19
+  }, 
+  "decodeNextMCU": {
+    "if (.* != 0)": 8, 
+    "if (.* < \\d*)": 4, 
+    "break": 2, 
+    "if (.* < .*)": 4, 
+    "param1": "void);", 
+    "int": 27, 
+    "if (.* == 0)": 3, 
+    "while(.*)": 2, 
+    "for (.*)": 4, 
+    "char *": 10, 
+    ".*\\-": 4, 
+    "if (.*)": 24, 
+    "return": "char", 
+    ".*\\+": 26
+  }, 
+  "getHuffTable": {
+    "break": 4, 
+    "label": "get", 
+    "param1": "undefined", 
+    "return": "undefined1", 
+    "case": 4
+  }, 
+  "getChar": {
+    "label": "get", 
+    "param1": "void);", 
+    "if (.* == 0)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": "undefined", 
+    ".*\\+": 2
+  }, 
+  "readSOSMarker": {
+    "if (.* != 0)": 1, 
+    "label": "read", 
+    "param1": "void);", 
+    "int": 10, 
+    "return 0": 1, 
+    "for (.*)": 3, 
+    "char *": 4, 
+    ".*\\-": 3, 
+    "if (.*)": 2, 
+    "return": "undefined", 
+    ".*\\+": 10
+  }, 
+  "huffCreate": {
+    "label": "create", 
+    "param1": "int", 
+    "int": 7, 
+    "param2": "int", 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "char *": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 10
+  }, 
+  "readSOFMarker": {
+    "if (.* < \\d*)": 4, 
+    "if (.* < .*)": 4, 
+    "label": "read", 
+    "param1": "void);", 
+    "int": 10, 
+    "if (.* == 0)": 2, 
+    "return 0": 1, 
+    "for (.*)": 1, 
+    "if (.*)": 6, 
+    "return": "undefined", 
+    ".*\\+": 8
+  }, 
+  "arithmeticRightShiftN16": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "ushort", 
+    "int": 5, 
+    "param2": "byte", 
+    "char *": 1, 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "getExtendTest": {
+    "break": 16, 
+    "label": "get", 
+    "param1": "undefined", 
+    "return": "undefined2", 
+    "case": 16
+  }, 
+  "fixInBuffer": {
+    "param1": "void);", 
+    "int": 2, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": "void"
+  }, 
+  "locateSOFMarker": {
+    "break": 3, 
+    "param1": "void);", 
+    "char *": 1, 
+    "if (.*)": 2, 
+    "return": "char", 
+    "case": 4
+  }, 
+  "addAndClamp": {
+    "if (.* < \\d*)": 3, 
+    "if (.* < .*)": 3, 
+    "label": "add", 
+    "param1": "byte", 
+    "param2": "short", 
+    "return 0": 2, 
+    "char *": 1, 
+    "if (.*)": 3, 
+    "return": "undefined", 
+    ".*\\+": 1
+  }, 
+  "nextMarker": {
+    "param1": "void);", 
+    "while(.*)": 3, 
+    "char *": 1, 
+    ".*\\-": 2, 
+    "return": "char"
+  }, 
+  "initScan": {
+    "if (.* != 0)": 1, 
+    "label": "init", 
+    "param1": "void);", 
+    "char *": 2, 
+    "if (.*)": 4, 
+    "return": "char"
+  }, 
+  "convertCb": {
+    "label": "convert", 
+    "param1": "byte", 
+    "int": 5, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "char *": 1, 
+    ".*\\-": 3, 
+    "return": "void", 
+    ".*\\+": 8
+  }, 
+  "getHuffVal": {
+    "break": 4, 
+    "label": "get", 
+    "param1": "undefined", 
+    "return": "undefined1", 
+    "case": 4
+  }, 
+  "checkHuffTables": {
+    "break": 1, 
+    "label": "check", 
+    "param1": "void);", 
+    "int": 10, 
+    "while(.*)": 1, 
+    "return 0": 2, 
+    "char *": 1, 
+    "if (.*)": 2, 
+    "return": "undefined", 
+    ".*\\+": 3
+  }, 
+  "imul_b1_b3": {
+    "param1": "short", 
+    "int": 1, 
+    "return": "int", 
+    ".*\\+": 1
+  }, 
+  "getBit": {
+    "label": "get", 
+    "param1": "void);", 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "bool", 
+    ".*\\+": 2
+  }, 
+  "idctCols": {
+    "= .*\\+.*\\+ 0x.*": 10, 
+    "param1": "void);", 
+    "int": 59, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 16, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 51
+  }, 
+  "locateSOIMarker": {
+    "param1": "void);", 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return 0": 3, 
+    "while(.*)": 2, 
+    "char *": 3, 
+    ".*\\-": 6, 
+    "if (.*)": 4, 
+    "return": "undefined", 
+    ".*\\+": 1
+  }, 
+  "locateSOSMarker": {
+    "param1": "undefined", 
+    "char *": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": "char"
+  }, 
+  "transformBlockReduce": {
+    "break": 15, 
+    "label": "transform", 
+    "param1": "char", 
+    "int": 54, 
+    "return;": 1, 
+    ".*\\-": 16, 
+    "if (.*)": 3, 
+    "return": "void", 
+    ".*\\+": 18, 
+    "case": 19
+  }, 
+  "upsampleCbV": {
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "byte", 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "return": "void", 
+    ".*\\+": 12
+  }, 
+  "getOctet": {
+    "label": "get", 
+    "param1": "char", 
+    "char *": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "char"
+  }, 
+  "upsampleCbH": {
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "byte", 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "return": "void", 
+    ".*\\+": 11
+  }, 
+  "processRestart": {
+    "label": "process", 
+    "param1": "void);", 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "while(.*)": 2, 
+    "char *": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 3, 
+    "return": "undefined", 
+    ".*\\+": 4
+  }, 
+  "processMarkers": {
+    "break": 3, 
+    "label": "process", 
+    "param1": "undefined", 
+    "return 0": 3, 
+    "while(.*)": 1, 
+    "return": "undefined", 
+    "case": 30
+  }, 
+  "initFrame": {
+    "label": "init", 
+    "param1": "void);", 
+    "int": 6, 
+    "return 0": 5, 
+    "char *": 10, 
+    ".*\\-": 2, 
+    "if (.*)": 10, 
+    "return": "undefined", 
+    ".*\\+": 2
+  }, 
+  "upsampleCrV": {
+    "param1": "byte", 
+    "int": 7, 
+    "param2": "byte", 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 2, 
+    "return": "void", 
+    ".*\\+": 12
+  }
+}

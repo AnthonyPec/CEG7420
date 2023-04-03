@@ -1,0 +1,124 @@
+{
+  "poly1305_blocks": {
+    "param3": "size_t", 
+    "param1": "Poly1305", 
+    "int": 28, 
+    "param2": "uchar", 
+    "return 0": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 17, 
+    "if (.*)": 1, 
+    "return": "int", 
+    ".*\\+": 27
+  }, 
+  "wc_Poly1305_Pad": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "Poly1305", 
+    "int": 5, 
+    "param2": "word32", 
+    "if (.* == 0)": 1, 
+    "memset(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": "int"
+  }, 
+  "wc_Poly1305Update": {
+    "if (.* != 0)": 4, 
+    "if (.* < \\d*)": 3, 
+    "if (.* < .*)": 3, 
+    "label": "update", 
+    "param3": "word32", 
+    "param1": "Poly1305", 
+    "int": 5, 
+    "param2": "byte", 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 12, 
+    "if (.*)": 8, 
+    "return": "int", 
+    ".*\\+": 8
+  }, 
+  "poly1305_block": {
+    "param1": "Poly1305", 
+    "int": 1, 
+    "param2": "uchar", 
+    "return": "int"
+  }, 
+  "wc_Poly1305SetKey": {
+    "label": "set", 
+    "param3": "word32", 
+    "param1": "Poly1305", 
+    "int": 1, 
+    "param2": "byte", 
+    "if (.* == 0)": 1, 
+    ".*\\-": 18, 
+    "if (.*)": 2, 
+    "return": "int", 
+    ".*\\+": 8
+  }, 
+  "wc_Poly1305Final": {
+    "if (.* != 0)": 1, 
+    "= .*\\+.*\\+ 0x.*": 1, 
+    "param1": "Poly1305", 
+    "int": 20, 
+    "param2": "byte", 
+    "while(.*)": 1, 
+    ".*\\-": 33, 
+    "if (.*)": 2, 
+    "return": "int", 
+    ".*\\+": 21
+  }, 
+  "wc_Poly1305_MAC": {
+    "param7": "word32", 
+    "if (.* != 0)": 3, 
+    "param5": "word32", 
+    "param6": "byte", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "Poly1305", 
+    "int": 3, 
+    "param2": "byte", 
+    "if (.* == 0)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 6, 
+    "return": "int"
+  }, 
+  "wc_Poly1305_EncodeSizes": {
+    "param3": "word32", 
+    "param1": "Poly1305", 
+    "int": 2, 
+    "param2": "word32", 
+    "memset(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "wc_Poly1305_EncodeSizes64": {
+    "param3": "word64", 
+    "param1": "Poly1305", 
+    "int": 2, 
+    "param2": "word64", 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "U8TO32": {
+    "param1": "byte", 
+    "return": "word32"
+  }, 
+  "U32TO8": {
+    "param1": "byte", 
+    "param2": "word32", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "u32tole64": {
+    "param1": "word32", 
+    "param2": "byte", 
+    "return;": 1, 
+    "return": "void"
+  }
+}

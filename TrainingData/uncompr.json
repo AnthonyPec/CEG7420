@@ -1,0 +1,24 @@
+{
+  "uncompress": {
+    "param3": "Bytef", 
+    "param4": "uLong", 
+    "param1": "Bytef", 
+    "int": 1, 
+    "param2": "uLongf", 
+    "return": "int"
+  }, 
+  "uncompress2": {
+    "if (.* != 0)": 2, 
+    "param3": "Bytef", 
+    "param4": "uLong", 
+    "param1": "Bytef", 
+    "int": 6, 
+    "param2": "uLongf", 
+    "if (.* == 0)": 4, 
+    "while(.*)": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 9, 
+    "return": "int", 
+    ".*\\+": 3
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "inflateBack": {
+    "if (.* < \\d*)": 11, 
+    "if (.* != 0)": 6, 
+    "param5": "void", 
+    "break": 11, 
+    "if (.* < .*)": 11, 
+    "= .*\\+.*\\+ 0x.*": 8, 
+    "param3": "void", 
+    "param4": "out_func", 
+    "param1": "z_streamp", 
+    "int": 178, 
+    "param2": "in_func", 
+    "if (.* == 0)": 32, 
+    "goto": 25, 
+    "while(.*)": 12, 
+    "memcpy(.*)": 1, 
+    "for (.*)": 9, 
+    "char *": 55, 
+    ".*\\-": 101, 
+    "if (.*)": 58, 
+    "return": "int", 
+    ".*\\+": 203, 
+    "case": 12
+  }, 
+  "fixedtables": {
+    "param1": "inflate_state", 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": "void", 
+    ".*\\+": 2
+  }, 
+  "inflateBackEnd": {
+    "param1": "z_streamp", 
+    "int": 3, 
+    ".*\\-": 5, 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "inflateBackInit_": {
+    "param5": "int", 
+    "label": "init", 
+    "param3": "uchar", 
+    "param4": "char", 
+    "param1": "z_streamp", 
+    "int": 6, 
+    "param2": "int", 
+    "char *": 5, 
+    ".*\\-": 11, 
+    "if (.*)": 5, 
+    "return": "int", 
+    ".*\\+": 10
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "adler32_z": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 1, 
+    "string": [
+      "}"
+    ], 
+    "if (.* < .*)": 4, 
+    "param3": "z_size_t", 
+    "param1": "uLong", 
+    "int": 51, 
+    "param2": "Bytef", 
+    "while(.*)": 4, 
+    "for (.*)": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 7, 
+    "return": "uLong", 
+    ".*\\+": 47
+  }, 
+  "adler32_combine_": {
+    "if (.* < \\d*)": 4, 
+    "string": [
+      "}"
+    ], 
+    "if (.* < .*)": 4, 
+    "= .*\\+.*\\+ 0x.*": 1, 
+    "param3": "off64_t", 
+    "param1": "uLong", 
+    "int": 6, 
+    "param2": "uLong", 
+    ".*\\-": 6, 
+    "if (.*)": 5, 
+    "return": "uLong", 
+    ".*\\+": 4
+  }, 
+  "adler32": {
+    "string": [
+      "}"
+    ], 
+    "param3": "uInt", 
+    "param1": "uLong", 
+    "param2": "Bytef", 
+    "return": "uLong"
+  }, 
+  "adler32_combine64": {
+    "string": [
+      "}"
+    ], 
+    "param3": "off64_t", 
+    "param1": "uLong", 
+    "param2": "uLong", 
+    "return": "uLong"
+  }, 
+  "adler32_combine": {
+    "string": [
+      "}"
+    ], 
+    "param3": "off_t", 
+    "param1": "uLong", 
+    "param2": "uLong", 
+    "return": "uLong"
+  }
+}

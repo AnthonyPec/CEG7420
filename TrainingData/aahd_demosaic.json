@@ -1,0 +1,151 @@
+{
+  "make_ahd_rb": {
+    "label": "make", 
+    "param1": "AAHD", 
+    "int": 8, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "AAHD": {
+    "param1": "AAHD", 
+    "int": 59, 
+    "param2": "LibRaw", 
+    "return": "AAHD"
+  }, 
+  "FCF": {
+    "param3": "int", 
+    "param1": "LibRaw", 
+    "int": 5, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "make_ahd_gline": {
+    "label": "make", 
+    "param1": "AAHD", 
+    "int": 47, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "make_ahd_greens": {
+    "label": "make", 
+    "param1": "AAHD", 
+    "int": 4, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "evaluate_ahd": {
+    "param1": "AAHD", 
+    "int": 105, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "illustrate_dline": {
+    "param1": "AAHD", 
+    "int": 22, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "make_ahd_rb_hv": {
+    "label": "make", 
+    "param1": "AAHD", 
+    "int": 31, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "refine_hv_dirs": {
+    "param3": "int", 
+    "param1": "AAHD", 
+    "int": 38, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "refine_ihv_dirs": {
+    "param1": "AAHD", 
+    "int": 31, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "illustrate_dirs": {
+    "param1": "AAHD", 
+    "int": 4, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "~AAHD": {
+    "param1": "AAHD", 
+    "return": "AAHD"
+  }, 
+  "combine_image": {
+    "param1": "AAHD", 
+    "int": 39, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "make_ahd_rb_last": {
+    "label": "make", 
+    "param1": "AAHD", 
+    "int": 62, 
+    "param2": "int", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "U": {
+    "param1": "AAHD", 
+    "int": 8, 
+    "param2": "unsigned_short", 
+    "return": "int"
+  }, 
+  "COLOR": {
+    "param3": "int", 
+    "param1": "LibRaw", 
+    "int": 5, 
+    "param2": "int", 
+    "return": "undefined4"
+  }, 
+  "V": {
+    "param1": "AAHD", 
+    "int": 8, 
+    "param2": "unsigned_short", 
+    "return": "int"
+  }, 
+  "Y": {
+    "param1": "AAHD", 
+    "int": 8, 
+    "param2": "unsigned_short", 
+    "return": "int"
+  }, 
+  "aahd_interpolate": {
+    "param1": "LibRaw", 
+    "int": 1, 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "nr_offset": {
+    "label": "set", 
+    "param3": "int", 
+    "param1": "AAHD", 
+    "int": 3, 
+    "param2": "int", 
+    "return": "int"
+  }, 
+  "FC": {
+    "param3": "int", 
+    "param1": "LibRaw", 
+    "int": 3, 
+    "param2": "int", 
+    "return": "uint"
+  }, 
+  "hide_hots": {
+    "param1": "AAHD", 
+    "int": 117, 
+    "return;": 1, 
+    "return": "void"
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "operator=": {
+    "param1": "FileRef", 
+    "param2": "FileRef", 
+    "return": "FileRef"
+  }, 
+  "swap<TagLib::FileRef::FileRefPrivate_*>": {
+    "param1": "FileRefPrivate", 
+    "param2": "FileRefPrivate", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "operator==": {
+    "param1": "FileRef", 
+    "param2": "FileRef", 
+    ".*\\-": 1, 
+    "return": "bool"
+  }, 
+  "_List_base": {
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "deallocate": {
+    "param3": "size_type", 
+    "param1": "new_allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "int": 1, 
+    "param2": "pointer", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "prepend": {
+    "param1": "List<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "param2": "FileTypeResolver", 
+    ".*\\-": 1, 
+    "return": "List<const_TagLib::FileRef::FileTypeResolver_*>"
+  }, 
+  "_M_get_Node_allocator": {
+    "label": "get", 
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return": "_Node_alloc_type"
+  }, 
+  "construct": {
+    "param3": "FileTypeResolver", 
+    "param1": "new_allocator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "int": 1, 
+    "param2": "pointer", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "ListPrivateBase": {
+    "param1": "ListPrivateBase", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "_M_clear": {
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "int": 2, 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "~FileRef": {
+    "param1": "FileRef", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_inc_size": {
+    "param3": "size_t", 
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "allocator": {
+    "param1": "allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "~ListPrivate": {
+    "param1": "ListPrivate<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "FileRef": {
+    "param1": "FileRef", 
+    "int": 1, 
+    "param2": "FileRef", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "create": {
+    "label": "create", 
+    "param3": "ReadStyle", 
+    "param1": "FileName", 
+    "param2": "bool", 
+    "return": "File"
+  }, 
+  "List": {
+    "param1": "List<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "tag": {
+    "string": [
+      "FileRef::tag() - Called without a valid file."
+    ], 
+    "param1": "FileRef", 
+    "int": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": "Tag", 
+    ".*\\+": 1
+  }, 
+  "operator*": {
+    "param1": "_List_const_iterator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    ".*\\-": 1, 
+    "return": "reference"
+  }, 
+  "detectByResolvers": {
+    "break": 1, 
+    "param3": "ReadStyle", 
+    "param1": "IOStream", 
+    "int": 4, 
+    "param2": "bool", 
+    "while(.*)": 1, 
+    "if (.*)": 3, 
+    "return": "File", 
+    ".*\\+": 1
+  }, 
+  "detectByExtension": {
+    "if (.* != 0)": 2, 
+    "string": [
+      "MODULE"
+    ], 
+    "param3": "ReadStyle", 
+    "param1": "IOStream", 
+    "int": 31, 
+    "param2": "bool", 
+    "if (.* == 0)": 17, 
+    "goto": 1, 
+    "char *": 32, 
+    ".*\\-": 1, 
+    "if (.*)": 22, 
+    "return": "File", 
+    ".*\\+": 2
+  }, 
+  "_M_init": {
+    "label": "init", 
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "ListPrivate": {
+    "param1": "ListPrivate<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "_M_initialize_dispatch<std::_List_const_iterator<const_TagLib::FileRef::FileTypeResolver_*>_>": {
+    "label": "init", 
+    "param3": "_List_const_iterator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "param4": "_List_const_iterator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "operator!=": {
+    "param1": "_Self", 
+    "param2": "_Self", 
+    ".*\\-": 1, 
+    "return": "bool"
+  }, 
+  "createInternal": {
+    "string": [
+      "MODULE"
+    ], 
+    "label": "create", 
+    "param3": "ReadStyle", 
+    "param1": "FileName", 
+    "int": 31, 
+    "param2": "bool", 
+    "if (.* == 0)": 20, 
+    "char *": 31, 
+    ".*\\-": 1, 
+    "if (.*)": 23, 
+    "return": "File", 
+    ".*\\+": 1
+  }, 
+  "swap": {
+    "param1": "FileRef", 
+    "param2": "FileRef", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_List_iterator": {
+    "param1": "_List_iterator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "param2": "_List_node_base", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "new_allocator": {
+    "param1": "new_allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "count": {
+    "param1": "RefCounterOld", 
+    ".*\\-": 1, 
+    "return": "int"
+  }, 
+  "destroy": {
+    "label": "destroy", 
+    "param1": "new_allocator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "int": 1, 
+    "param2": "pointer", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_GLOBAL__sub_I_fileref.cpp": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "list": {
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "addFileTypeResolver": {
+    "label": "add", 
+    "param1": "FileTypeResolver", 
+    "return": "FileTypeResolver"
+  }, 
+  "max_size": {
+    "param1": "new_allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "return": "size_type"
+  }, 
+  "~List": {
+    "param1": "List<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "defaultFileExtensions": {
+    "string": [
+      "module"
+    ], 
+    "param1": "void);", 
+    "char *": 30, 
+    "return": "StringList"
+  }, 
+  "__addressof<const_TagLib::FileRef::FileTypeResolver_*>": {
+    "label": "add", 
+    "param1": "FileTypeResolver", 
+    "return": "FileTypeResolver"
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param3": "void", 
+    "param1": "new_allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "int": 2, 
+    "param2": "size_type", 
+    "if (.*)": 1, 
+    "return": "pointer"
+  }, 
+  "_M_get_node": {
+    "label": "get", 
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "int": 1, 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return": "pointer"
+  }, 
+  "_List_const_iterator": {
+    "param1": "_List_const_iterator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "param2": "_List_node_base", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_List_impl": {
+    "param1": "_List_impl", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "begin": {
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    ".*\\-": 1, 
+    "return": "const_iterator"
+  }, 
+  "~list": {
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "RefCounterOld": {
+    "param1": "RefCounterOld", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_M_create_node": {
+    "label": "create", 
+    "param3": "value_type", 
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "int": 1, 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    ".*\\-": 2, 
+    "return": "_Node"
+  }, 
+  "deref": {
+    "param1": "RefCounterOld", 
+    "int": 1, 
+    ".*\\-": 2, 
+    "return": "bool"
+  }, 
+  "push_front": {
+    "param3": "value_type", 
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "operator++": {
+    "param1": "_List_const_iterator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    ".*\\-": 1, 
+    "return": "_Self"
+  }, 
+  "save": {
+    "string": [
+      "FileRef::save() - Called without a valid file."
+    ], 
+    "param1": "FileRef", 
+    "int": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": "bool", 
+    ".*\\+": 1
+  }, 
+  "~_List_impl": {
+    "param1": "_List_impl", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_insert": {
+    "param3": "iterator", 
+    "param4": "value_type", 
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "push_back": {
+    "param3": "value_type", 
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_valptr": {
+    "param1": "_List_node<const_TagLib::FileRef::FileTypeResolver_*>", 
+    ".*\\-": 1, 
+    "return": "FileTypeResolver"
+  }, 
+  "__cxx_global_var_init": {
+    "label": "init", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__cxx_global_var_init.1": {
+    "label": "init", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "file": {
+    "param1": "FileRef", 
+    ".*\\-": 1, 
+    "return": "File"
+  }, 
+  "detectByContent": {
+    "if (.* != 0)": 2, 
+    "param3": "ReadStyle", 
+    "param1": "IOStream", 
+    "int": 19, 
+    "param2": "bool", 
+    "if (.* == 0)": 13, 
+    "if (.*)": 17, 
+    "return": "File", 
+    ".*\\+": 1
+  }, 
+  "end": {
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return": "iterator"
+  }, 
+  "~new_allocator": {
+    "param1": "new_allocator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>": {
+    "param1": "allocator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "param2": "allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_List_node_header": {
+    "param1": "_List_node_header", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__clang_call_terminate": {
+    "param1": "void);", 
+    "return": "void"
+  }, 
+  "__addressof<const_TagLib::FileRef::FileTypeResolver_*const>": {
+    "label": "add", 
+    "param1": "FileTypeResolver", 
+    "return": "FileTypeResolver"
+  }, 
+  "clear": {
+    "param1": "list<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": "void"
+  }, 
+  "FileRefPrivate": {
+    "param1": "FileRefPrivate", 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": "void"
+  }, 
+  "parse": {
+    "param3": "bool", 
+    "param4": "ReadStyle", 
+    "param1": "FileRef", 
+    "int": 1, 
+    "param2": "IOStream", 
+    "return;": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 3, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "~FileRefPrivate": {
+    "param1": "FileRefPrivate", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "~allocator": {
+    "param1": "allocator<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_M_put_node": {
+    "param3": "pointer", 
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "int": 1, 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "~_List_base": {
+    "param1": "_List_base<const_TagLib::FileRef::FileTypeResolver_*", 
+    "param2": "_std::allocator<const_TagLib::FileRef::FileTypeResolver_*>_>*this);", 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": "void"
+  }, 
+  "_S_select_on_copy": {
+    "label": "copy", 
+    "param1": "allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>", 
+    "return": "allocator<std::_List_node<const_TagLib::FileRef::FileTypeResolver_*>_>"
+  }, 
+  "isNull": {
+    "param1": "FileRef", 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "bool"
+  }, 
+  "detach": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "param1": "List<const_TagLib::FileRef::FileTypeResolver_*>", 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": "void"
+  }, 
+  "audioProperties": {
+    "string": [
+      "FileRef::audioProperties() - Called without a valid file."
+    ], 
+    "param1": "FileRef", 
+    "int": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": "AudioProperties", 
+    ".*\\+": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "wc_AesCbcDecryptWithKey": {
+    "param5": "word32", 
+    "param6": "byte", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 3, 
+    "param2": "byte", 
+    "if (.* == 0)": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": "int"
+  }, 
+  "wc_CryptKey": {
+    "param7": "byte", 
+    "param8": "int", 
+    "if (.* < \\d*)": 2, 
+    "if (.* != 0)": 1, 
+    "param5": "int", 
+    "param6": "int", 
+    "if (.* < .*)": 2, 
+    "param9": "int", 
+    "param3": "byte", 
+    "param4": "int", 
+    "param1": "char", 
+    "int": 17, 
+    "param2": "int", 
+    "if (.* == 0)": 9, 
+    "for (.*)": 1, 
+    "char *": 3, 
+    "param10": "byte", 
+    ".*\\-": 5, 
+    "param11": "int", 
+    "param12": "int", 
+    "if (.*)": 17, 
+    "return": "int", 
+    ".*\\+": 11
+  }, 
+  "wc_AesCbcEncryptWithKey": {
+    "param5": "word32", 
+    "param6": "byte", 
+    "param3": "word32", 
+    "param4": "byte", 
+    "param1": "byte", 
+    "int": 2, 
+    "param2": "byte", 
+    "if (.* == 0)": 2, 
+    "if (.*)": 2, 
+    "return": "int"
+  }, 
+  "ForceZero": {
+    "param1": "void", 
+    "param2": "word32", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }
+}

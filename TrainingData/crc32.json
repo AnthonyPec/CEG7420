@@ -1,0 +1,99 @@
+{
+  "crc32_combine_op": {
+    "param3": "uLong", 
+    "param1": "uLong", 
+    "param2": "uLong", 
+    "return": "uLong"
+  }, 
+  "multmodp": {
+    "param1": "z_crc_t", 
+    "int": 3, 
+    "param2": "z_crc_t", 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": "z_crc_t"
+  }, 
+  "crc_word": {
+    "param1": "z_word_t", 
+    "int": 3, 
+    "for (.*)": 1, 
+    "return": "z_crc_t", 
+    ".*\\+": 2
+  }, 
+  "crc32_combine_gen64": {
+    "label": "gen", 
+    "param1": "off64_t", 
+    "int": 1, 
+    "return": "uLong"
+  }, 
+  "crc32_z": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "param3": "z_size_t", 
+    "param1": "ulong", 
+    "int": 46, 
+    "param2": "uchar", 
+    "while(.*)": 2, 
+    "for (.*)": 3, 
+    "char *": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 4, 
+    "return": "uLong", 
+    ".*\\+": 41
+  }, 
+  "crc32_combine_gen": {
+    "label": "gen", 
+    "param1": "off_t", 
+    "return": "uLong"
+  }, 
+  "byte_swap": {
+    "param1": "z_word_t", 
+    "return": "z_word_t"
+  }, 
+  "get_crc_table": {
+    "label": "get", 
+    "param1": "void);", 
+    "int": 1, 
+    "return": "z_crc_t", 
+    ".*\\+": 1
+  }, 
+  "crc_word_big": {
+    "param1": "z_word_t", 
+    "int": 3, 
+    "for (.*)": 1, 
+    "return": "z_word_t", 
+    ".*\\+": 2
+  }, 
+  "crc32": {
+    "param3": "uInt", 
+    "param1": "ulong", 
+    "param2": "uchar", 
+    "return": "uLong"
+  }, 
+  "crc32_combine": {
+    "param3": "off_t", 
+    "param1": "uLong", 
+    "param2": "uLong", 
+    "return": "uLong"
+  }, 
+  "x2nmodp": {
+    "if (.* != 0)": 1, 
+    "param1": "off64_t", 
+    "int": 7, 
+    "param2": "uint", 
+    "for (.*)": 1, 
+    "if (.*)": 1, 
+    "return": "z_crc_t", 
+    ".*\\+": 2
+  }, 
+  "crc32_combine64": {
+    "param3": "off64_t", 
+    "param1": "uLong", 
+    "int": 1, 
+    "param2": "uLong", 
+    "return": "uLong"
+  }
+}

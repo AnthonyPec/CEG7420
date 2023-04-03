@@ -1,0 +1,53 @@
+{
+  "wc_export_int": {
+    "param5": "int", 
+    "param3": "word32", 
+    "param4": "word32", 
+    "param1": "mp_int", 
+    "int": 9, 
+    "param2": "byte", 
+    "memset(.*)": 1, 
+    "if (.*)": 5, 
+    "return": "int"
+  }, 
+  "get_digit": {
+    "label": "get", 
+    "param1": "mp_int", 
+    "int": 3, 
+    "param2": "int", 
+    "if (.*)": 2, 
+    "return": "mp_digit"
+  }, 
+  "get_rand_digit": {
+    "label": "get", 
+    "param1": "WC_RNG", 
+    "int": 1, 
+    "param2": "mp_digit", 
+    "return": "int"
+  }, 
+  "mp_cond_copy": {
+    "label": "copy", 
+    "param3": "mp_int", 
+    "param1": "mp_int", 
+    "int": 7, 
+    "param2": "int", 
+    "if (.*)": 3, 
+    "return": "int"
+  }, 
+  "get_digit_count": {
+    "label": "get", 
+    "param1": "mp_int", 
+    "int": 2, 
+    "if (.*)": 1, 
+    "return": "int"
+  }, 
+  "mp_rand": {
+    "param3": "WC_RNG", 
+    "param1": "mp_int", 
+    "int": 6, 
+    "param2": "int", 
+    "while(.*)": 1, 
+    "if (.*)": 7, 
+    "return": "int"
+  }
+}
