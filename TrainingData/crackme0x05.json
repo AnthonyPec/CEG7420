@@ -1,0 +1,113 @@
+{
+  "__libc_csu_init": {
+    "label": "init", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "_init": {
+    "label": "init", 
+    "param1": "EVP_PKEY_CTX", 
+    "int": 1, 
+    "return": "int"
+  }, 
+  "_start": {
+    "param1": "void);", 
+    "while(.*)": 1, 
+    "return": "void"
+  }, 
+  "FUN_080483f4": {
+    "param1": "undefined4", 
+    "param2": "undefined4", 
+    "if (.*)": 1, 
+    "return": "undefined4"
+  }, 
+  "main": {
+    "string": [
+      "IOLI Crackme Level 0x05\\n", 
+      "Password: ", 
+      "%s"
+    ], 
+    "label": "main", 
+    "param1": "void);", 
+    "int": 2, 
+    "return 0": 1, 
+    "printf(.*)": 2, 
+    "scanf(.*)": 1, 
+    "return": "undefined4"
+  }, 
+  "check": {
+    "string": [
+      "%d", 
+      "Password Incorrect!\\n"
+    ], 
+    "break": 1, 
+    "label": "check", 
+    "param1": "char", 
+    "int": 4, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "char *": 1, 
+    "printf(.*)": 1, 
+    "if (.*)": 2, 
+    "scanf(.*)": 1, 
+    "return": "void", 
+    ".*\\+": 2
+  }, 
+  "__i686.get_pc_thunk.bx": {
+    "label": "get", 
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "parell": {
+    "string": [
+      "%d", 
+      "Password OK!\\n"
+    ], 
+    "param1": "char", 
+    "int": 2, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "printf(.*)": 1, 
+    "if (.*)": 1, 
+    "scanf(.*)": 1, 
+    "return": "void"
+  }, 
+  "__libc_csu_fini": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__do_global_dtors_aux": {
+    "param1": "void);", 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "if (.*)": 1, 
+    "return": "void", 
+    ".*\\+": 1
+  }, 
+  "_fini": {
+    "param1": "undefined4", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "__do_global_ctors_aux": {
+    "param1": "void);", 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": "undefined4", 
+    ".*\\+": 1
+  }, 
+  "FUN_08048354": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }, 
+  "frame_dummy": {
+    "param1": "void);", 
+    "return;": 1, 
+    "return": "void"
+  }
+}

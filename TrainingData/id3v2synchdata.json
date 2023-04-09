@@ -1,0 +1,116 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "operator-<char_*,_std::vector<char,_std::allocator<char>_>_>": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 2, 
+    "params": 2, 
+    ".*\\-": 2, 
+    "return": 1
+  }, 
+  "toUInt": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 2, 
+    "if (.* < .*)": 3, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 5, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "operator++": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "_GLOBAL__sub_I_id3v2synchdata.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "fromUInt": {
+    "uint": 1, 
+    "params": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "decode": {
+    "break": 1, 
+    "params": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator<<const_char_*,_std::vector<char,_std::allocator<char>_>_>": {
+    "params": 2, 
+    "return": 1, 
+    "__normal_iterator<const_char_*,_std::vector<char,_std::allocator<char>_>_> *": 2
+  }, 
+  "operator-": {
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "difference_type": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1, 
+    "__normal_iterator<const_char_*,_std::vector<char,_std::allocator<char>_>_> *": 1
+  }, 
+  "__normal_iterator": {
+    "void": 1, 
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 2, 
+    "char * *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator*": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "base": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

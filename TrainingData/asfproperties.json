@@ -1,0 +1,259 @@
+{
+  "setSampleRate": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~PropertiesPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setCodecName": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setCodec": {
+    "void": 1, 
+    "break": 4, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 5, 
+    "return": 0, 
+    "case": 4, 
+    ".*\\- param": 1
+  }, 
+  "bitrate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_asfproperties.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "Properties": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setBitrate": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setCodecDescription": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "bitsPerSample": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "PropertiesPrivate": {
+    "void": 1, 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 9, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setLengthInMilliseconds": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "isEncrypted": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "setChannels": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "length": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "sampleRate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "lengthInSeconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "lengthInMilliseconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "codec": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setLength": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0
+  }, 
+  "setEncrypted": {
+    "void": 1, 
+    "bool": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "codecDescription": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Properties *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "channels": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setBitsPerSample": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "codecName": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Properties *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~Properties": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "return": 0
+  }
+}

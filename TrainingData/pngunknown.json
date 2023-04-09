@@ -1,0 +1,399 @@
+{
+  "perform_one_test_safe": {
+    "char**": 1, 
+    "void": 1, 
+    "string": [
+      "initialization"
+    ], 
+    "setjmp(.*)": 1, 
+    "int*": 1, 
+    "label": "test", 
+    "params": 6, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "uint*": 1, 
+    "return;": 1, 
+    "char*": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "check_handling": {
+    "if (.* != 0)": 7, 
+    "fprintf(.*)": 1, 
+    "void": 1, 
+    "string": [
+      "KNOWN", 
+      "DEFAULT: known chunk not processed", 
+      "DISCARD: known chunk saved", 
+      "IF-SAFE: known critical chunk saved", 
+      "IF-SAFE: known ancillary chunk lost", 
+      "SAVE: known chunk lost", 
+      "internal error: bad keep (2)", 
+      "!DEFAULT: known chunk processed", 
+      "UNKNOWN (default)", 
+      "UNKNOWN (specified)", 
+      "DEFAULT: unknown chunk saved", 
+      "DISCARD: unknown chunk saved", 
+      "IF-SAFE: unknown critical chunk saved", 
+      "IF-SAFE: unknown ancillary chunk lost", 
+      "SAVE: unknown chunk lost", 
+      "internal error: bad keep", 
+      "chunk processed", 
+      "", 
+      ",callback", 
+      "%s(%s%s): %s %s %s: %s\\n"
+    ], 
+    "break": 8, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 7, 
+    "int": 1, 
+    "if (.* == 0)": 10, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "char*": 1, 
+    ".*\\-": 7, 
+    "printf(.*)": 1, 
+    "if (.*)": 18, 
+    "return": 0, 
+    "case": 8, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "clean_display": {
+    "fprintf(.*)": 1, 
+    "void": 1, 
+    "string": [
+      "%s(%s): png_destroy_read_struct error\\n"
+    ], 
+    "label": "clean", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "printf(.*)": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "ancillaryb": {
+    "params": 1, 
+    "int": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "byte*": 1
+  }, 
+  "read_callback": {
+    "if (.* < \\d*)": 4, 
+    "fprintf(.*)": 1, 
+    "string": [
+      "%s(%s): %d: unrecognized chunk option\\n"
+    ], 
+    "if (.* < .*)": 4, 
+    "label": "read", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 4, 
+    ".*\\-": 9, 
+    "printf(.*)": 1, 
+    "if (.*)": 7, 
+    "return": 1
+  }, 
+  "check_error": {
+    "fprintf(.*)": 1, 
+    "void": 1, 
+    "string": [
+      "%s(%s): chunk %s: %s\\n"
+    ], 
+    "label": "error", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "char*": 1, 
+    ".*\\-": 4, 
+    "printf(.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "usage": {
+    "fprintf(.*)": 1, 
+    "void": 1, 
+    "string": [
+      "pngunknown: %s: usage:\\n %s [--strict] --default|{(CHNK|default|all)=(default|discard|if-safe|save)} testfile.png\\n"
+    ], 
+    "params": 2, 
+    "char*": 1, 
+    "printf(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 0
+  }, 
+  "findb": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "int": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "byte*": 1
+  }, 
+  "get_valid": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 1, 
+    "fprintf(.*)": 1, 
+    "string": [
+      "%s(%s): unknown text compression %d\\n"
+    ], 
+    "break": 3, 
+    "if (.* < .*)": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 3, 
+    ".*\\-": 4, 
+    "printf(.*)": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 5, 
+    "= .*\\+": 3
+  }, 
+  "main": {
+    "char**": 1, 
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 2, 
+    "fprintf(.*)": 4, 
+    "string": [
+      "default=save", 
+      "--strict", 
+      "--default", 
+      "--touch", 
+      "--touch: missing file name", 
+      "missing test file", 
+      "extra arguments", 
+      "command line", 
+      "initialization", 
+      "%s: %s %s\\n", 
+      "%s: open failed\\n", 
+      "PNG unknown tests succeeded\\n", 
+      "%s: write failed\\n", 
+      "%s: %s: internal error\\n"
+    ], 
+    "if (.* < .*)": 3, 
+    "break": 2, 
+    "fflush(.*)": 1, 
+    "label": "main", 
+    "params": 2, 
+    ".*\\+ 0x.*": 3, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "while(.*)": 2, 
+    "for (.*)": 1, 
+    ".*\\-": 7, 
+    "printf(.*)": 5, 
+    "if (.*)": 15, 
+    "return": 1, 
+    ".*\\+": 11, 
+    "= .*\\+": 10
+  }, 
+  "init_display": {
+    "void": 1, 
+    "string": [
+      "initialization"
+    ], 
+    "label": "init", 
+    "params": 2, 
+    "memset(.*)": 1, 
+    "return;": 1, 
+    "char*": 1, 
+    ".*\\-": 8, 
+    "return": 0
+  }, 
+  "check": {
+    "char**": 1, 
+    "fprintf(.*)": 5, 
+    "if (.* != 0)": 6, 
+    "if (.* < \\d*)": 4, 
+    "string": [
+      "%s(%s): could not allocate png struct\\n", 
+      "%s(%s): could not allocate png info\\n", 
+      "%s(%s): invalid interlace type\\n", 
+      "default", 
+      "discard", 
+      "if-safe", 
+      "%s(%s): %s: unrecognized chunk option\\n", 
+      "default", 
+      "%s(%s): %s: unrecognized chunk argument\\n"
+    ], 
+    "if (.* < .*)": 4, 
+    "break": 4, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 6, 
+    "int": 1, 
+    "if (.* == 0)": 5, 
+    "while(.*)": 1, 
+    "for (.*)": 4, 
+    ".*\\-": 43, 
+    "printf(.*)": 5, 
+    "if (.*)": 24, 
+    "return": 1, 
+    ".*\\+": 11, 
+    "= .*\\+": 9
+  }, 
+  "error": {
+    "fprintf(.*)": 1, 
+    "void": 1, 
+    "string": [
+      "%s(%s): libpng error: %s\\n"
+    ], 
+    "label": "error", 
+    "params": 2, 
+    "char*": 1, 
+    "printf(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 0
+  }, 
+  "display_rc": {
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "perform_one_test": {
+    "char**": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "chunk handled inconsistently in count tests", 
+      "chunk handled inconsistently in option tests", 
+      "new known chunk before IDAT", 
+      "new unknown chunk before IDAT", 
+      "new known chunk after IDAT", 
+      "new unknown chunk after IDAT", 
+      "before IDAT", 
+      "after IDAT"
+    ], 
+    "int*": 1, 
+    "label": "test", 
+    "params": 6, 
+    "int": 1, 
+    "uint*": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "get_unknown": {
+    "if (.* < \\d*)": 3, 
+    "fprintf(.*)": 2, 
+    "if (.* != 0)": 1, 
+    "string": [
+      "%s(%s): if-safe: %s: unknown critical chunk saved\\n", 
+      "default", 
+      "discard", 
+      "%s(%s): %s: %s: unknown chunk saved\\n"
+    ], 
+    "if (.* < .*)": 3, 
+    "break": 3, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 3, 
+    ".*\\-": 9, 
+    "printf(.*)": 2, 
+    "if (.*)": 7, 
+    "return": 1, 
+    ".*\\+": 7, 
+    "= .*\\+": 5
+  }, 
+  "find": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "int": 1, 
+    "while(.*)": 1, 
+    "char*": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "find_by_flag": {
+    "if (.* < \\d*)": 1, 
+    "fprintf(.*)": 1, 
+    "string": [
+      "pngunknown: internal error\\n"
+    ], 
+    "if (.* < .*)": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "printf(.*)": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "warning": {
+    "fprintf(.*)": 1, 
+    "void": 1, 
+    "string": [
+      "%s(%s): libpng warning: %s\\n"
+    ], 
+    "params": 2, 
+    ".*\\+ 0x.*": 3, 
+    "return;": 1, 
+    "char*": 1, 
+    "printf(.*)": 1, 
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 1
+  }, 
+  "clear_keep": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "display_exit": {
+    "void": 1, 
+    "string": [
+      "initialization", 
+      "command line"
+    ], 
+    "params": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 2, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "ancillary": {
+    "params": 1, 
+    "int": 1, 
+    "char*": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }
+}

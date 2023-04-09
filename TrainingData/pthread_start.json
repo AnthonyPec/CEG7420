@@ -1,0 +1,15 @@
+{
+  "GC_inner_start_routine": {
+    "GC_stack_base *": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "setjmp(.*)": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 2, 
+    "void *": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }
+}

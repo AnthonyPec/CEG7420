@@ -1,0 +1,276 @@
+{
+  "png_process_data_pause": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "process", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "png_push_have_info": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_push_fill_buffer": {
+    "if (.* != 0)": 2, 
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "byte": 1, 
+    "label": "fill", 
+    "params": 3, 
+    "return;": 1, 
+    "memcpy(.*)": 2, 
+    ".*\\-": 15, 
+    "if (.*)": 5, 
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "png_read_push_finish_row": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "\\b\\b\\x04\\x04\\x02\\x02\\x01", 
+      "", 
+      "\\b\\b\\x04\\x04\\x02\\x02\\x01", 
+      ""
+    ], 
+    "if (.* < .*)": 3, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "memset(.*)": 1, 
+    "return;": 3, 
+    "while(.*)": 1, 
+    ".*\\-": 23, 
+    "if (.*)": 6, 
+    "return": 0, 
+    ".*\\+": 8, 
+    "= .*\\+": 6
+  }, 
+  "png_process_data_skip": {
+    "string": [
+      "png_process_data_skip is not implemented in any current version of libpng"
+    ], 
+    "label": "process", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "png_push_read_sig": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "Not a PNG file", 
+      "PNG file corrupted by ASCII conversion"
+    ], 
+    "if (.* < .*)": 3, 
+    "label": "read", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "png_process_IDAT_data": {
+    "if (.* != 0)": 2, 
+    "if (.* < \\d*)": 3, 
+    "void": 1, 
+    "string": [
+      "No IDAT data (internal error)", 
+      "Extra compression data in IDAT", 
+      "Extra compressed data in IDAT", 
+      "IDAT: ADLER32 checksum mismatch", 
+      "Decompression error in IDAT", 
+      "Truncated compressed data in IDAT"
+    ], 
+    "if (.* < .*)": 3, 
+    "break": 1, 
+    "byte": 1, 
+    "label": "process", 
+    "params": 3, 
+    "if (.* == 0)": 4, 
+    "return;": 4, 
+    "while(.*)": 1, 
+    ".*\\-": 21, 
+    "if (.*)": 13, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_push_process_row": {
+    "if (.* < \\d*)": 17, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "bad adaptive filter value", 
+      "progressive row overflow", 
+      "internal progressive row size calculation error"
+    ], 
+    "if (.* < .*)": 17, 
+    "break": 19, 
+    "label": "process", 
+    "params": 1, 
+    ".*\\+ 0x.*": 45, 
+    "return;": 1, 
+    "while(.*)": 13, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 44, 
+    "return": 0, 
+    ".*\\+": 60, 
+    "= .*\\+": 27, 
+    "case": 6
+  }, 
+  "png_process_data": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "process", 
+    "params": 4, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_push_restore_buffer": {
+    "void": 1, 
+    "byte": 1, 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_push_save_buffer": {
+    "if (.* != 0)": 3, 
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Potential overflow of save_buffer", 
+      "Insufficient memory for save_buffer", 
+      "save_buffer error"
+    ], 
+    "if (.* < .*)": 2, 
+    "params": 1, 
+    ".*\\+ 0x.*": 2, 
+    "malloc(.*)": 1, 
+    "return;": 1, 
+    "memcpy(.*)": 2, 
+    "for (.*)": 2, 
+    ".*\\-": 20, 
+    "if (.*)": 7, 
+    "return": 0, 
+    ".*\\+": 8, 
+    "= .*\\+": 5
+  }, 
+  "png_push_have_end": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_push_have_row": {
+    "void": 1, 
+    "byte": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_progressive_read_fn": {
+    "void": 1, 
+    "label": "read", 
+    "params": 5, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_push_read_IDAT": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 3, 
+    "void": 1, 
+    "string": [
+      "Not enough compressed data"
+    ], 
+    "if (.* < .*)": 4, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 32, 
+    "if (.* == 0)": 2, 
+    "return;": 4, 
+    ".*\\-": 8, 
+    "if (.*)": 10, 
+    "return": 0, 
+    ".*\\+": 32, 
+    "= .*\\+": 18
+  }, 
+  "png_process_some_data": {
+    "void": 1, 
+    "label": "process", 
+    "params": 2, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 4, 
+    "return": 0
+  }, 
+  "png_progressive_combine_row": {
+    "void": 1, 
+    "byte": 1, 
+    "params": 3, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_push_read_chunk": {
+    "if (.* < \\d*)": 24, 
+    "if (.* != 0)": 4, 
+    "void": 1, 
+    "string": [
+      "Missing IHDR before IDAT", 
+      "Missing PLTE before IDAT", 
+      "Too many IDATs found", 
+      "Invalid IHDR length"
+    ], 
+    "if (.* < .*)": 24, 
+    "label": "read", 
+    "params": 2, 
+    ".*\\+ 0x.*": 74, 
+    "if (.* == 0)": 4, 
+    "return;": 26, 
+    ".*\\-": 2, 
+    "if (.*)": 55, 
+    "return": 0, 
+    ".*\\+": 74, 
+    "= .*\\+": 13
+  }, 
+  "png_get_progressive_ptr": {
+    "void": 1, 
+    "label": "get", 
+    "params": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "read": {
+    "void": 1, 
+    "bool": 1, 
+    "label": "read", 
+    "File *": 1, 
+    "params": 2, 
+    "if (.* == 0)": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setProperties": {
+    "PropertyMap *": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "save": {
+    "label": "save", 
+    "File *": 1, 
+    "params": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~File": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "File *": 1, 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "isSupported": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "IOStream *": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~FilePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 2
+  }, 
+  "FilePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_speexfile.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "tag": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "File": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "bool": 1, 
+    "File *": 1, 
+    "params": 4, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "IOStream *": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "audioProperties": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "properties": {
+    "File *": 1, 
+    "params": 1, 
+    "return": 1
+  }
+}

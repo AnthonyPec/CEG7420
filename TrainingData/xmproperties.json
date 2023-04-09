@@ -1,0 +1,270 @@
+{
+  "setRestartPosition": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "restartPosition": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "flags": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "tempo": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "bitrate": {
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "Properties": {
+    "void": 1, 
+    "params": 2, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "lengthInPatterns": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleCount": {
+    "label": "count", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setSampleCount": {
+    "void": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "PropertiesPrivate": {
+    "void": 1, 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 10, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "bpmSpeed": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "setInstrumentCount": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setLengthInPatterns": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "instrumentCount": {
+    "label": "count", 
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setChannels": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setTempo": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setVersion": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "length": {
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "setBpmSpeed": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "lengthInSeconds": {
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "sampleRate": {
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "version": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "lengthInMilliseconds": {
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "channels": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_xmproperties.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setPatternCount": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~Properties": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "return": 0
+  }, 
+  "setFlags": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "patternCount": {
+    "label": "count", 
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

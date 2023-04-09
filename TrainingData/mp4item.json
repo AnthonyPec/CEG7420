@@ -1,0 +1,482 @@
+{
+  "operator=": {
+    "List<TagLib::String> *": 2, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "ItemPrivate": {
+    "ItemPrivate *": 1, 
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 6, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_List_base": {
+    "_List_base<TagLib::MP4::CoverArt,_std::allocator<TagLib::MP4::CoverArt>_> *": 1, 
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "deallocate": {
+    "pointer": 1, 
+    "void": 1, 
+    "new_allocator<std::_List_node<TagLib::String>_> *": 1, 
+    "size_type": 1, 
+    "delete(.*)": 1, 
+    "params": 3, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_get_Node_allocator": {
+    "_List_base<TagLib::String,_std::allocator<TagLib::String>_> *": 1, 
+    "label": "get", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "swap<TagLib::MP4::Item::ItemPrivate_*>": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0, 
+    "ItemPrivate * *": 2
+  }, 
+  "toByte": {
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "ListPrivateBase": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "ListPrivateBase *": 1
+  }, 
+  "_M_clear": {
+    "_List_base<TagLib::String,_std::allocator<TagLib::String>_> *": 1, 
+    "void": 1, 
+    "while(.*) param": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "Item": {
+    "void": 1, 
+    "CoverArtList *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "ref": {
+    "void": 1, 
+    "RefCounterOld *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "allocator": {
+    "allocator<std::_List_node<TagLib::MP4::CoverArt>_> *": 1, 
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__addressof<TagLib::String>": {
+    "String *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "~ListPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "ListPrivate<TagLib::String> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "toLongLong": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "toStringList": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\+": 1
+  }, 
+  "List": {
+    "void": 1, 
+    "List<TagLib::String> *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "atomDataType": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "toCoverArtList": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\+": 1
+  }, 
+  "_M_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "ListPrivate": {
+    "void": 1, 
+    "ListPrivate<TagLib::MP4::CoverArt> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "allocator<std::_List_node<TagLib::ByteVector>_>": {
+    "void": 1, 
+    "allocator<TagLib::ByteVector> *": 1, 
+    "params": 2, 
+    "allocator<std::_List_node<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~Item": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    "Item *": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "swap": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "List<TagLib::MP4::CoverArt> *": 2, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "new_allocator": {
+    "void": 1, 
+    "params": 1, 
+    "new_allocator<TagLib::String> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "destroy": {
+    "pointer": 1, 
+    "void": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "new_allocator<TagLib::String> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toBool": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "list": {
+    "void": 1, 
+    "list<TagLib::MP4::CoverArt,_std::allocator<TagLib::MP4::CoverArt>_> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~List": {
+    "void": 1, 
+    "List<TagLib::String> *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "allocator<std::_List_node<TagLib::String>_>": {
+    "void": 1, 
+    "allocator<TagLib::String> *": 1, 
+    "params": 2, 
+    "allocator<std::_List_node<TagLib::String>_> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_mp4item.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~list": {
+    "void": 1, 
+    "label": "~", 
+    "list<TagLib::String,_std::allocator<TagLib::String>_> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "RefCounterOld": {
+    "void": 1, 
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "deref": {
+    "RefCounterOld *": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_valptr": {
+    "_List_node<TagLib::String> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setAtomDataType": {
+    "AtomDataType": 1, 
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "~ItemPrivate": {
+    "ItemPrivate *": 1, 
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "allocator<std::_List_node<TagLib::MP4::CoverArt>_>": {
+    "allocator<std::_List_node<TagLib::MP4::CoverArt>_> *": 1, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "allocator<TagLib::MP4::CoverArt> *": 1, 
+    "return": 0
+  }, 
+  "~new_allocator": {
+    "void": 1, 
+    "new_allocator<std::_List_node<TagLib::String>_> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_List_node_header": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    "return": 0
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "toInt": {
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "swap<TagLib::List<TagLib::MP4::CoverArt>::ListPrivate<TagLib::MP4::CoverArt>_*>": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "ListPrivate<TagLib::MP4::CoverArt> * *": 2, 
+    "return": 0
+  }, 
+  "toUInt": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "swap<TagLib::List<TagLib::ByteVector>::ListPrivate<TagLib::ByteVector>_*>": {
+    "void": 1, 
+    "ListPrivate<TagLib::ByteVector> * *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toIntPair": {
+    "params": 1, 
+    ".*\\+ 0x.*": 2, 
+    ".*\\+ param": 1, 
+    ".*\\-": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\+": 2, 
+    ".*\\- param": 1, 
+    "= .*\\+": 2
+  }, 
+  "isValid": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\- param": 1
+  }, 
+  "~allocator": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "allocator<std::_List_node<TagLib::String>_> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_put_node": {
+    "_List_base<TagLib::String,_std::allocator<TagLib::String>_> *": 1, 
+    "pointer": 1, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__addressof<TagLib::ByteVector>": {
+    "label": "add", 
+    "params": 1, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "~_List_base": {
+    "_List_base<TagLib::String,_std::allocator<TagLib::String>_> *": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__addressof<TagLib::MP4::CoverArt>": {
+    "CoverArt *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "swap<TagLib::List<TagLib::String>::ListPrivate<TagLib::String>_*>": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "ListPrivate<TagLib::String> * *": 2, 
+    "return": 0
+  }, 
+  "toByteVectorList": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "Item *": 1, 
+    ".*\\+": 1
+  }
+}

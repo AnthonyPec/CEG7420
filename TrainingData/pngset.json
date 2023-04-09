@@ -1,0 +1,661 @@
+{
+  "png_set_unknown_chunks": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "too many unknown chunks", 
+      "unknown chunk: out of memory"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "goto": 1, 
+    "memcpy(.*)": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 20, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\+": 5, 
+    "= .*\\+": 5
+  }, 
+  "png_set_invalid": {
+    "void": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_permit_mng_features": {
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_set_cHRM_fixed": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "set", 
+    "params": 10, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_set_check_for_invalid_index": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "check", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_sCAL_s": {
+    "void": 1, 
+    "string": [
+      "Invalid sCAL unit", 
+      "Invalid sCAL width", 
+      "Invalid sCAL height", 
+      "Memory allocation failed while processing sCAL", 
+      "Memory allocation failed while processing sCAL"
+    ], 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "while(.*)": 2, 
+    "memcpy(.*)": 2, 
+    "char": 1, 
+    ".*\\-": 13, 
+    "if (.*)": 6, 
+    "return": 0, 
+    ".*\\+": 4, 
+    "= .*\\+": 2
+  }, 
+  "png_set_text": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "Insufficient memory to store text"
+    ], 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_tIME": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "Ignoring invalid time value"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_set_compression_buffer_size": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "invalid compression buffer size", 
+      "Compression buffer size cannot be reduced below 6", 
+      "Compression buffer size cannot be changed because it is in use"
+    ], 
+    "if (.* < .*)": 2, 
+    "label": "set", 
+    "params": 2, 
+    "if (.* == 0)": 4, 
+    "return;": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 7, 
+    "return": 0
+  }, 
+  "add_one_chunk": {
+    "if (.* != 0)": 2, 
+    "break": 1, 
+    "byte": 1, 
+    "label": "add", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 8, 
+    "= .*\\+": 3
+  }, 
+  "png_set_cHRM": {
+    "void": 1, 
+    "string": [
+      "cHRM White X", 
+      "cHRM White Y", 
+      "cHRM Red X", 
+      "cHRM Red Y", 
+      "cHRM Green X", 
+      "cHRM Green Y", 
+      "cHRM Blue X", 
+      "cHRM Blue Y"
+    ], 
+    "double": 1, 
+    "label": "set", 
+    "params": 10, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_set_sPLT": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "too many sPLT chunks", 
+      "png_set_sPLT: invalid sPLT", 
+      "sPLT out of memory"
+    ], 
+    "if (.* < .*)": 2, 
+    "break": 2, 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "memcpy(.*)": 2, 
+    ".*\\-": 21, 
+    "if (.*)": 6, 
+    "return": 0, 
+    ".*\\+": 7, 
+    "= .*\\+": 6
+  }, 
+  "png_set_sCAL_fixed": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Invalid sCAL width ignored", 
+      "Invalid sCAL height ignored"
+    ], 
+    "if (.* < .*)": 2, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "return;": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_set_unknown_chunk_location": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "invalid unknown chunk location"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_set_user_limits": {
+    "void": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_cHRM_XYZ": {
+    "void": 1, 
+    "string": [
+      "cHRM Red X", 
+      "cHRM Red Y", 
+      "cHRM Red Z", 
+      "cHRM Green X", 
+      "cHRM Green Y", 
+      "cHRM Green Z", 
+      "cHRM Blue X", 
+      "cHRM Blue Y", 
+      "cHRM Blue Z"
+    ], 
+    "double": 1, 
+    "label": "set", 
+    "params": 11, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_set_read_user_chunk_fn": {
+    "void": 1, 
+    "label": "read", 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_bKGD": {
+    "void": 1, 
+    "label": "set", 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_pCAL": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Invalid pCAL equation type", 
+      "Invalid pCAL parameter count", 
+      "Invalid format for pCAL parameter", 
+      "Insufficient memory for pCAL purpose", 
+      "Insufficient memory for pCAL units", 
+      "Insufficient memory for pCAL params", 
+      "Insufficient memory for pCAL parameter"
+    ], 
+    "if (.* < .*)": 2, 
+    "label": "set", 
+    "params": 9, 
+    "int": 1, 
+    "malloc(.*)": 4, 
+    "if (.* == 0)": 1, 
+    "return;": 3, 
+    "memset(.*)": 1, 
+    "goto": 1, 
+    "memcpy(.*)": 3, 
+    "for (.*)": 7, 
+    "char": 1, 
+    ".*\\-": 18, 
+    "if (.*)": 9, 
+    "return": 0, 
+    ".*\\+": 10, 
+    "= .*\\+": 6
+  }, 
+  "png_set_hIST": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "Invalid palette size, hIST allocation skipped", 
+      "Insufficient memory for hIST chunk data"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 7, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_set_chunk_cache_max": {
+    "void": 1, 
+    "label": "cache", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_sBIT": {
+    "void": 1, 
+    "label": "set", 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_sRGB": {
+    "void": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_rows": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_set_cHRM_XYZ_fixed": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "set", 
+    "params": 11, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_set_eXIf_1": {
+    "void": 1, 
+    "string": [
+      "Insufficient memory for eXIf chunk data"
+    ], 
+    "byte": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 11, 
+    "if (.*)": 6, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "check_location": {
+    "string": [
+      "png_set_unknown_chunks now expects a valid location", 
+      "invalid location in png_set_unknown_chunks"
+    ], 
+    "byte": 1, 
+    "label": "check", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "for (.*)": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_set_chunk_malloc_max": {
+    "void": 1, 
+    "label": "malloc", 
+    "params": 2, 
+    "malloc(.*)": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_sCAL": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Invalid sCAL height ignored", 
+      "Invalid sCAL width ignored"
+    ], 
+    "if (.* < .*)": 2, 
+    "double": 1, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "return;": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_set_eXIf": {
+    "void": 1, 
+    "string": [
+      "png_set_eXIf does not work; use png_set_eXIf_1"
+    ], 
+    "byte": 1, 
+    "label": "set", 
+    "params": 3, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_set_gAMA": {
+    "void": 1, 
+    "string": [
+      "png_set_gAMA"
+    ], 
+    "double": 1, 
+    "label": "set", 
+    "params": 3, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_set_pHYs": {
+    "void": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_text_2": {
+    "if (.* < \\d*)": 8, 
+    "if (.* != 0)": 1, 
+    "string": [
+      "too many text chunks", 
+      "text chunk: out of memory", 
+      "text compression mode is out of range"
+    ], 
+    "if (.* < .*)": 8, 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "return 0": 1, 
+    "memcpy(.*)": 4, 
+    "for (.*)": 1, 
+    ".*\\-": 34, 
+    "if (.*)": 16, 
+    "return": 1, 
+    ".*\\+": 11, 
+    "= .*\\+": 9
+  }, 
+  "png_set_keep_unknown_chunks": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "png_set_keep_unknown_chunks: invalid keep", 
+      "bKGD", 
+      "png_set_keep_unknown_chunks: no chunk list", 
+      "png_set_keep_unknown_chunks: too many chunks"
+    ], 
+    "if (.* < .*)": 4, 
+    "byte": 1, 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 3, 
+    "return;": 2, 
+    "memcpy(.*)": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 11, 
+    "if (.*)": 17, 
+    "return": 0, 
+    ".*\\+": 8, 
+    "= .*\\+": 7
+  }, 
+  "png_set_gAMA_fixed": {
+    "void": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_iCCP": {
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "Invalid iCCP compression method", 
+      "Insufficient memory to process iCCP chunk", 
+      "Insufficient memory to process iCCP profile"
+    ], 
+    "byte": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 6, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "return;": 1, 
+    "memcpy(.*)": 2, 
+    "char": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 5, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "png_set_sRGB_gAMA_and_cHRM": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_check_keyword": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 3, 
+    "string": [
+      "keyword \\", 
+      ": bad character \\'0x@2\\'", 
+      "keyword truncated"
+    ], 
+    "if (.* < .*)": 1, 
+    "byte": 1, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 4, 
+    "while(.*)": 1, 
+    "char": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 10, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 6
+  }, 
+  "png_set_tRNS": {
+    "if (.* < \\d*)": 2, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "tRNS chunk has out-of-range samples for bit_depth"
+    ], 
+    "if (.* < .*)": 2, 
+    "byte": 1, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "memcpy(.*)": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 20, 
+    "if (.*)": 7, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_set_IHDR": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 9, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    ".*\\-": 21, 
+    "if (.*)": 5, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_set_oFFs": {
+    "void": 1, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_PLTE": {
+    "if (.* < \\d*)": 3, 
+    "void": 1, 
+    "string": [
+      "Invalid palette length", 
+      "Invalid palette length", 
+      "Invalid palette"
+    ], 
+    "if (.* < .*)": 3, 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "return;": 1, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 11, 
+    "if (.*)": 6, 
+    "return": 0
+  }, 
+  "png_set_benign_errors": {
+    "void": 1, 
+    "label": "error", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }
+}

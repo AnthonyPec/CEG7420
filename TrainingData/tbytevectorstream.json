@@ -1,0 +1,204 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "~ByteVectorStreamPrivate": {
+    "void": 1, 
+    "ByteVectorStreamPrivate *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "data": {
+    "params": 1, 
+    "ByteVectorStream *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "tell": {
+    "params": 1, 
+    "ByteVectorStream *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "length": {
+    "params": 1, 
+    "ByteVectorStream *": 1, 
+    "return": 1
+  }, 
+  "clear": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    "return": 0
+  }, 
+  "insert": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "if (.* < .*)": 2, 
+    "params": 4, 
+    ".*\\+ 0x.*": 6, 
+    ".*\\+ param": 1, 
+    "ulong": 2, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 8, 
+    ".*\\- param": 1, 
+    "= .*\\+": 2
+  }, 
+  "readOnly": {
+    "label": "read", 
+    "params": 1, 
+    "ByteVectorStream *": 1, 
+    "return": 1
+  }, 
+  "removeBlock": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "ulong": 2, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 4, 
+    "= .*\\+": 2, 
+    ".*\\- param": 1
+  }, 
+  "seek": {
+    "void": 1, 
+    "Position": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 3, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "ByteVectorStreamPrivate": {
+    "void": 1, 
+    "ByteVectorStreamPrivate *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "readBlock": {
+    "label": "read", 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "ulong": 1, 
+    "ByteVectorStream *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "isOpen": {
+    "params": 1, 
+    "ByteVectorStream *": 1, 
+    "return": 1
+  }, 
+  "truncate": {
+    "void": 1, 
+    "params": 2, 
+    "long": 1, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "writeBlock": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "write", 
+    "params": 2, 
+    ".*\\+ 0x.*": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "memcpy(.*)": 1, 
+    "ByteVectorStream *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 4, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 5, 
+    "= .*\\+": 2
+  }, 
+  "name": {
+    "params": 1, 
+    "ByteVectorStream *": 1, 
+    "return": 1
+  }, 
+  "~ByteVectorStream": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_tbytevectorstream.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "ByteVectorStream": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "ByteVectorStream *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "_M_swap_data": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0, 
+    "_Vector_impl_data *": 2
+  }, 
+  "operator=": {
+    "vector<unsigned_int,std::allocator<unsigned_int>> *": 1, 
+    "vector *": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "data": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "vector<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "return": 0
+  }, 
+  "_M_default_initialize": {
+    "void": 1, 
+    "label": "init", 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "vector<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "fill_n<unsigned_char*,unsigned_int,unsigned_char>": {
+    "uchar *": 2, 
+    "label": "fill", 
+    "uint": 1, 
+    "params": 3, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "deallocate": {
+    "void": 1, 
+    "uchar *": 1, 
+    "delete(.*)": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__uninitialized_default_n_a<unsigned_int*,unsigned_int,unsigned_int>": {
+    "uint *": 1, 
+    "label": "init", 
+    "uint": 2, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "__niter_base<unsigned_char*>": {
+    "uchar *": 1, 
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "_Destroy<unsigned_char*,unsigned_char>": {
+    "void": 1, 
+    "uchar *": 2, 
+    "label": "destroy", 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "allocator *": 1
+  }, 
+  "static_get4": {
+    "void": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "short": 1, 
+    "LibRaw_abstract_datastream *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "__niter_base<unsigned_int*>": {
+    "uint *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "_ZSt8__fill_aIhEN9__gnu_cxx11__enable_ifIXsr9__is_byteIT_EE7__valueEvE6__typeEPS2_S5_RKS2_": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "fill", 
+    "params": 0, 
+    "memset(.*)": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "_Vector_base": {
+    "_Vector_base<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "uint": 1, 
+    "params": 3, 
+    "char": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "_M_move_assign": {
+    "void": 1, 
+    "vector *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0, 
+    "integral_constant": 1
+  }, 
+  "allocator": {
+    "params": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "__uninit_default_n<unsigned_int*,unsigned_int>": {
+    "uint *": 1, 
+    "label": "init", 
+    "uint": 2, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "~_Vector_base": {
+    "_Vector_base<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1
+  }, 
+  "__destroy<unsigned_int*>": {
+    "void": 1, 
+    "uint *": 2, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__uninitialized_default_n<unsigned_int*,unsigned_int>": {
+    "uint *": 1, 
+    "label": "init", 
+    "uint": 2, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "__uninitialized_default_n_a<unsigned_char*,unsigned_int,unsigned_char>": {
+    "uchar *": 1, 
+    "label": "init", 
+    "uint": 1, 
+    "params": 3, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "init": {
+    "for (.*) param": 1, 
+    "if (.* != 0)": 1, 
+    "if (.* < .*)": 6, 
+    "tile_stripe_data_t *": 1, 
+    "if (.* == 0) param": 1, 
+    ".*\\+ 0x.*": 44, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 10, 
+    "while(.*)": 2, 
+    "for (.*)": 2, 
+    ".*\\-": 3, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
+    "EVP_PKEY_CTX *": 1, 
+    ".*\\+": 57, 
+    "if (.* < \\d*)": 6, 
+    "if (.* != 0) param": 1, 
+    "break": 2, 
+    "label": "init", 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.*)": 20, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "= .*\\+": 27, 
+    ".*\\- param": 1
+  }, 
+  "__DNG_HalfToFloat": {
+    "if (.* == 0) param": 1, 
+    "ushort": 1, 
+    "uint": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    "if (.* == 0)": 4, 
+    "if (.*) param": 1, 
+    "return 0": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "_M_data_ptr<unsigned_char>": {
+    "uchar *": 1, 
+    "params": 2, 
+    "vector<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "new_allocator": {
+    "params": 1, 
+    "new_allocator *": 1, 
+    "return": 1
+  }, 
+  "_ZSt10__fill_n_aIjhEN9__gnu_cxx11__enable_ifIXsr9__is_byteIT0_EE7__valueEPS2_E6__typeES3_T_RKS2_": {
+    "label": "fill", 
+    "params": 0, 
+    "int": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }, 
+  "~vector": {
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "vector<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "char": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "get_allocator": {
+    "void": 1, 
+    "label": "get", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_copy_data": {
+    "void": 1, 
+    "label": "copy", 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2, 
+    "_Vector_impl_data *": 2
+  }, 
+  "max_size": {
+    "params": 0, 
+    "undefined": 1, 
+    "return": 1
+  }, 
+  "__DNG_FP24ToFloat": {
+    "uchar *": 1, 
+    "if (.* == 0) param": 1, 
+    "uint": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 4, 
+    "return 0": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "__niter_wrap<unsigned_int*>": {
+    "uint *": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "uint * *": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "__uninitialized_default_n<unsigned_char*,unsigned_int>": {
+    "uchar *": 1, 
+    "label": "init", 
+    "uint": 1, 
+    "params": 2, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "void *": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "_Destroy<unsigned_int*,unsigned_int>": {
+    "void": 1, 
+    "uint *": 2, 
+    "label": "destroy", 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "allocator *": 1
+  }, 
+  "move<std::vector<unsigned_int,std::allocator<unsigned_int>>&>": {
+    "vector *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "_Destroy<unsigned_int*>": {
+    "void": 1, 
+    "uint *": 2, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0
+  }, 
+  "uncompressed_fp_dng_load_raw": {
+    "for (.*) param": 1, 
+    "if (.* != 0)": 4, 
+    "if (.* < .*)": 6, 
+    "if (.* == 0) param": 1, 
+    ".*\\+ 0x.*": 37, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "for (.*)": 3, 
+    ".*\\-": 5, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+": 50, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < \\d*)": 6, 
+    "if (.* != 0) param": 1, 
+    "void": 1, 
+    "label": "load", 
+    "params": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "if (.*)": 17, 
+    ".*\\+ 0x.* param": 1, 
+    "LibRaw *": 1, 
+    "return": 0, 
+    "= .*\\+": 30, 
+    ".*\\- param": 1
+  }, 
+  "~tile_stripe_data_t": {
+    "tile_stripe_data_t *": 1, 
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ 0x.*": 2, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }, 
+  "__do_alloc_on_move<std::allocator<unsigned_int>>": {
+    "void": 1, 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "integral_constant": 1, 
+    "allocator *": 2
+  }, 
+  "_Vector_impl": {
+    "_Vector_impl *": 1, 
+    "params": 2, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "__uninit_default_n<unsigned_char*,unsigned_int>": {
+    "uchar *": 1, 
+    "label": "init", 
+    "uint": 1, 
+    "params": 2, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "operator[]": {
+    "vector<unsigned_int,std::allocator<unsigned_int>> *": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "~_Vector_impl": {
+    "_Vector_impl *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "swap32": {
+    "void": 1, 
+    "uchar *": 1, 
+    "break": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 2
+  }, 
+  "_Vector_impl_data": {
+    "void": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "_Vector_impl_data *": 1
+  }, 
+  "_ZSt10__fill_n_aIPjjjEN9__gnu_cxx11__enable_ifIXsr11__is_scalarIT1_EE7__valueET_E6__typeES4_T0_RKS3_": {
+    "label": "fill", 
+    "params": 0, 
+    "undefined": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "_Destroy<unsigned_char*>": {
+    "void": 1, 
+    "uchar *": 2, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0
+  }, 
+  "__niter_wrap<unsigned_char*>": {
+    "uchar * *": 1, 
+    "uchar *": 1, 
+    "params": 2, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "vector": {
+    "vector<unsigned_int,std::allocator<unsigned_int>> *": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "~new_allocator": {
+    "label": "~", 
+    "params": 1, 
+    "char": 1, 
+    "new_allocator<unsigned_char> *": 1, 
+    "return": 1
+  }, 
+  "move<std::allocator<unsigned_int>&>": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "have_fpdata": {
+    "if (.* == 0) param": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    "LibRaw *": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "__alloc_on_move<std::allocator<unsigned_int>>": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "allocator *": 2
+  }, 
+  "swap24": {
+    "for (.*) param": 1, 
+    "void": 1, 
+    "uchar *": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 3, 
+    ".*\\- param": 1, 
+    "= .*\\+": 2
+  }, 
+  "_S_max_size": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "min<unsigned_int>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "uint *": 2, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "is_floating_point": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 4, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    "= .*\\+ param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 3, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "LibRaw *": 1, 
+    ".*\\+": 7, 
+    "= .*\\+": 5
+  }, 
+  "deflate_dng_load_raw": {
+    "void": 1, 
+    "label": "load", 
+    "params": 0, 
+    "return": 0
+  }, 
+  "tile_stripe_data_t": {
+    "tile_stripe_data_t *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 6, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 8
+  }, 
+  "_M_deallocate": {
+    "_Vector_base<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "void": 1, 
+    "uchar *": 1, 
+    "uint": 1, 
+    "params": 3, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "_S_check_init_len": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "init", 
+    "uint": 2, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    "allocator *": 1
+  }, 
+  "_M_allocate": {
+    "_Vector_base<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "if (.* == 0) param": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "undefined": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "_M_create_storage": {
+    "_Vector_base<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "void": 1, 
+    "label": "create", 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "expandFloats": {
+    "for (.*) param": 1, 
+    "if (.* < \\d*)": 3, 
+    "uchar *": 1, 
+    "if (.* < .*)": 3, 
+    "float": 1, 
+    "params": 3, 
+    "int": 2, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "for (.*)": 3, 
+    ".*\\-": 4, 
+    "= .*\\+ param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 6, 
+    "return": 1, 
+    ".*\\+": 14, 
+    ".*\\- param": 1, 
+    "= .*\\+": 9
+  }, 
+  "convertFloatToInt": {
+    "if (.* != 0)": 1, 
+    "malloc(.*) param": 1, 
+    "if (.* < .*)": 4, 
+    "if (.* == 0) param": 1, 
+    "float": 3, 
+    ".*\\+ 0x.*": 14, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 3, 
+    "for (.*)": 2, 
+    "= .*\\+ param": 1, 
+    "if (.* < .*) param": 1, 
+    ".*\\+": 44, 
+    "if (.* < \\d*)": 4, 
+    "if (.* < \\d*) param": 1, 
+    "void": 1, 
+    "label": "convert", 
+    "params": 4, 
+    "malloc(.*)": 1, 
+    "if (.*) param": 1, 
+    "return;": 2, 
+    "if (.*)": 13, 
+    ".*\\+ 0x.* param": 1, 
+    "LibRaw *": 1, 
+    "return": 0, 
+    "= .*\\+": 17
+  }, 
+  "~allocator": {
+    "label": "~", 
+    "params": 1, 
+    "allocator<unsigned_char> *": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "_M_get_Tp_allocator": {
+    "_Vector_base<unsigned_char,std::allocator<unsigned_char>> *": 1, 
+    "label": "get", 
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "fill_n<unsigned_int*,unsigned_int,unsigned_int>": {
+    "uint *": 2, 
+    "label": "fill", 
+    "uint": 2, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "__destroy<unsigned_char*>": {
+    "void": 1, 
+    "uchar *": 2, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }
+}

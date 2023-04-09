@@ -27,31 +27,31 @@
     ], 
     "if (.* < .*)": 2, 
     "break": 9, 
-    "= .*\\+.*\\+ 0x.*": 3, 
     "label": "read", 
-    "param1": "display", 
-    "int": 103, 
-    "param2": "int", 
+    "params": 2, 
+    ".*\\+ 0x.*": 26, 
+    "int": 1, 
     "if (.* == 0)": 3, 
     "memset(.*)": 1, 
     "return 0": 3, 
     "for (.*)": 10, 
-    "char *": 11, 
     ".*\\-": 9, 
     "if (.*)": 21, 
-    "return": "int", 
+    "return": 1, 
     ".*\\+": 51, 
+    "= .*\\+": 32, 
     "case": 9
   }, 
   "display_error": {
+    "void": 1, 
     "label": "error", 
-    "param1": "png_structp", 
-    "param2": "png_const_charp", 
+    "params": 2, 
     "return;": 1, 
-    "char *": 1, 
-    "return": "void"
+    "char": 1, 
+    "return": 0
   }, 
   "main": {
+    "char**": 1, 
     "if (.* < \\d*)": 1, 
     "if (.* != 0)": 3, 
     "fprintf(.*)": 1, 
@@ -82,31 +82,30 @@
     "if (.* < .*)": 1, 
     "break": 1, 
     "label": "main", 
-    "param1": "int", 
-    "int": 20, 
-    "param2": "char", 
+    "params": 2, 
+    "int": 1, 
     "if (.* == 0)": 21, 
     "while(.*)": 2, 
     "goto": 1, 
     "for (.*)": 1, 
-    "char *": 6, 
     "printf(.*)": 4, 
     ".*\\-": 21, 
     "if (.*)": 29, 
-    "return": "int", 
-    ".*\\+": 7
+    "return": 1, 
+    ".*\\+": 7, 
+    "= .*\\+": 6
   }, 
   "validate_T": {
     "if (.* != 0)": 2, 
+    "void": 1, 
     "label": "validate", 
-    "param1": "void);", 
-    "int": 2, 
+    "params": 1, 
     "return;": 1, 
     "for (.*)": 1, 
-    "char *": 1, 
     "if (.*)": 3, 
-    "return": "void", 
-    ".*\\+": 1
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
   }, 
   "do_test": {
     "if (.* < \\d*)": 1, 
@@ -116,56 +115,55 @@
     "if (.* < .*)": 1, 
     "setjmp(.*)": 1, 
     "label": "test", 
-    "param1": "display", 
-    "int": 2, 
-    "param2": "char", 
+    "params": 2, 
+    "int": 1, 
     "if (.* == 0)": 1, 
+    "char*": 1, 
     "if (.*)": 2, 
-    "return": "int"
+    "return": 1
   }, 
   "buffer_init": {
+    "void": 1, 
     "label": "init", 
-    "param1": "buffer", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 3, 
-    "return": "void"
+    "return": 0
   }, 
   "read_png": {
+    "void": 1, 
     "string": [
       "failed to create read struct", 
       "failed to create info struct"
     ], 
     "label": "read", 
-    "param3": "char", 
-    "param4": "int", 
-    "param1": "display", 
-    "param2": "buffer", 
+    "params": 4, 
+    "int": 1, 
     "return;": 1, 
-    "char *": 1, 
+    "char*": 1, 
     ".*\\-": 4, 
     "if (.*)": 3, 
-    "return": "void"
+    "return": 0
   }, 
   "buffer_start_read": {
+    "void": 1, 
     "label": "read", 
-    "param1": "buffer", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 2, 
-    "return": "void"
+    "return": 0
   }, 
   "buffer_read": {
     "if (.* < \\d*)": 2, 
+    "void": 1, 
     "string": [
       "file truncated (%lu bytes)", 
       "damaged buffer list"
     ], 
     "if (.* < .*)": 2, 
+    "byte": 1, 
     "label": "read", 
-    "param3": "png_bytep", 
-    "param4": "size_t", 
-    "param1": "display", 
-    "int": 1, 
-    "param2": "buffer", 
+    "params": 4, 
     "if (.* == 0)": 1, 
     "return;": 1, 
     "goto": 2, 
@@ -173,32 +171,32 @@
     "memcpy(.*)": 1, 
     ".*\\-": 9, 
     "if (.*)": 5, 
-    "return": "void", 
-    ".*\\+": 3
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 2
   }, 
   "display_cache_file": {
     "if (.* != 0)": 1, 
+    "void": 1, 
     "string": [
       "open failed: %s", 
       "read failed: %s"
     ], 
     "label": "cache", 
-    "param1": "display", 
-    "int": 3, 
-    "param2": "char", 
+    "params": 2, 
     "return;": 1, 
-    "char *": 3, 
+    "char*": 1, 
     ".*\\-": 2, 
     "if (.*)": 3, 
-    "return": "void"
+    "return": 0
   }, 
   "read_function": {
+    "void": 1, 
+    "byte": 1, 
     "label": "read", 
-    "param3": "size_t", 
-    "param1": "png_structp", 
-    "param2": "png_bytep", 
+    "params": 3, 
     "return;": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "buffer_from_file": {
     "if (.* != 0)": 2, 
@@ -208,17 +206,17 @@
       "int buffer_from_file(struct buffer *, FILE *)"
     ], 
     "break": 1, 
-    "param1": "buffer", 
-    "int": 5, 
-    "param2": "FILE", 
+    "params": 2, 
+    "int": 1, 
     "if (.* == 0)": 2, 
     "while(.*)": 2, 
     "return 0": 2, 
     ".*\\-": 8, 
     "if (.*)": 6, 
     "feof(.*)": 1, 
-    "return": "int", 
-    ".*\\+": 2
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
   }, 
   "get_dp": {
     "fprintf(.*)": 1, 
@@ -226,33 +224,34 @@
       "pngimage: internal error (no display)\\n"
     ], 
     "label": "get", 
-    "param1": "png_structp", 
-    "int": 2, 
+    "params": 1, 
     "printf(.*)": 1, 
     "if (.*)": 1, 
-    "return": "display"
+    "return": 1
   }, 
   "display_clean_read": {
+    "void": 1, 
     "label": "read", 
-    "param1": "display", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 2, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "display_warning": {
-    "param1": "png_structp", 
-    "param2": "png_const_charp", 
+    "void": 1, 
+    "params": 2, 
     "return;": 1, 
-    "char *": 1, 
-    "return": "void"
+    "char": 1, 
+    "return": 0
   }, 
   "display_clean": {
+    "void": 1, 
     "label": "clean", 
-    "param1": "display", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 5, 
-    "return": "void"
+    "return": 0
   }, 
   "buffer_extend": {
     "string": [
@@ -260,11 +259,11 @@
       "/home/benterra/Desktop/Finished_ARM_Compilations/libpng/arm-libpng-libpng16/contrib/libtests/pngimage.c", 
       "struct buffer_list *buffer_extend(struct buffer_list *)"
     ], 
-    "param1": "buffer_list", 
+    "params": 1, 
     "malloc(.*)": 1, 
     ".*\\-": 5, 
     "if (.*)": 2, 
-    "return": "buffer_list"
+    "return": 1
   }, 
   "skip_transform": {
     "if (.* != 0)": 1, 
@@ -273,87 +272,87 @@
       "SKIP: %s transforms "
     ], 
     "label": "transform", 
-    "param1": "display", 
-    "int": 7, 
-    "param2": "int", 
+    "params": 2, 
+    "int": 1, 
     "if (.* == 0)": 2, 
     "while(.*)": 1, 
-    "char *": 4, 
     ".*\\-": 4, 
     "printf(.*)": 2, 
     "if (.*)": 3, 
-    "return": "int"
+    "return": 1
   }, 
   "write_function": {
+    "void": 1, 
+    "byte": 1, 
     "label": "write", 
-    "param3": "size_t", 
-    "param1": "png_structp", 
-    "param2": "png_bytep", 
+    "params": 3, 
     "return;": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "buffer_destroy_list": {
+    "void": 1, 
     "label": "destroy", 
-    "param1": "buffer_list", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 1, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "get_buffer": {
     "label": "get", 
-    "param1": "png_structp", 
-    "return": "buffer"
+    "params": 1, 
+    "return": 1
   }, 
   "buffer_write": {
     "if (.* < \\d*)": 2, 
+    "void": 1, 
     "string": [
       "out of memory saving file"
     ], 
     "if (.* < .*)": 2, 
+    "byte": 1, 
     "label": "write", 
-    "param3": "png_bytep", 
-    "param4": "size_t", 
-    "param1": "display", 
-    "int": 1, 
-    "param2": "buffer", 
+    "params": 4, 
     "return;": 1, 
     "memcpy(.*)": 1, 
     "for (.*)": 1, 
     ".*\\-": 9, 
     "if (.*)": 4, 
-    "return": "void", 
-    ".*\\+": 3
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 2
   }, 
   "is_bad_combo": {
     "break": 1, 
-    "param1": "int", 
-    "int": 2, 
+    "params": 1, 
+    "int": 1, 
     "while(.*)": 1, 
     "return 0": 1, 
     "if (.*)": 2, 
-    "return": "int"
+    "return": 1
   }, 
   "display_init": {
+    "void": 1, 
     "label": "init", 
-    "param1": "display", 
+    "params": 1, 
     "memset(.*)": 1, 
     "return;": 1, 
-    "char *": 2, 
     ".*\\-": 11, 
-    "return": "void"
+    "return": 0
   }, 
   "display_clean_write": {
+    "void": 1, 
     "label": "clean", 
-    "param1": "display", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 2, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "test_one_file": {
     "if (.* != 0)": 4, 
     "if (.* < \\d*)": 1, 
+    "void": 1, 
     "string": [
       "cache file", 
       "ignored transforms", 
@@ -371,36 +370,38 @@
     "break": 2, 
     "if (.* < .*)": 1, 
     "label": "test", 
-    "param1": "display", 
-    "int": 16, 
-    "param2": "char", 
+    "params": 2, 
     "if (.* == 0)": 6, 
     "return;": 2, 
     "while(.*)": 3, 
     "goto": 1, 
-    "char *": 4, 
+    "char*": 1, 
     ".*\\-": 18, 
     "printf(.*)": 2, 
     "if (.*)": 14, 
-    "return": "void", 
-    ".*\\+": 1
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
   }, 
   "display_destroy": {
+    "void": 1, 
     "label": "destroy", 
-    "param1": "display", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 2, 
-    "return": "void"
+    "return": 0
   }, 
   "is_combo": {
-    "param1": "int", 
+    "params": 1, 
+    "int": 1, 
     ".*\\-": 1, 
-    "return": "int"
+    "return": 1
   }, 
   "display_log": {
     "if (.* < \\d*)": 2, 
     "fprintf(.*)": 10, 
     "if (.* != 0)": 2, 
+    "void": 1, 
     "string": [
       "<stdin>", 
       "%s: %s: %s", 
@@ -409,23 +410,20 @@
     "if (.* < .*)": 2, 
     "break": 8, 
     "vfprintf(.*)": 1, 
-    "param3": "char", 
-    "param4": "...);", 
-    "param1": "display", 
-    "int": 25, 
-    "param2": "error_level", 
+    "params": 4, 
     "if (.* == 0)": 3, 
     "return;": 1, 
     "for (.*)": 1, 
-    "char *": 11, 
+    "char*": 1, 
     ".*\\-": 11, 
     "printf(.*)": 10, 
     "if (.*)": 8, 
-    "return": "void", 
+    "return": 0, 
     "case": 13
   }, 
   "update_display": {
     "if (.* != 0)": 1, 
+    "void": 1, 
     "string": [
       "original read", 
       "png_get_rowbytes returned 0", 
@@ -434,29 +432,30 @@
       "png_get_IHDR failed"
     ], 
     "label": "update", 
-    "param1": "display", 
-    "int": 17, 
+    "params": 1, 
     "if (.* == 0)": 4, 
     "return;": 1, 
     "for (.*)": 1, 
-    "char *": 1, 
     ".*\\-": 21, 
     "if (.*)": 7, 
-    "return": "void", 
-    ".*\\+": 1
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
   }, 
   "first_transform": {
     "label": "transform", 
-    "param1": "int", 
+    "params": 1, 
+    "int": 1, 
     ".*\\-": 1, 
-    "return": "int"
+    "return": 1
   }, 
   "buffer_start_write": {
+    "void": 1, 
     "label": "write", 
-    "param1": "buffer", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 3, 
-    "return": "void"
+    "return": 0
   }, 
   "transform_name": {
     "if (.* < \\d*)": 1, 
@@ -466,36 +465,37 @@
     "if (.* < .*)": 1, 
     "break": 1, 
     "label": "transform", 
-    "param1": "int", 
-    "int": 2, 
+    "params": 1, 
+    "int": 1, 
     "while(.*)": 1, 
-    "char *": 2, 
+    "char": 1, 
     ".*\\-": 1, 
     "if (.*)": 2, 
-    "return": "char", 
-    ".*\\+": 1
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
   }, 
   "write_png": {
     "if (.* != 0)": 2, 
+    "void": 1, 
     "string": [
       "write", 
       "failed to create write png_struct"
     ], 
     "label": "write", 
-    "param3": "int", 
-    "param1": "display", 
-    "int": 3, 
-    "param2": "png_infop", 
+    "params": 3, 
+    "int": 1, 
     "return;": 1, 
     ".*\\-": 11, 
     "if (.*)": 3, 
-    "return": "void"
+    "return": 0
   }, 
   "buffer_destroy": {
+    "void": 1, 
     "label": "destroy", 
-    "param1": "buffer", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 1, 
-    "return": "void"
+    "return": 0
   }
 }

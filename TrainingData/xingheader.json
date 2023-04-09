@@ -1,0 +1,111 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "isValid": {
+    "if (.* != 0)": 1, 
+    "if (.* != 0) param": 1, 
+    "params": 1, 
+    "if (.*) param": 1, 
+    "XingHeader *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~XingHeader": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "XingHeader *": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_xingheader.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "parse": {
+    "if (.* < \\d*)": 5, 
+    "void": 1, 
+    "if (.* < .*)": 5, 
+    "label": "parse", 
+    "params": 2, 
+    ".*\\+ 0x.*": 2, 
+    "return;": 1, 
+    "XingHeader *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 6, 
+    "return": 0, 
+    ".*\\+": 6, 
+    "= .*\\+": 4, 
+    ".*\\- param": 1
+  }, 
+  "type": {
+    "params": 1, 
+    "XingHeader *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "XingHeaderPrivate": {
+    "void": 1, 
+    "params": 1, 
+    "XingHeaderPrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "totalSize": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "XingHeader *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "xingHeaderOffset": {
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return 0": 1, 
+    "Version": 1, 
+    "ChannelMode": 1, 
+    "return": 1
+  }, 
+  "XingHeader": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "XingHeader *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "totalFrames": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "XingHeader *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

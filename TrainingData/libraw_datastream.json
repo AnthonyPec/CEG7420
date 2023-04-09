@@ -1,0 +1,218 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "fname": {
+    "params": 0, 
+    "undefined": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "read": {
+    "if (.* == 0) param": 1, 
+    "label": "read", 
+    "size_t": 1, 
+    "params": 4, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "void *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "unlock": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "jpeg_src": {
+    "params": 1, 
+    "undefined": 1, 
+    "return 0": 1, 
+    "void *": 1, 
+    "return": 1
+  }, 
+  "~LibRaw_buffer_datastream": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "LibRaw_buffer_datastream *": 1, 
+    "return": 0
+  }, 
+  "tell": {
+    "if (.* == 0) param": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "LibRaw_bigfile_datastream": {
+    "params": 2, 
+    ".*\\+ 0x.*": 2, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 2, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "char *": 1, 
+    "if (.*)": 2, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 6
+  }, 
+  "LibRaw_buffer_datastream": {
+    "uint": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "void *": 1, 
+    "LibRaw_buffer_datastream *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 3
+  }, 
+  "seek": {
+    "void": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "longlong": 1, 
+    "return": 0, 
+    ".*\\+": 2
+  }, 
+  "gets": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "if (.* == 0) param": 1, 
+    "gets(.*)": 2, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "char *": 1, 
+    "char": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    "gets(.*) param": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "buffering_off": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "valid": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "~LibRaw_abstract_datastream": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "LibRaw_abstract_datastream *": 1, 
+    "return": 0
+  }, 
+  "~LibRaw_bigfile_datastream": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "return": 0
+  }, 
+  "size": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "undefined": 1, 
+    ".*\\+ param": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "get_char": {
+    "void": 1, 
+    "label": "get", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "LibRaw_abstract_datastream": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "LibRaw_abstract_datastream *": 1, 
+    "return": 0
+  }, 
+  "lock": {
+    "params": 0, 
+    "undefined": 1, 
+    "return": 1
+  }, 
+  "scanf_one": {
+    "scanf(.*) param": 1, 
+    "void": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "char *": 1, 
+    "void *": 1, 
+    "if (.*)": 1, 
+    "scanf(.*)": 2, 
+    "return": 0, 
+    ".*\\+": 2
+  }, 
+  "eof": {
+    "void": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "LibRaw_bigfile_datastream *": 1, 
+    "feof(.*) param": 1, 
+    "if (.*)": 1, 
+    "feof(.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2
+  }
+}

@@ -1,0 +1,1022 @@
+{
+  "png_get_copyright": {
+    "string": [
+      "\\nlibpng version 1.6.39.git\\nCopyright (c) 2018-2022 Cosmin Truta\\nCopyright (c) 1998-2002,2004,2006-2018 Glenn Randers-Pehrson\\nCopyright (c) 1996-1997 Andreas Dilger\\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\\n"
+    ], 
+    "label": "get", 
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "png_image_free": {
+    "void": 1, 
+    "label": "free", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_zfree": {
+    "void": 1, 
+    "label": "free", 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_ascii_from_fixed": {
+    "if (.* < \\d*)": 5, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "ASCII conversion buffer too small"
+    ], 
+    "if (.* < .*)": 5, 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 2, 
+    "while(.*)": 3, 
+    "for (.*)": 1, 
+    "char": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 7, 
+    "return": 0, 
+    ".*\\+": 10, 
+    "= .*\\+": 10
+  }, 
+  "png_free_data": {
+    "if (.* != 0)": 10, 
+    "void": 1, 
+    "label": "free", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 5, 
+    ".*\\-": 87, 
+    "if (.*)": 21, 
+    "return": 0, 
+    ".*\\+": 5, 
+    "= .*\\+": 5
+  }, 
+  "png_colorspace_check_xy": {
+    "label": "check", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_build_gamma_table": {
+    "if (.* < \\d*)": 11, 
+    "if (.* != 0)": 3, 
+    "void": 1, 
+    "string": [
+      "gamma table being rebuilt"
+    ], 
+    "if (.* < .*)": 11, 
+    "label": "build", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "return;": 1, 
+    ".*\\-": 35, 
+    "if (.*)": 16, 
+    "return": 0
+  }, 
+  "png_user_version_check": {
+    "if (.* < \\d*)": 1, 
+    "string": [
+      "Application built with libpng-", 
+      " but running with "
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "check", 
+    "params": 2, 
+    "int": 1, 
+    "while(.*)": 1, 
+    "char": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 5, 
+    "return": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 4
+  }, 
+  "png_reciprocal": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_icc_set_sRGB": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "byte": 1, 
+    "label": "set", 
+    "params": 4, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2
+  }, 
+  "png_access_version_number": {
+    "void": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "png_zstream_error": {
+    "void": 1, 
+    "string": [
+      "unexpected zlib return code", 
+      "unexpected end of LZ stream", 
+      "missing LZ dictionary", 
+      "unexpected zlib return", 
+      "unsupported zlib version", 
+      "truncated", 
+      "insufficient memory", 
+      "damaged LZ stream", 
+      "bad parameters to zlib", 
+      "zlib IO error"
+    ], 
+    "break": 9, 
+    "label": "error", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 18, 
+    "if (.*)": 1, 
+    "return": 0, 
+    "case": 9
+  }, 
+  "png_gamma_correct": {
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_icc_check_tag_table": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "string": [
+      "ICC profile tag start not a multiple of 4", 
+      "ICC profile tag outside profile"
+    ], 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "byte": 1, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 5, 
+    ".*\\+ 0x.*": 2, 
+    "int": 1, 
+    "while(.*)": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 8, 
+    "= .*\\+": 5
+  }, 
+  "png_get_io_ptr": {
+    "void": 1, 
+    "label": "get", 
+    "params": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_XYZ_normalize": {
+    "if (.* < \\d*)": 3, 
+    "if (.* < .*)": 3, 
+    "params": 1, 
+    "int": 1, 
+    "if (.* == 0)": 9, 
+    ".*\\-": 16, 
+    "if (.*)": 13, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_muldiv": {
+    "if (.* != 0)": 1, 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "png_set_sig_bytes": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Too many bytes for PNG signature"
+    ], 
+    "if (.* < .*)": 2, 
+    "byte": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_zalloc": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "Potential overflow in png_zalloc()"
+    ], 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    "malloc(.*)": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_colorspace_set_chromaticities": {
+    "string": [
+      "invalid chromaticities", 
+      "internal error checking chromaticities"
+    ], 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_XYZ_from_xy": {
+    "if (.* < \\d*)": 9, 
+    "if (.* < .*)": 9, 
+    "params": 2, 
+    ".*\\+ 0x.*": 27, 
+    "int": 1, 
+    "if (.* == 0)": 17, 
+    ".*\\-": 27, 
+    "if (.*)": 26, 
+    "return": 1, 
+    ".*\\+": 33, 
+    "= .*\\+": 16
+  }, 
+  "png_gt": {
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_destroy_gamma_table": {
+    "void": 1, 
+    "label": "destroy", 
+    "params": 1, 
+    "return;": 1, 
+    "for (.*)": 3, 
+    ".*\\-": 24, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "png_icc_profile_error": {
+    "string": [
+      "profile \\'"
+    ], 
+    "label": "error", 
+    "params": 5, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 5
+  }, 
+  "png_destroy_info_struct": {
+    "void": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "memset(.*)": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_check_fp_number": {
+    "if (.* != 0)": 4, 
+    "break": 12, 
+    "int*": 1, 
+    "label": "check", 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "goto": 7, 
+    "for (.*)": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 7, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1, 
+    "case": 23
+  }, 
+  "png_set_option": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_handle_as_unknown": {
+    "if (.* != 0)": 1, 
+    "byte": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    "return 0": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 2
+  }, 
+  "png_check_IHDR": {
+    "if (.* != 0)": 6, 
+    "if (.* < \\d*)": 3, 
+    "void": 1, 
+    "string": [
+      "Image width is zero in IHDR", 
+      "Invalid image width in IHDR", 
+      "Image width is too large for this architecture", 
+      "Image width exceeds user limit in IHDR", 
+      "Image height is zero in IHDR", 
+      "Invalid image height in IHDR", 
+      "Image height exceeds user limit in IHDR", 
+      "Invalid bit depth in IHDR", 
+      "Invalid color type in IHDR", 
+      "Invalid color type/bit depth combination in IHDR", 
+      "Unknown interlace method in IHDR", 
+      "Unknown compression method in IHDR", 
+      "MNG features are not allowed in a PNG datastream", 
+      "Unknown filter method in IHDR", 
+      "Invalid filter method in IHDR", 
+      "Invalid IHDR data"
+    ], 
+    "if (.* < .*)": 3, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 8, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 17, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "is_ICC_signature": {
+    "if (.* != 0)": 3, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "png_reset_zstream": {
+    "label": "set", 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_pow10": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 1, 
+    "if (.* < .*)": 3, 
+    "double": 1, 
+    "params": 1, 
+    "int": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "png_icc_check_length": {
+    "string": [
+      "exceeds application limits"
+    ], 
+    "label": "check", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "if (.* == 0)": 2, 
+    "char": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_ascii_from_fp": {
+    "if (.* < \\d*)": 10, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "ASCII conversion buffer too small"
+    ], 
+    "if (.* < .*)": 10, 
+    "double": 1, 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    "if (.* == 0)": 10, 
+    "return;": 5, 
+    "while(.*)": 4, 
+    "for (.*)": 4, 
+    "char": 1, 
+    ".*\\-": 29, 
+    "if (.*)": 26, 
+    "return": 0, 
+    ".*\\+": 37, 
+    "= .*\\+": 33
+  }, 
+  "is_ICC_signature_char": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 2, 
+    "if (.* < .*)": 2, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_colorspace_sync": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_image_error": {
+    "label": "error", 
+    "params": 2, 
+    "int": 1, 
+    "return 0": 1, 
+    "char": 1, 
+    ".*\\-": 2, 
+    "return": 1
+  }, 
+  "png_convert_to_rfc1123_buffer": {
+    "if (.* < \\d*)": 6, 
+    "string": [
+      " +0000"
+    ], 
+    "if (.* < .*)": 6, 
+    "label": "convert", 
+    "params": 2, 
+    "int": 1, 
+    "char*": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 7, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 5
+  }, 
+  "png_get_header_version": {
+    "string": [
+      " libpng version 1.6.39.git\\n\\n"
+    ], 
+    "label": "get", 
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "png_gamma_8bit_correct": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "byte": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_build_16to8_table": {
+    "void": 1, 
+    "int*": 1, 
+    "label": "build", 
+    "uint": 1, 
+    "params": 4, 
+    ".*\\+ 0x.*": 2, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "uint*": 1, 
+    "return;": 1, 
+    "for (.*)": 4, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\+": 6, 
+    "= .*\\+": 6
+  }, 
+  "png_image_free_function": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "free", 
+    "params": 1, 
+    ".*\\+ 0x.*": 2, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 2
+  }, 
+  "png_colorspace_set_ICC": {
+    "byte": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 6, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_colorspace_check_XYZ": {
+    "label": "check", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "memcpy(.*)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_calculate_crc": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "byte": 1, 
+    "params": 3, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_colorspace_set_sRGB": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "string": [
+      "invalid sRGB rendering intent", 
+      "cHRM chunk does not match sRGB", 
+      "duplicate sRGB information ignored", 
+      "inconsistent rendering intents"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "memcpy(.*)": 2, 
+    ".*\\-": 13, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "png_colorspace_endpoints_match": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 8
+  }, 
+  "png_init_io": {
+    "void": 1, 
+    "label": "init", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "icc_check_length": {
+    "if (.* < \\d*)": 1, 
+    "string": [
+      "too short"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_colorspace_set_xy_and_XYZ": {
+    "if (.* != 0)": 2, 
+    "if (.* < \\d*)": 1, 
+    "string": [
+      "inconsistent chromaticities"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "return 0": 2, 
+    "memcpy(.*)": 2, 
+    ".*\\-": 9, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "png_get_header_ver": {
+    "label": "get", 
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "png_gamma_significant": {
+    "params": 1, 
+    "int": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_build_grayscale_palette": {
+    "void": 1, 
+    "break": 4, 
+    "label": "build", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    "case": 4, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_icc_check_header": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 5, 
+    "string": [
+      "tag count too large", 
+      "intent outside defined range", 
+      "", 
+      "PCS illuminant is not D50", 
+      "Gray color space not permitted on RGB PNG", 
+      "invalid ICC profile color space", 
+      "RGB color space not permitted on grayscale PNG", 
+      "invalid embedded Abstract ICC profile", 
+      "unexpected DeviceLink ICC profile class", 
+      "unexpected NamedColor ICC profile class", 
+      "unrecognized ICC profile class", 
+      "unexpected ICC PCS encoding", 
+      "invalid signature", 
+      "invalid rendering intent", 
+      "invalid length", 
+      "length does not match profile"
+    ], 
+    "if (.* < .*)": 4, 
+    "byte": 1, 
+    "label": "check", 
+    "uint": 1, 
+    "params": 6, 
+    ".*\\+ 0x.*": 5, 
+    "int": 1, 
+    "if (.* == 0)": 7, 
+    "char": 1, 
+    "if (.*)": 17, 
+    "return": 1, 
+    ".*\\+": 12, 
+    "= .*\\+": 8
+  }, 
+  "png_info_init_3": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "init", 
+    "params": 2, 
+    "malloc(.*)": 1, 
+    "return;": 2, 
+    "memset(.*)": 1, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_muldiv_warn": {
+    "string": [
+      "fixed point overflow ignored"
+    ], 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_colorspace_set_gamma": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "gamma value out of range", 
+      "duplicate"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 4, 
+    ".*\\-": 5, 
+    "if (.*)": 4, 
+    "return": 0
+  }, 
+  "png_build_8bit_table": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "build", 
+    "params": 3, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "for (.*)": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_icc_tag_name": {
+    "void": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "char*": 1, 
+    "return": 0
+  }, 
+  "png_icc_tag_char": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "byte": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_save_int_32": {
+    "void": 1, 
+    "byte": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_reset_crc": {
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0
+  }, 
+  "png_reciprocal2": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_xy_from_XYZ": {
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 8, 
+    ".*\\-": 16, 
+    "if (.*)": 8, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 6
+  }, 
+  "png_fixed": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "double": 1, 
+    "params": 3, 
+    "int": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_chunk_unknown_handling": {
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_compare_ICC_profile_with_sRGB": {
+    "string": [
+      "out-of-date sRGB profile with no signature", 
+      "known incorrect sRGB profile", 
+      "Not recognizing known sRGB profile that has been edited"
+    ], 
+    "byte": 1, 
+    "label": "compare", 
+    "params": 3, 
+    ".*\\+ 0x.*": 4, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "return 0": 2, 
+    "for (.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 9, 
+    "return": 1, 
+    ".*\\+": 10, 
+    "= .*\\+": 7
+  }, 
+  "png_convert_to_rfc1123": {
+    "if (.* != 0)": 1, 
+    "string": [
+      "Ignoring invalid time value"
+    ], 
+    "label": "convert", 
+    "params": 2, 
+    "char": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_colorspace_sync_info": {
+    "void": 1, 
+    "params": 2, 
+    "if (.* == 0)": 4, 
+    "return;": 1, 
+    ".*\\-": 12, 
+    "if (.*)": 4, 
+    "return": 0
+  }, 
+  "png_product2": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_build_16bit_table": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "int*": 1, 
+    "label": "build", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 1, 
+    "uint*": 1, 
+    "return;": 1, 
+    "for (.*)": 3, 
+    ".*\\-": 4, 
+    "if (.*)": 2, 
+    "return": 0, 
+    ".*\\+": 6, 
+    "= .*\\+": 4
+  }, 
+  "png_sig_cmp": {
+    "if (.* < \\d*)": 3, 
+    "if (.* < .*)": 3, 
+    "byte": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "png_check_fp_string": {
+    "label": "check", 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_create_info_struct": {
+    "label": "create", 
+    "params": 1, 
+    "malloc(.*)": 1, 
+    "memset(.*)": 1, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_gamma_16bit_correct": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_data_freer": {
+    "void": 1, 
+    "string": [
+      "Unknown freer parameter in png_data_freer"
+    ], 
+    "label": "free", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_get_libpng_ver": {
+    "label": "get", 
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "png_colorspace_set_endpoints": {
+    "string": [
+      "invalid end points", 
+      "internal error checking chromaticities"
+    ], 
+    "label": "set", 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 11, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "png_colorspace_set_rgb_coefficients": {
+    "if (.* != 0)": 3, 
+    "if (.* < \\d*)": 4, 
+    "void": 1, 
+    "string": [
+      "internal error handling cHRM->XYZ", 
+      "internal error handling cHRM coefficients"
+    ], 
+    "if (.* < .*)": 4, 
+    "label": "set", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 7, 
+    "return": 0, 
+    ".*\\+": 8, 
+    "= .*\\+": 5
+  }, 
+  "png_colorspace_check_gamma": {
+    "string": [
+      "gamma value does not match libpng estimate", 
+      "gamma value does not match sRGB"
+    ], 
+    "label": "check", 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    ".*\\-": 3, 
+    "if (.*)": 2, 
+    "return": 1
+  }
+}

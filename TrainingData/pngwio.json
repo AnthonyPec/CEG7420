@@ -1,59 +1,59 @@
 {
   "png_default_flush": {
+    "void": 1, 
     "fflush(.*)": 1, 
     "label": "flush", 
-    "param1": "png_structp", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 1, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "png_set_write_fn": {
+    "void": 1, 
     "string": [
       "Can\\'t set both read_data_fn and write_data_fn in the same structure"
     ], 
     "label": "write", 
-    "param3": "png_rw_ptr", 
-    "param4": "png_flush_ptr", 
-    "param1": "png_structrp", 
-    "param2": "png_voidp", 
+    "params": 4, 
     "return;": 1, 
     ".*\\-": 7, 
     "if (.*)": 4, 
-    "return": "void"
+    "return": 0
   }, 
   "png_flush": {
+    "void": 1, 
     "label": "flush", 
-    "param1": "png_structrp", 
+    "params": 1, 
     "return;": 1, 
     ".*\\-": 2, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "png_default_write_data": {
+    "void": 1, 
     "string": [
       "Write Error"
     ], 
+    "byte": 1, 
     "label": "write", 
-    "param3": "size_t", 
-    "param1": "png_structp", 
-    "param2": "png_bytep", 
+    "params": 3, 
     "return;": 1, 
     ".*\\-": 1, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "png_write_data": {
+    "void": 1, 
     "string": [
       "Call to NULL write function"
     ], 
+    "byte": 1, 
     "label": "write", 
-    "param3": "size_t", 
-    "param1": "png_structrp", 
-    "param2": "png_const_bytep", 
+    "params": 3, 
     "return;": 1, 
     ".*\\-": 2, 
     "if (.*)": 1, 
-    "return": "void"
+    "return": 0
   }
 }

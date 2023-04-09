@@ -1,0 +1,132 @@
+{
+  "owner": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "PrivateFrame *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "data": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "PrivateFrame *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "setData": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "PrivateFrame *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "renderFields": {
+    "params": 1, 
+    "PrivateFrame *": 1, 
+    "return": 1
+  }, 
+  "setOwner": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "PrivateFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "parseFields": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "parse", 
+    "params": 2, 
+    "return;": 1, 
+    "PrivateFrame *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~PrivateFramePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "PrivateFramePrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "PrivateFrame": {
+    "void": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "PrivateFrame *": 1, 
+    "Header *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 5, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "~PrivateFrame": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "PrivateFrame *": 1, 
+    "return": 0
+  }, 
+  "toString": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "PrivateFrame *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "_GLOBAL__sub_I_privateframe.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "PrivateFramePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "PrivateFramePrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "seller": {
+    "OwnershipFrame *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "textEncoding": {
+    "OwnershipFrame *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "renderFields": {
+    "OwnershipFrame *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "setSeller": {
+    "OwnershipFrame *": 1, 
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setDatePurchased": {
+    "OwnershipFrame *": 1, 
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "OwnershipFrame": {
+    "OwnershipFrame *": 1, 
+    "void": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "Header *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 8, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "~OwnershipFrame": {
+    "OwnershipFrame *": 1, 
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "parseFields": {
+    "OwnershipFrame *": 1, 
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "parse", 
+    "params": 2, 
+    "if (.* == 0)": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 2
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "datePurchased": {
+    "OwnershipFrame *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~OwnershipFramePrivate": {
+    "OwnershipFramePrivate *": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setPricePaid": {
+    "OwnershipFrame *": 1, 
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_ownershipframe.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toString": {
+    "OwnershipFrame *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "OwnershipFramePrivate": {
+    "OwnershipFramePrivate *": 1, 
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "pricePaid": {
+    "OwnershipFrame *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "setTextEncoding": {
+    "OwnershipFrame *": 1, 
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "Type": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

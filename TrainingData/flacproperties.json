@@ -1,0 +1,160 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "read": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "if (.* != 0) param": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 15, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 10, 
+    "= .*\\+": 6, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_flacproperties.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~PropertiesPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "signature": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Properties *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "length": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "bitrate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "Properties": {
+    "void": 1, 
+    "File *": 1, 
+    "params": 3, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "lengthInSeconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleRate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "sampleWidth": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "lengthInMilliseconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "bitsPerSample": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "PropertiesPrivate": {
+    "void": 1, 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 8, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "channels": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleFrames": {
+    "params": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~Properties": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "return": 0
+  }
+}

@@ -1,11 +1,14 @@
 {
   "gzclose": {
+    "if (.* == 0) param": 1, 
     "label": "close", 
-    "param1": "gzFile", 
-    "int": 2, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*) param": 1, 
     "if (.* == 0)": 1, 
+    "gzFile": 1, 
     ".*\\-": 1, 
     "if (.*)": 2, 
-    "return": "int"
+    "return": 1
   }
 }

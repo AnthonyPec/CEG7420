@@ -1,0 +1,1143 @@
+{
+  "_Rb_tree_iterator": {
+    "_Rb_tree_iterator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "_Base_ptr": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator=": {
+    "params": 2, 
+    "PeakVolume *": 2, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator==": {
+    "_Self *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator--": {
+    "_Rb_tree_iterator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "deallocate": {
+    "pointer": 1, 
+    "void": 1, 
+    "size_type": 1, 
+    "delete(.*)": 1, 
+    "params": 3, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 0
+  }, 
+  "_M_insert_unique_<std::_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_>::_Alloc_node>": {
+    "const_iterator": 1, 
+    "label": "select", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 4, 
+    "value_type *": 1, 
+    "_Alloc_node *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_get_Node_allocator": {
+    "label": "get", 
+    "params": 1, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 1
+  }, 
+  "operator()<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>": {
+    "pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "params": 2, 
+    "_Alloc_node *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "construct": {
+    "pointer": 1, 
+    "void": 1, 
+    "ChannelType *": 1, 
+    "params": 3, 
+    "return;": 1, 
+    "new_allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0
+  }, 
+  "allocator<std::_Rb_tree_node<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_>": {
+    "allocator<std::_Rb_tree_node<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    "return": 0
+  }, 
+  "ListPrivateBase": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "ListPrivateBase *": 1
+  }, 
+  "_M_clear": {
+    "void": 1, 
+    "while(.*) param": 1, 
+    "params": 1, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "RelativeVolumeFramePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "RelativeVolumeFramePrivate *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_inc_size": {
+    "void": 1, 
+    "size_t": 1, 
+    "params": 2, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "volumeAdjustmentIndex": {
+    "params": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "return": 1
+  }, 
+  "setVolumeAdjustmentIndex": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "short": 1, 
+    "return": 0
+  }, 
+  "identification": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "allocator": {
+    "void": 1, 
+    "allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_Rb_tree": {
+    "void": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~ListPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "ListPrivate<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__addressof<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType>": {
+    "ChannelType *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "_M_rightmost": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_lower_bound": {
+    "_Link_type": 1, 
+    "ChannelType *": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 4, 
+    "while(.*)": 1, 
+    "_Base_ptr": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "_Alloc_node": {
+    "void": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "_Alloc_node *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator*": {
+    "_Rb_tree_iterator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~map": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_const_cast": {
+    "params": 1, 
+    "_Rb_tree_const_iterator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_List_iterator": {
+    "void": 1, 
+    "_List_iterator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "new_allocator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 2, 
+    "return": 0
+  }, 
+  "destroy": {
+    "pointer": 1, 
+    "void": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "new_allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0
+  }, 
+  "~List": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "List<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0
+  }, 
+  "contains": {
+    "ChannelType *": 1, 
+    "Map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "params": 2, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "RelativeVolumeFrame": {
+    "void": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "Header *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 5, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "size_type": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "void *": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "new_allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 1
+  }, 
+  "size": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~MapPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "MapPrivate<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_right": {
+    "params": 1, 
+    "_Const_Base_ptr": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "key_comp": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "_Node_alloc_type *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "begin": {
+    "params": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "Map": {
+    "void": 1, 
+    "Map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~list": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_create_node": {
+    "label": "create", 
+    "params": 2, 
+    "value_type *": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator[]": {
+    "params": 2, 
+    "map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "key_type *": 1, 
+    "return": 1
+  }, 
+  "_M_erase": {
+    "_Link_type": 1, 
+    "void": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "return": 0
+  }, 
+  "operator++": {
+    "_Rb_tree_iterator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_insert": {
+    "void": 1, 
+    "params": 3, 
+    "value_type *": 1, 
+    "iterator": 1, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_initialize_dispatch<std::_List_const_iterator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_>": {
+    "void": 1, 
+    "label": "init", 
+    "_List_const_iterator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>": 2, 
+    "params": 3, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "while(.*)": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_relativevolumeframe.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~new_allocator": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "new_allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0
+  }, 
+  "map": {
+    "void": 1, 
+    "params": 2, 
+    "map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_List_node_header": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    "return": 0
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "peakVolume": {
+    "params": 2, 
+    "RelativeVolumeFrame *": 1, 
+    "PeakVolume *": 1, 
+    "return": 1
+  }, 
+  "allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_>": {
+    "void": 1, 
+    "allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "params": 2, 
+    "allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_insert_unique_": {
+    "const_iterator": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 3, 
+    "value_type *": 1, 
+    "return": 1
+  }, 
+  "_M_end": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__addressof<const_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>": {
+    "pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "~allocator": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~_Rb_tree_impl": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "_Rb_tree_impl<std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_false> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~_List_base": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "PeakVolume": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "PeakVolume *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_select_on_copy": {
+    "allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "label": "copy", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "_M_begin": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_drop_node": {
+    "_Link_type": 1, 
+    "void": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_copy": {
+    "label": "copy", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 2, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "toString": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "setIdentification": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~pair": {
+    "void": 1, 
+    "pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "volumeAdjustment": {
+    "float": 1, 
+    "params": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "return": 1
+  }, 
+  "_M_get_insert_unique_pos": {
+    "if (.* != 0)": 1, 
+    "label": "get", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "while(.*)": 1, 
+    "goto": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 4, 
+    "key_type *": 1, 
+    "return": 1
+  }, 
+  "__addressof<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>": {
+    "ChannelType *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "setVolumeAdjustment": {
+    "void": 1, 
+    "label": "set", 
+    "float": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "return": 0
+  }, 
+  "_List_base": {
+    "void": 1, 
+    "_Node_alloc_type *": 1, 
+    "params": 2, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setChannelType": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "ChannelType": 1, 
+    "return": 0
+  }, 
+  "renderFields": {
+    "break": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    "RelativeVolumeFrame *": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 3
+  }, 
+  "_M_leftmost": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "channelType": {
+    "params": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "return": 1
+  }, 
+  "parseFields": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "label": "parse", 
+    "params": 2, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 5
+  }, 
+  "ChannelData": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "ChannelData *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "find": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "if (.*)": 2, 
+    "key_type *": 1, 
+    "return": 1
+  }, 
+  "_M_clone_node<std::_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_>::_Alloc_node>": {
+    "label": "select", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 3, 
+    "_Const_Link_type": 1, 
+    "_Alloc_node *": 1, 
+    ".*\\-": 3, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "List": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "List<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_destroy_node": {
+    "_Link_type": 1, 
+    "void": 1, 
+    "label": "destroy", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "ListPrivate": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    ".*\\-": 2, 
+    "ListPrivate<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator!=": {
+    "_Self *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_Rb_tree_header": {
+    "_Rb_tree_header *": 1, 
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "MapPrivate": {
+    "void": 1, 
+    "params": 2, 
+    "MapPrivate<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "count": {
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "get_allocator": {
+    "label": "get", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "list": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 2, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "max_size": {
+    "params": 1, 
+    "new_allocator<std::_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 1
+  }, 
+  "_S_key": {
+    "params": 1, 
+    "_Const_Link_type": 1, 
+    "return": 1
+  }, 
+  "channels": {
+    "break": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    "RelativeVolumeFrame *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    ".*\\- param": 1
+  }, 
+  "_M_get_node": {
+    "label": "get", 
+    "params": 1, 
+    "int": 1, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 1
+  }, 
+  "_List_const_iterator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "_List_const_iterator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "_M_insert_<std::_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_>::_Alloc_node>": {
+    "label": "select", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 5, 
+    ".*\\+ param": 1, 
+    "value_type *": 1, 
+    "if (.*) param": 1, 
+    "_Base_ptr": 2, 
+    "_Alloc_node *": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "_Rb_tree_key_compare": {
+    "void": 1, 
+    "label": "compare", 
+    "params": 2, 
+    "return;": 1, 
+    "_Rb_tree_key_compare<std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 0
+  }, 
+  "__addressof<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>": {
+    "pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "RefCounterOld": {
+    "void": 1, 
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "deref": {
+    "RefCounterOld *": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~Map": {
+    "void": 1, 
+    "Map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~_Rb_tree": {
+    "void": 1, 
+    "label": "~", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~ChannelData": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "ChannelData *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "insert": {
+    "params": 3, 
+    "map<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "value_type *": 1, 
+    "iterator": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_valptr": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "_List_node<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "push_back": {
+    "void": 1, 
+    "params": 2, 
+    "value_type *": 1, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 0
+  }, 
+  "~RelativeVolumeFrame": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "return": 0
+  }, 
+  "_M_get_insert_hint_unique_pos": {
+    "if (.* != 0)": 1, 
+    "const_iterator": 1, 
+    "label": "get", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 3, 
+    ".*\\-": 5, 
+    "if (.*)": 11, 
+    "key_type *": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_S_minimum": {
+    "for (.*) param": 1, 
+    "params": 1, 
+    "for (.*)": 1, 
+    "_Base_ptr": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "end": {
+    "params": 1, 
+    "list<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return": 1
+  }, 
+  "~RelativeVolumeFramePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "RelativeVolumeFramePrivate *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_copy<std::_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_>::_Alloc_node>": {
+    "label": "copy", 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 4, 
+    "if (.*) param": 1, 
+    "_Const_Link_type": 1, 
+    "while(.*)": 1, 
+    "_Base_ptr": 1, 
+    "_Alloc_node *": 1, 
+    ".*\\-": 13, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_Rb_tree_impl": {
+    "void": 1, 
+    "params": 2, 
+    "_Rb_tree_impl<std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_false> *": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator()": {
+    "pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData> *": 1, 
+    "params": 2, 
+    "_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~PeakVolume": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "PeakVolume *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_Rb_tree_const_iterator": {
+    "void": 1, 
+    "iterator *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "_Rb_tree_const_iterator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_left": {
+    "params": 1, 
+    "_Const_Base_ptr": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "pair": {
+    "void": 1, 
+    "pair<std::_Rb_tree_node_base_*,_std::_Rb_tree_node_base_*> *": 1, 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "_Rb_tree_node_base * *": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_maximum": {
+    "for (.*) param": 1, 
+    "params": 1, 
+    "for (.*)": 1, 
+    "_Base_ptr": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_put_node": {
+    "pointer": 1, 
+    "void": 1, 
+    "params": 2, 
+    "_List_base<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::allocator<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>_> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_construct_node": {
+    "_Link_type": 1, 
+    "void": 1, 
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 3, 
+    "value_type *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "lower_bound": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 2, 
+    "key_type *": 1, 
+    "return": 1
+  }, 
+  "_M_root": {
+    "_Rb_tree<TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>,_std::_Select1st<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>,_std::less<TagLib::ID3v2::RelativeVolumeFrame::ChannelType>,_std::allocator<std::pair<const_TagLib::ID3v2::RelativeVolumeFrame::ChannelType,_ChannelData>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setPeakVolume": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "RelativeVolumeFrame *": 1, 
+    "PeakVolume *": 1, 
+    "return": 0
+  }, 
+  "detach": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "List<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "append": {
+    "ChannelType *": 1, 
+    "params": 2, 
+    "List<TagLib::ID3v2::RelativeVolumeFrame::ChannelType> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_reset": {
+    "_Rb_tree_header *": 1, 
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

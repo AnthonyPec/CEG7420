@@ -1,0 +1,864 @@
+{
+  "operator<<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>": {
+    "params": 2, 
+    "basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_> *": 2, 
+    "return": 1
+  }, 
+  "exception": {
+    "void": 1, 
+    "exception *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator<": {
+    "String *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator=": {
+    "String *": 1, 
+    "params": 2, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "operator==": {
+    "String *": 1, 
+    "wchar_t *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "swap<TagLib::String::StringPrivate_*>": {
+    "void": 1, 
+    "params": 2, 
+    "StringPrivate * *": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "upper": {
+    "if (.* < \\d*)": 1, 
+    "String *": 1, 
+    "break": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 2
+  }, 
+  "operator!=<const_wchar_t_*,_std::__cxx11::basic_string<wchar_t>_>": {
+    "params": 2, 
+    "__normal_iterator<const_wchar_t_*,_std::__cxx11::basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>_> *": 2, 
+    "return": 1
+  }, 
+  "operator==<wchar_t>": {
+    "params": 2, 
+    "basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_> *": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "String": {
+    "void": 1, 
+    "String *": 1, 
+    "return; param": 1, 
+    "params": 3, 
+    "if (.* == 0)": 1, 
+    "if (.*) param": 1, 
+    "Type": 1, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "utf16to8<__gnu_cxx::__normal_iterator<const_wchar_t_*,_std::__cxx11::basic_string<wchar_t>_>,___gnu_cxx::__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_>_>": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_>": 1, 
+    "params": 3, 
+    "__normal_iterator<const_wchar_t_*,_std::__cxx11::basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>_>": 2, 
+    "while(.*)": 1, 
+    "char": 1, 
+    "if (.*)": 5, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "number": {
+    "params": 1, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "byteSwap": {
+    "params": 1, 
+    "unsigned short": 1, 
+    "return": 1
+  }, 
+  "get_sequence_3<const_char_*>": {
+    "label": "get", 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "char * *": 1, 
+    "uint32_t *": 1, 
+    "char *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "invalid_code_point": {
+    "void": 1, 
+    "invalid_code_point *": 1, 
+    "uint32_t": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "copyFromUTF16<wchar_t>": {
+    "for (.*) param": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "return; param": 1, 
+    "wchar_t *": 1, 
+    "if (.* == 0) param": 1, 
+    "label": "copy", 
+    "size_t": 1, 
+    "params": 4, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 3, 
+    "Type": 1, 
+    "return;": 3, 
+    "for (.*)": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 5, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "wstring *": 1
+  }, 
+  "operator*": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator+": {
+    "String *": 1, 
+    "params": 2, 
+    "char *": 1, 
+    "return": 1
+  }, 
+  "operator-<char_*,_std::vector<char,_std::allocator<char>_>_>": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 2, 
+    "params": 2, 
+    ".*\\-": 2, 
+    "return": 1
+  }, 
+  "increase_safely<const_char_*>": {
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "char * *": 1, 
+    "char *": 1, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "nextUTF16<char>": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "char * *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "substr": {
+    "String *": 1, 
+    "if (.* == 0) param": 1, 
+    "uint": 2, 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "isAscii": {
+    "if (.* < \\d*)": 1, 
+    "String *": 1, 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "__normal_iterator<wchar_t_*>": {
+    "void": 1, 
+    "__normal_iterator<wchar_t_*,_std::__cxx11::basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>_> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "__normal_iterator<const_wchar_t_*,_std::__cxx11::basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>_> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "size": {
+    "String *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "is_trail_surrogate<unsigned_int>": {
+    "uint": 1, 
+    "params": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "systemByteOrder": {
+    "params": 0, 
+    "return": 1
+  }, 
+  "begin": {
+    "String *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "formatString": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "char *": 1, 
+    "printf(.*)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "compare": {
+    "if (.* == 0) param": 1, 
+    "label": "compare", 
+    "size_t": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "char_type *": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "nextUTF16<wchar_t>": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "wchar_t * *": 1
+  }, 
+  "operator[]": {
+    "String *": 1, 
+    "params": 2, 
+    "int": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator++": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator+=": {
+    "String *": 1, 
+    "params": 2, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "is_code_point_valid<unsigned_int>": {
+    "uint": 1, 
+    "params": 1, 
+    "if (.*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "is_trail<char>": {
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "rfind": {
+    "String *": 2, 
+    "params": 3, 
+    "int": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sequence_length<const_char_*>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "if (.* == 0)": 2, 
+    "char *": 1, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "mask16<wchar_t>": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return": 1, 
+    "wchar_t": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "~invalid_utf16": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "invalid_utf16 *": 1, 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator<<": {
+    "String *": 1, 
+    "params": 2, 
+    "ostream *": 1, 
+    "return": 1
+  }, 
+  "toWString": {
+    "String *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "stripWhiteSpace": {
+    "String *": 1, 
+    "params": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }, 
+  "isLatin1": {
+    "if (.* < \\d*)": 1, 
+    "String *": 1, 
+    "if (.* < .*)": 1, 
+    "break": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "is_lead_surrogate<unsigned_int>": {
+    "uint": 1, 
+    "params": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "isNull": {
+    "String *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "not_enough_room": {
+    "void": 1, 
+    "not_enough_room *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "StringPrivate": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "StringPrivate *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "toCString": {
+    "String *": 1, 
+    "bool": 1, 
+    "params": 2, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "toCWString": {
+    "String *": 1, 
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "operator-<wchar_t_*,_std::__cxx11::basic_string<wchar_t>_>": {
+    "__normal_iterator<wchar_t_*,_std::__cxx11::basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>_> *": 2, 
+    "params": 2, 
+    ".*\\-": 2, 
+    "return": 1
+  }, 
+  "data": {
+    "String *": 1, 
+    "break": 9, 
+    "while(.*) param": 1, 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "Type": 1, 
+    "while(.*)": 4, 
+    ".*\\-": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    "case": 5, 
+    ".*\\+": 9, 
+    "= .*\\+": 8, 
+    ".*\\- param": 1
+  }, 
+  "split": {
+    "String *": 2, 
+    "while(.*) param": 1, 
+    "params": 2, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "is_surrogate<unsigned_int>": {
+    "uint": 1, 
+    "params": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "find": {
+    "String *": 2, 
+    "params": 3, 
+    "int": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "copyFromLatin1": {
+    "for (.*) param": 1, 
+    "void": 1, 
+    "label": "copy", 
+    "size_t": 1, 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "char *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "wstring *": 1
+  }, 
+  "to8Bit": {
+    "String *": 1, 
+    "bool": 1, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "operator!=": {
+    "String *": 1, 
+    "wchar_t *": 1, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "~String": {
+    "void": 1, 
+    "String *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "swap": {
+    "void": 1, 
+    "String *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "get_sequence_4<const_char_*>": {
+    "label": "get", 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "char * *": 1, 
+    "uint32_t *": 1, 
+    "char *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "copyFromUTF16<char>": {
+    "for (.*) param": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "return; param": 1, 
+    "if (.* == 0) param": 1, 
+    "label": "copy", 
+    "size_t": 1, 
+    "params": 4, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 3, 
+    "Type": 1, 
+    "return;": 3, 
+    "for (.*)": 1, 
+    "char *": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 5, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "wstring *": 1
+  }, 
+  "append<__gnu_cxx::__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_>_>": {
+    "if (.* < \\d*)": 3, 
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_>": 1, 
+    "if (.* < .*)": 3, 
+    "uint32_t": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "char": 1, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "__cxx_global_var_init.11": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "wcharByteOrder": {
+    "params": 0, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "~StringPrivate": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "StringPrivate *": 1, 
+    "return": 0
+  }, 
+  "operator==<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>": {
+    "wchar_t *": 1, 
+    "params": 2, 
+    "basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_> *": 1, 
+    "return": 1
+  }, 
+  "_GLOBAL__sub_I_tstring.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "mask8<char>": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "copyFromUTF8": {
+    "void": 1, 
+    "label": "copy", 
+    "size_t": 1, 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "wstring *": 1
+  }, 
+  "~not_enough_room": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "not_enough_room *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__cxx_global_var_init.1": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "invalid_utf8": {
+    "void": 1, 
+    "return; param": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "invalid_utf8 *": 1, 
+    "uint8_t": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "utf8to16<__gnu_cxx::__normal_iterator<wchar_t_*,_std::__cxx11::basic_string<wchar_t>_>,_const_char_*>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 2, 
+    "while(.*)": 1, 
+    "__normal_iterator<wchar_t_*,_std::__cxx11::basic_string<wchar_t,_std::char_traits<wchar_t>,_std::allocator<wchar_t>_>_>": 1, 
+    "char *": 2, 
+    "char": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "end": {
+    "String *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "~invalid_utf8": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "invalid_utf8 *": 1, 
+    "return": 0
+  }, 
+  "get_sequence_1<const_char_*>": {
+    "label": "get", 
+    "params": 3, 
+    "if (.*) param": 1, 
+    "char * *": 1, 
+    "uint32_t *": 1, 
+    "char *": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "toInt": {
+    "if (.* < \\d*)": 2, 
+    "if (.* != 0)": 1, 
+    "String *": 1, 
+    "if (.* < .*)": 2, 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    "bool *": 1
+  }, 
+  "~exception": {
+    "void": 1, 
+    "exception *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "length": {
+    "String *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "clear": {
+    "String *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "isEmpty": {
+    "String *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "what": {
+    "invalid_utf16 *": 1, 
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "validate_next<const_char_*>": {
+    "break": 3, 
+    "params": 3, 
+    "if (.*) param": 1, 
+    "char * *": 1, 
+    "uint32_t *": 1, 
+    "char *": 1, 
+    "if (.*)": 4, 
+    "return": 1, 
+    "case": 5, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "next<const_char_*>": {
+    "break": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "char * *": 1, 
+    "memset(.*)": 1, 
+    "char *": 1, 
+    "return": 1, 
+    "case": 6
+  }, 
+  "detach": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "String *": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "invalid_utf16": {
+    "void": 1, 
+    "return; param": 1, 
+    "invalid_utf16 *": 1, 
+    "params": 2, 
+    "uint16_t": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "get_sequence_2<const_char_*>": {
+    "label": "get", 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "char * *": 1, 
+    "uint32_t *": 1, 
+    "char *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "__normal_iterator": {
+    "void": 1, 
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 2, 
+    "char * *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~invalid_code_point": {
+    "void": 1, 
+    "invalid_code_point *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "append": {
+    "String *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "is_overlong_sequence<int>": {
+    "if (.* < \\d*)": 3, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 3, 
+    "uint32_t": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "startsWith": {
+    "if (.* < \\d*)": 1, 
+    "String *": 2, 
+    "if (.* < .*)": 1, 
+    "params": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "base": {
+    "__normal_iterator<char_*,_std::vector<char,_std::allocator<char>_>_> *": 1, 
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

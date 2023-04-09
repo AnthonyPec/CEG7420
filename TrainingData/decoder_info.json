@@ -1,0 +1,37 @@
+{
+  "get_decoder_info": {
+    "libraw_decoder_info_t *": 1, 
+    "if (.* == 0) param": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\+ 0x.*": 205, 
+    "undefined": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 70, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "LibRaw *": 1, 
+    ".*\\+": 250, 
+    "= .*\\+": 69
+  }, 
+  "x3f_load_raw": {
+    "void": 1, 
+    "label": "load", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "unpack_function_name": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "undefined": 1, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "LibRaw *": 1, 
+    ".*\\+": 1
+  }
+}

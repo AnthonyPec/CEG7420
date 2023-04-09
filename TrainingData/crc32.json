@@ -1,99 +1,115 @@
 {
   "crc32_combine_op": {
-    "param3": "uLong", 
-    "param1": "uLong", 
-    "param2": "uLong", 
-    "return": "uLong"
+    "uLong": 3, 
+    "params": 3, 
+    "return": 1
   }, 
   "multmodp": {
-    "param1": "z_crc_t", 
-    "int": 3, 
-    "param2": "z_crc_t", 
+    "while(.*) param": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 2, 
+    "if (.*) param": 1, 
     "if (.* == 0)": 1, 
     "while(.*)": 1, 
     ".*\\-": 1, 
+    "z_crc_t": 2, 
     "if (.*)": 1, 
-    "return": "z_crc_t"
+    "return": 1, 
+    ".*\\- param": 1
   }, 
   "crc_word": {
-    "param1": "z_word_t", 
-    "int": 3, 
+    "z_word_t": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
     "for (.*)": 1, 
-    "return": "z_crc_t", 
-    ".*\\+": 2
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
   }, 
   "crc32_combine_gen64": {
     "label": "gen", 
-    "param1": "off64_t", 
-    "int": 1, 
-    "return": "uLong"
+    "params": 1, 
+    "off64_t": 1, 
+    "return": 1
   }, 
   "crc32_z": {
     "if (.* < \\d*)": 1, 
+    "uchar *": 1, 
     "if (.* < .*)": 1, 
     "break": 1, 
-    "param3": "z_size_t", 
-    "param1": "ulong", 
-    "int": 46, 
-    "param2": "uchar", 
+    "z_size_t": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 11, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "ulong": 1, 
     "while(.*)": 2, 
     "for (.*)": 3, 
-    "char *": 1, 
     ".*\\-": 4, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
     "if (.*)": 4, 
-    "return": "uLong", 
-    ".*\\+": 41
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 41, 
+    "= .*\\+": 36
   }, 
   "crc32_combine_gen": {
+    "off_t": 1, 
     "label": "gen", 
-    "param1": "off_t", 
-    "return": "uLong"
+    "params": 1, 
+    "return": 1
   }, 
   "byte_swap": {
-    "param1": "z_word_t", 
-    "return": "z_word_t"
+    "z_word_t": 1, 
+    "params": 1, 
+    "return": 1
   }, 
   "get_crc_table": {
     "label": "get", 
-    "param1": "void);", 
-    "int": 1, 
-    "return": "z_crc_t", 
+    "params": 0, 
+    "return": 1, 
     ".*\\+": 1
   }, 
   "crc_word_big": {
-    "param1": "z_word_t", 
-    "int": 3, 
+    "z_word_t": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
     "for (.*)": 1, 
-    "return": "z_word_t", 
-    ".*\\+": 2
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
   }, 
   "crc32": {
-    "param3": "uInt", 
-    "param1": "ulong", 
-    "param2": "uchar", 
-    "return": "uLong"
+    "uchar *": 1, 
+    "uInt": 1, 
+    "params": 3, 
+    "ulong": 1, 
+    "return": 1
   }, 
   "crc32_combine": {
-    "param3": "off_t", 
-    "param1": "uLong", 
-    "param2": "uLong", 
-    "return": "uLong"
+    "uLong": 2, 
+    "off_t": 1, 
+    "params": 3, 
+    "return": 1
   }, 
   "x2nmodp": {
+    "for (.*) param": 1, 
     "if (.* != 0)": 1, 
-    "param1": "off64_t", 
-    "int": 7, 
-    "param2": "uint", 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
     "for (.*)": 1, 
+    "off64_t": 1, 
     "if (.*)": 1, 
-    "return": "z_crc_t", 
-    ".*\\+": 2
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
   }, 
   "crc32_combine64": {
-    "param3": "off64_t", 
-    "param1": "uLong", 
-    "int": 1, 
-    "param2": "uLong", 
-    "return": "uLong"
+    "uLong": 2, 
+    "params": 3, 
+    "off64_t": 1, 
+    "return": 1
   }
 }

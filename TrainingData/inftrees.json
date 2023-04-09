@@ -1,0 +1,30 @@
+{
+  "inflate_table": {
+    "if (.* != 0)": 2, 
+    "if (.* < .*)": 8, 
+    "uint *": 1, 
+    ".*\\+ 0x.*": 4, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 4, 
+    "while(.*)": 3, 
+    "for (.*)": 9, 
+    ".*\\-": 17, 
+    "if (.* < .*) param": 1, 
+    ".*\\+": 29, 
+    "if (.* < \\d*)": 8, 
+    "if (.* < \\d*) param": 1, 
+    "break": 1, 
+    "code * *": 1, 
+    "params": 6, 
+    "uint": 1, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "return 0": 1, 
+    "codetype": 1, 
+    "if (.*)": 17, 
+    "unsigned short *": 2, 
+    "return": 1, 
+    "= .*\\+": 25, 
+    ".*\\- param": 1
+  }
+}

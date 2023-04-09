@@ -1,0 +1,76 @@
+{
+  "~DebugListener": {
+    "void": 1, 
+    "DebugListener *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~DefaultListener": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "DefaultListener *": 1, 
+    "return": 0
+  }, 
+  "DebugListener": {
+    "void": 1, 
+    "DebugListener *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "DefaultListener": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "DefaultListener *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setDebugListener": {
+    "void": 1, 
+    "DebugListener *": 1, 
+    "label": "set", 
+    "params": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "__cxx_global_var_init.1": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "printMessage": {
+    "void": 1, 
+    "String *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "DefaultListener *": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_tdebuglistener.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "operator++": {
+    "params": 1, 
+    "_List_const_iterator<TagLib::MP4::Atom_*> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setProperties": {
+    "PropertyMap *": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "checkValid": {
+    "break": 1, 
+    "AtomList *": 1, 
+    "label": "check", 
+    "params": 1, 
+    "if (.* == 0)": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "save": {
+    "label": "save", 
+    "File *": 1, 
+    "params": 1, 
+    "if (.* == 0)": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "~File": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "File *": 1, 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_valptr": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "_List_node<TagLib::MP4::Atom_*> *": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~FilePrivate": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 2
+  }, 
+  "FilePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "strip": {
+    "File *": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "removeUnsupportedProperties": {
+    "void": 1, 
+    "StringList *": 1, 
+    "File *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "end": {
+    "params": 1, 
+    "list<TagLib::MP4::Atom_*,_std::allocator<TagLib::MP4::Atom_*>_> *": 1, 
+    "return": 1
+  }, 
+  "tag": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_mp4file.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator*": {
+    "params": 1, 
+    "_List_const_iterator<TagLib::MP4::Atom_*> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "operator!=": {
+    "_Self *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "read": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "bool": 1, 
+    "label": "read", 
+    "File *": 1, 
+    "params": 2, 
+    "if (.* == 0)": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_List_iterator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "_List_iterator<TagLib::MP4::Atom_*> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "isSupported": {
+    "params": 1, 
+    "IOStream *": 1, 
+    "return": 1
+  }, 
+  "__addressof<TagLib::MP4::Atom_*const>": {
+    "label": "add", 
+    "params": 1, 
+    "Atom * *": 1, 
+    "return": 1
+  }, 
+  "hasMP4Tag": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_List_const_iterator": {
+    "void": 1, 
+    "iterator *": 1, 
+    "params": 2, 
+    "_List_const_iterator<TagLib::MP4::Atom_*> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "File": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "bool": 1, 
+    "File *": 1, 
+    "params": 4, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "IOStream *": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "audioProperties": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "begin": {
+    "params": 1, 
+    "list<TagLib::MP4::Atom_*,_std::allocator<TagLib::MP4::Atom_*>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "properties": {
+    "File *": 1, 
+    "params": 1, 
+    "return": 1
+  }
+}

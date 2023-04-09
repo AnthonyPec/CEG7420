@@ -1,0 +1,222 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "length": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "bitrate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "Properties": {
+    "void": 1, 
+    "File *": 1, 
+    "params": 4, 
+    "long": 1, 
+    "ReadStyle": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "lengthInSeconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleRate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "mpcVersion": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_mpcproperties.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "trackGain": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "lengthInMilliseconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "albumPeak": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "PropertiesPrivate": {
+    "void": 1, 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 11, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "channels": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "trackPeak": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleFrames": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "albumGain": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "readSV8": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "if (.* < .*)": 4, 
+    "label": "read", 
+    "File *": 1, 
+    "params": 3, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 4, 
+    "if (.*) param": 1, 
+    "return;": 2, 
+    "goto": 2, 
+    "while(.*)": 1, 
+    "Properties *": 1, 
+    ".*\\-": 20, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 14, 
+    "return": 0, 
+    ".*\\+": 9, 
+    "= .*\\+": 7, 
+    ".*\\- param": 1
+  }, 
+  "readSV7": {
+    "if (.* != 0)": 5, 
+    "if (.* < .*)": 7, 
+    "if (.* == 0) param": 1, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 2, 
+    ".*\\-": 35, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+": 7, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < \\d*)": 7, 
+    "if (.* != 0) param": 1, 
+    "void": 1, 
+    "label": "read", 
+    "params": 3, 
+    "if (.*) param": 1, 
+    "return;": 3, 
+    "Properties *": 1, 
+    "ByteVector *": 1, 
+    "if (.*)": 13, 
+    ".*\\- param": 1, 
+    "return": 0, 
+    "= .*\\+": 5
+  }, 
+  "~Properties": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "return": 0
+  }, 
+  "readSize": {
+    "if (.* != 0)": 1, 
+    "uint *": 1, 
+    "label": "read", 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "while(.*)": 1, 
+    "ByteVector *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "totalFrames": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

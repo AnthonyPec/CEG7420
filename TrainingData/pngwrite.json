@@ -1,0 +1,607 @@
+{
+  "png_write_flush": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "write", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_text_compression_level": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_text_compression_mem_level": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_write_user_transform_fn": {
+    "void": 1, 
+    "label": "transform", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "image_memory_flush": {
+    "void": 1, 
+    "label": "flush", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_destroy_write_struct": {
+    "void": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_do_write_intrapixel": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "byte": 1, 
+    "label": "write", 
+    "params": 2, 
+    "return;": 3, 
+    "for (.*)": 2, 
+    ".*\\-": 12, 
+    "if (.*)": 7, 
+    "return": 0, 
+    ".*\\+": 4, 
+    "= .*\\+": 4
+  }, 
+  "png_set_compression_strategy": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_write_destroy": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "destroy", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 13, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_image_set_PLTE": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 4, 
+    "break": 1, 
+    "label": "set", 
+    "params": 1, 
+    ".*\\+ 0x.*": 5, 
+    "if (.* == 0)": 5, 
+    "memset(.*)": 2, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 15, 
+    "return": 0, 
+    ".*\\+": 39, 
+    "= .*\\+": 21, 
+    "case": 4
+  }, 
+  "png_create_write_struct_2": {
+    "void": 1, 
+    "label": "create", 
+    "params": 7, 
+    "malloc(.*)": 2, 
+    "char": 1, 
+    ".*\\-": 11, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_write_rows": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "write", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_set_compression_level": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_flush": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "write_unknown_chunks": {
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "Writing zero-length unknown chunk"
+    ], 
+    "label": "write", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_image_write_to_memory": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 1, 
+    "void*": 1, 
+    "string": [
+      "png_image_write_to_memory: incorrect PNG_IMAGE_VERSION", 
+      "png_image_write_to_memory: invalid argument"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "write", 
+    "params": 7, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "memset(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 7, 
+    "return": 1, 
+    "byte*": 1
+  }, 
+  "png_image_write_main": {
+    "if (.* < \\d*)": 9, 
+    "if (.* != 0)": 8, 
+    "void": 1, 
+    "string": [
+      "image row stride too large", 
+      "supplied row stride too small", 
+      "memory image too large", 
+      "no color-map for color-mapped image", 
+      "png_write_image: unsupported transformation"
+    ], 
+    "if (.* < .*)": 9, 
+    "label": "write", 
+    "params": 1, 
+    ".*\\+ 0x.*": 9, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 14, 
+    "return 0": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 4, 
+    "if (.*)": 33, 
+    "return": 1, 
+    ".*\\+": 22, 
+    "= .*\\+": 13
+  }, 
+  "png_write_info": {
+    "if (.* != 0)": 11, 
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Valid palette required for paletted images"
+    ], 
+    "if (.* < .*)": 2, 
+    "label": "write", 
+    "params": 2, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "for (.*)": 4, 
+    ".*\\-": 47, 
+    "if (.*)": 19, 
+    "return": 0, 
+    ".*\\+": 4, 
+    "= .*\\+": 3
+  }, 
+  "png_set_filter_heuristics": {
+    "void": 1, 
+    "double": 1, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_image_write_to_file": {
+    "void*": 1, 
+    "string": [
+      "png_image_write_to_file: incorrect PNG_IMAGE_VERSION", 
+      "png_image_write_to_file: invalid argument"
+    ], 
+    "fflush(.*)": 1, 
+    "label": "write", 
+    "params": 6, 
+    "int": 1, 
+    "if (.* == 0)": 3, 
+    "char*": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 7, 
+    "return": 1
+  }, 
+  "png_write_image_8bit": {
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "label": "write", 
+    "params": 1, 
+    ".*\\+ 0x.*": 6, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "while(.*)": 2, 
+    "for (.*)": 3, 
+    ".*\\-": 4, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 21, 
+    "= .*\\+": 18
+  }, 
+  "png_write_image": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "write", 
+    "params": 2, 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "png_convert_from_struct_tm": {
+    "void": 1, 
+    "label": "convert", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    "return;": 1, 
+    ".*\\-": 6, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_create_write_struct": {
+    "void": 1, 
+    "label": "create", 
+    "params": 4, 
+    "malloc(.*)": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "png_set_compression_mem_level": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "image_memory_write": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "png_image_write_to_memory: PNG too big"
+    ], 
+    "if (.* < .*)": 1, 
+    "byte": 1, 
+    "label": "write", 
+    "params": 3, 
+    ".*\\+ 0x.*": 4, 
+    "return;": 1, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 4, 
+    "= .*\\+": 3
+  }, 
+  "png_set_compression_window_bits": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Only compression windows >= 256 supported by PNG", 
+      "Only compression windows <= 32k supported by PNG"
+    ], 
+    "if (.* < .*)": 2, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_set_filter": {
+    "if (.* != 0)": 5, 
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Unknown row filter for method 0", 
+      "png_set_filter: UP/AVG/PAETH cannot be added after start", 
+      "Unknown custom filter method"
+    ], 
+    "break": 5, 
+    "if (.* < .*)": 2, 
+    "label": "set", 
+    "params": 3, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 20, 
+    "if (.*)": 13, 
+    "return": 0, 
+    "case": 8, 
+    ".*\\+": 6, 
+    "= .*\\+": 6
+  }, 
+  "png_image_write_memory": {
+    "void": 1, 
+    "label": "write", 
+    "params": 1, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_write_info_before_PLTE": {
+    "if (.* != 0)": 6, 
+    "void": 1, 
+    "string": [
+      "MNG features are not allowed in a PNG datastream", 
+      "profile matches sRGB but writing iCCP instead"
+    ], 
+    "label": "write", 
+    "params": 2, 
+    "if (.* == 0)": 4, 
+    "return;": 1, 
+    ".*\\-": 19, 
+    "if (.*)": 8, 
+    "return": 0
+  }, 
+  "png_convert_from_time_t": {
+    "void": 1, 
+    "label": "convert", 
+    "params": 2, 
+    "memset(.*)": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_write_status_fn": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_set_filter_heuristics_fixed": {
+    "void": 1, 
+    "label": "set", 
+    "params": 5, 
+    "int": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_write_image_16bit": {
+    "if (.* != 0)": 3, 
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "png_write_image: internal call error"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "write", 
+    "params": 1, 
+    ".*\\+ 0x.*": 5, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "while(.*)": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 3, 
+    "if (.*)": 6, 
+    "return": 1, 
+    ".*\\+": 15, 
+    "= .*\\+": 14
+  }, 
+  "png_set_compression_method": {
+    "void": 1, 
+    "string": [
+      "Only compression method 8 is supported by PNG"
+    ], 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_write_png": {
+    "if (.* != 0)": 11, 
+    "void": 1, 
+    "string": [
+      "no rows for png_write_image to write", 
+      "PNG_TRANSFORM_STRIP_FILLER: BEFORE+AFTER not supported"
+    ], 
+    "label": "write", 
+    "params": 4, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 14, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "png_set_text_compression_strategy": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_image_write_init": {
+    "string": [
+      "png_image_write_: out of memory"
+    ], 
+    "label": "init", 
+    "params": 1, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "png_set_text_compression_method": {
+    "void": 1, 
+    "string": [
+      "Only compression method 8 is supported by PNG"
+    ], 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_set_text_compression_window_bits": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "string": [
+      "Only compression windows >= 256 supported by PNG", 
+      "Only compression windows <= 32k supported by PNG"
+    ], 
+    "if (.* < .*)": 2, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 0
+  }, 
+  "png_image_write_to_stdio": {
+    "void*": 1, 
+    "string": [
+      "png_image_write_to_stdio: incorrect PNG_IMAGE_VERSION", 
+      "png_image_write_to_stdio: invalid argument"
+    ], 
+    "label": "write", 
+    "params": 6, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "memset(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "png_write_end": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "No IDATs written into file", 
+      "Wrote palette index exceeding num_palette"
+    ], 
+    "if (.* < .*)": 3, 
+    "label": "write", 
+    "params": 2, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 22, 
+    "if (.*)": 10, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_write_row": {
+    "if (.* != 0)": 7, 
+    "if (.* < \\d*)": 6, 
+    "void": 1, 
+    "string": [
+      "png_write_info was never called before png_write_row", 
+      "internal write transform logic error"
+    ], 
+    "break": 6, 
+    "if (.* < .*)": 6, 
+    "byte": 1, 
+    "label": "write", 
+    "params": 2, 
+    "if (.* == 0)": 3, 
+    "return;": 9, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 27, 
+    "if (.*)": 18, 
+    "return": 0, 
+    "case": 7, 
+    ".*\\+": 4, 
+    "= .*\\+": 1
+  }, 
+  "png_unpremultiply": {
+    "if (.* < \\d*)": 2, 
+    "if (.* < .*)": 2, 
+    "byte": 1, 
+    "uint": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }
+}

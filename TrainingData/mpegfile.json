@@ -1,0 +1,355 @@
+{
+  "nextFrameOffset": {
+    "label": "set", 
+    "File *": 1, 
+    "params": 2, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 5, 
+    "return": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 3, 
+    ".*\\- param": 1
+  }, 
+  "setProperties": {
+    "PropertyMap *": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "params": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "save": {
+    "AdapterFile *": 1, 
+    "label": "save", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "access<TagLib::ID3v1::Tag>": {
+    "bool": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "TagUnion *": 1, 
+    "return": 1
+  }, 
+  "~File": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "File *": 1, 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "AdapterFile": {
+    "void": 1, 
+    "AdapterFile *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "IOStream *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "findID3v2": {
+    "if (.* != 0)": 1, 
+    "File *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 4, 
+    "goto": 2, 
+    "while(.*)": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 8, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 3
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~FilePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "FilePrivate": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 8, 
+    "FrameFactory *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "strip": {
+    "File *": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "removeUnsupportedProperties": {
+    "void": 1, 
+    "StringList *": 1, 
+    "File *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setID3v2FrameFactory": {
+    "void": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "FrameFactory *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "hasID3v2Tag": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "access<TagLib::ID3v2::Tag>": {
+    "bool": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "TagUnion *": 1, 
+    "return": 1
+  }, 
+  "lastFrameOffset": {
+    "label": "set", 
+    "File *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    ".*\\-": 2, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 2, 
+    ".*\\- param": 1, 
+    "= .*\\+": 2
+  }, 
+  "_GLOBAL__sub_I_mpegfile.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "tag": {
+    "AdapterFile *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "ID3v1Tag": {
+    "bool": 1, 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "hasAPETag": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "access<TagLib::APE::Tag>": {
+    "bool": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "TagUnion *": 1, 
+    "return": 1
+  }, 
+  "read": {
+    "if (.* < \\d*)": 3, 
+    "void": 1, 
+    "bool": 1, 
+    "if (.* < .*)": 3, 
+    "label": "read", 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 22, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "isFrameSync": {
+    "if (.* != 0)": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "firstFrameOffset": {
+    "label": "set", 
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "isSupported": {
+    "if (.* != 0)": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 4, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "goto": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 1, 
+    "IOStream *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 5, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 3
+  }, 
+  "min<long>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "params": 2, 
+    "if (.*) param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "long *": 2, 
+    "return": 1
+  }, 
+  "hasID3v1Tag": {
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "APETag": {
+    "bool": 1, 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~AdapterFile": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "AdapterFile *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "File": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "bool": 1, 
+    "File *": 1, 
+    "params": 5, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "IOStream *": 1, 
+    "if (.*)": 1, 
+    "FrameFactory *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "ID3v2Tag": {
+    "bool": 1, 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "audioProperties": {
+    "AdapterFile *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "properties": {
+    "File *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "previousFrameOffset": {
+    "if (.* < \\d*)": 2, 
+    "if (.* < .*)": 2, 
+    "break": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "params": 2, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "goto": 1, 
+    "while(.*)": 3, 
+    ".*\\-": 4, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 3, 
+    ".*\\- param": 1
+  }
+}

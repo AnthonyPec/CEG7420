@@ -1,0 +1,602 @@
+{
+  "png_get_x_offset_microns": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_tRNS": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 7, 
+    "return": 1, 
+    "byte*": 1
+  }, 
+  "png_get_chunk_malloc_max": {
+    "label": "malloc", 
+    "params": 1, 
+    "malloc(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_pixel_aspect_ratio": {
+    "label": "get", 
+    "float": 1, 
+    "params": 2, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_sBIT": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_text": {
+    "int*": 1, 
+    "label": "get", 
+    "params": 4, 
+    "int": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "png_get_tIME": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_pHYs": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    "uint*": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "png_get_eXIf": {
+    "string": [
+      "png_get_eXIf does not work; use png_get_eXIf_1"
+    ], 
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "return 0": 1, 
+    "return": 1, 
+    "byte*": 1
+  }, 
+  "png_get_cHRM_XYZ": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 11, 
+    "int": 1, 
+    "double*": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 10, 
+    "return": 1
+  }, 
+  "png_get_x_pixels_per_meter": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_sPLT": {
+    "label": "get", 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_hIST": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "uint*": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_image_height": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_gAMA_fixed": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_filter_type": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_IHDR": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 9, 
+    "int": 1, 
+    "uint*": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 8, 
+    "return": 1
+  }, 
+  "png_get_user_chunk_ptr": {
+    "void": 1, 
+    "label": "get", 
+    "params": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_get_bit_depth": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_PLTE": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_eXIf_1": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "uint*": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 4, 
+    "return": 1, 
+    "byte*": 1
+  }, 
+  "png_get_user_height_max": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_x_offset_inches": {
+    "label": "get", 
+    "float": 1, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "png_get_y_pixels_per_meter": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_compression_type": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_unknown_chunks": {
+    "label": "get", 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_rgb_to_gray_status": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_y_offset_microns": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_pHYs_dpi": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    "uint*": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 7, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_get_x_offset_pixels": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_signature": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_iCCP": {
+    "byte": 1, 
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 6, 
+    "int": 1, 
+    "uint*": 1, 
+    "char": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "png_get_cHRM_fixed": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 10, 
+    "int": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 9, 
+    "return": 1
+  }, 
+  "png_get_oFFs": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_io_chunk_type": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "png_get_sCAL": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    "double*": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_sRGB": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_rows": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_cHRM_XYZ_fixed": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 11, 
+    "int": 1, 
+    ".*\\-": 10, 
+    "if (.*)": 10, 
+    "return": 1
+  }, 
+  "png_get_pixel_aspect_ratio_fixed": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 6, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_x_offset_inches_fixed": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "ppi_from_ppm": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_y_offset_inches": {
+    "label": "get", 
+    "float": 1, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "png_get_y_offset_pixels": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_bKGD": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_sCAL_s": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    "char": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_gAMA": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "double*": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_y_pixels_per_inch": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_get_chunk_cache_max": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_channels": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_valid": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_interlace_type": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_color_type": {
+    "byte": 1, 
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_fixed_inches_from_microns": {
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_get_pCAL": {
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 9, 
+    "int": 1, 
+    "char*": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_pixels_per_inch": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_get_y_offset_inches_fixed": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_get_cHRM": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 10, 
+    "int": 1, 
+    "double*": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 9, 
+    "return": 1
+  }, 
+  "png_get_rowbytes": {
+    "label": "get", 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_image_width": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_x_pixels_per_inch": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "png_get_io_state": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "png_get_pixels_per_meter": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_user_width_max": {
+    "label": "get", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_palette_max": {
+    "label": "get", 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_sCAL_fixed": {
+    "string": [
+      "sCAL width", 
+      "sCAL height"
+    ], 
+    "int*": 1, 
+    "label": "get", 
+    "uint": 1, 
+    "params": 5, 
+    "int": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_get_compression_buffer_size": {
+    "label": "get", 
+    "params": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 2, 
+    "return": 1
+  }
+}

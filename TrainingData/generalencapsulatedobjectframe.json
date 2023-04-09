@@ -1,0 +1,195 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "textEncoding": {
+    "params": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "fileName": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~GeneralEncapsulatedObjectFramePrivate": {
+    "void": 1, 
+    "label": "gen", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "GeneralEncapsulatedObjectFramePrivate *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~GeneralEncapsulatedObjectFrame": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "gen", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "return": 0
+  }, 
+  "setMimeType": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "renderFields": {
+    "params": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "return": 1
+  }, 
+  "description": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "mimeType": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "setDescription": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "GeneralEncapsulatedObjectFrame": {
+    "void": 1, 
+    "label": "gen", 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "Header *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "setObject": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "parseFields": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "parse", 
+    "params": 2, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setFileName": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "GeneralEncapsulatedObjectFramePrivate": {
+    "void": 1, 
+    "label": "gen", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "GeneralEncapsulatedObjectFramePrivate *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_generalencapsulatedobjectframe.cpp": {
+    "void": 1, 
+    "label": "gen", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toString": {
+    "params": 1, 
+    "if (.* == 0)": 2, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "setTextEncoding": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "Type": 1, 
+    "return;": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "object": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "GeneralEncapsulatedObjectFrame *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }
+}

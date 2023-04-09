@@ -1,37 +1,41 @@
 {
   "zlibVersion": {
-    "param1": "void);", 
-    "int": 1, 
-    "char *": 1, 
-    "return": "char", 
+    "params": 0, 
+    "char": 1, 
+    "return": 1, 
     ".*\\+": 1
   }, 
   "zcfree": {
+    "void": 1, 
+    "voidpf": 2, 
     "label": "free", 
-    "param1": "voidpf", 
-    "param2": "voidpf", 
+    "params": 2, 
     "return;": 1, 
-    "return": "void"
+    "return": 0
   }, 
   "zlibCompileFlags": {
-    "param1": "void);", 
+    "params": 0, 
     "return 0": 1, 
-    "return": "uLong"
+    "return": 1
   }, 
   "zcalloc": {
-    "param3": "uint", 
-    "param1": "voidpf", 
+    "malloc(.*) param": 1, 
+    "void": 1, 
+    "voidpf": 1, 
+    "uint": 2, 
+    "params": 3, 
     "malloc(.*)": 1, 
-    "param2": "uint", 
-    "return": "voidpf"
+    "return": 0
   }, 
   "zError": {
     "label": "error", 
-    "param1": "int", 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
     "int": 1, 
-    "char *": 1, 
+    "char": 1, 
     ".*\\-": 1, 
-    "return": "char", 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
     ".*\\+": 1
   }
 }

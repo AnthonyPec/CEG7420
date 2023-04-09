@@ -1,0 +1,94 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_podcastframe.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "PodcastFramePrivate": {
+    "void": 1, 
+    "PodcastFramePrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "renderFields": {
+    "PodcastFrame *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "asProperties": {
+    "PodcastFrame *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "parseFields": {
+    "void": 1, 
+    "PodcastFrame *": 1, 
+    "label": "parse", 
+    "params": 2, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~PodcastFrame": {
+    "void": 1, 
+    "PodcastFrame *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toString": {
+    "PodcastFrame *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "~PodcastFramePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "PodcastFramePrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "PodcastFrame": {
+    "void": 1, 
+    "PodcastFrame *": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "Header *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 3, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }
+}

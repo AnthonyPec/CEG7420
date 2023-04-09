@@ -1,0 +1,32 @@
+{
+  "_GLOBAL__sub_I_flacmetadatablock.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "MetadataBlock": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "MetadataBlock *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~MetadataBlock": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "MetadataBlock *": 1, 
+    "return": 0
+  }
+}

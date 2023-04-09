@@ -1,0 +1,172 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "writeU32B": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    "FileBase *": 1, 
+    "ulong": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "writeByte": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    "FileBase *": 1, 
+    "return;": 1, 
+    "uchar": 1, 
+    "return": 0
+  }, 
+  "readU16L": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 2, 
+    "FileBase *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "unsigned short *": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~FileBase": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "FileBase *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "readU32L": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 2, 
+    "ulong *": 1, 
+    "FileBase *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "readString": {
+    "if (.* < \\d*)": 2, 
+    "String *": 1, 
+    "if (.* < .*)": 2, 
+    "label": "read", 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "FileBase *": 1, 
+    "ulong": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 3, 
+    ".*\\- param": 1, 
+    "= .*\\+": 2
+  }, 
+  "writeU16B": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "FileBase *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "readU32B": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 2, 
+    "ulong *": 1, 
+    "FileBase *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "readU16B": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 2, 
+    "FileBase *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "unsigned short *": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "_GLOBAL__sub_I_modfilebase.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "FileBase": {
+    "void": 1, 
+    "params": 2, 
+    "FileBase *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "IOStream *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "writeU32L": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    "FileBase *": 1, 
+    "ulong": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "readByte": {
+    "if (.* != 0)": 1, 
+    "uchar *": 1, 
+    "label": "read", 
+    "params": 2, 
+    "FileBase *": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "writeString": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "test", 
+    "params": 4, 
+    "FileBase *": 1, 
+    "ulong": 1, 
+    "return;": 1, 
+    "char": 1, 
+    "return": 0
+  }, 
+  "writeU16L": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    "unsigned short": 1, 
+    "FileBase *": 1, 
+    "return;": 1, 
+    "return": 0
+  }
+}

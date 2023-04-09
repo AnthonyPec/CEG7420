@@ -1,0 +1,24 @@
+{
+  "isAvailable": {
+    "params": 0, 
+    "return": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "decompress": {
+    "params": 1, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "_GLOBAL__sub_I_tzlib.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "read": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 1, 
+    "if (.* != 0) param": 1, 
+    "if (.* < \\d*) param": 1, 
+    "void": 1, 
+    "if (.* < .*)": 3, 
+    "label": "read", 
+    "params": 3, 
+    "long": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 14, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 5, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 7, 
+    "= .*\\+": 7
+  }, 
+  "length": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    "return": 1
+  }, 
+  "bitrate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "Properties": {
+    "void": 1, 
+    "params": 4, 
+    "long": 1, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "lengthInSeconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleRate": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_trueaudioproperties.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "lengthInMilliseconds": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "bitsPerSample": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "PropertiesPrivate": {
+    "void": 1, 
+    "PropertiesPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 7, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "channels": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "sampleFrames": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~Properties": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Properties *": 1, 
+    "return": 0
+  }, 
+  "ttaVersion": {
+    "params": 1, 
+    "int": 1, 
+    "Properties *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

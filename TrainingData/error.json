@@ -1,0 +1,24 @@
+{
+  "wc_ErrorString": {
+    "void": 1, 
+    "label": "error", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    "return": 0
+  }, 
+  "wc_GetErrorString": {
+    "break": 177, 
+    "label": "get", 
+    "params": 1, 
+    ".*\\+ 0x.*": 176, 
+    "int": 1, 
+    "char": 1, 
+    ".*\\-": 177, 
+    "return": 1, 
+    "case": 177, 
+    ".*\\+": 178, 
+    "= .*\\+": 178
+  }
+}

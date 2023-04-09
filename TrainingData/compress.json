@@ -1,0 +1,35 @@
+{
+  "compress2": {
+    "uLong": 1, 
+    "params": 5, 
+    ".*\\+ 0x.*": 1, 
+    "int": 2, 
+    "Bytef *": 2, 
+    "if (.* == 0)": 4, 
+    "while(.*)": 1, 
+    "uLongf *": 1, 
+    "if (.*)": 5, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "compress": {
+    "uLong": 1, 
+    "params": 4, 
+    "int": 1, 
+    "Bytef *": 2, 
+    "uLongf *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "compressBound": {
+    "uLong": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }
+}

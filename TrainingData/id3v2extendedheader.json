@@ -1,0 +1,77 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "setData": {
+    "void": 1, 
+    "label": "set", 
+    "ExtendedHeader *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    "return": 0
+  }, 
+  "parse": {
+    "void": 1, 
+    "label": "parse", 
+    "ExtendedHeader *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_id3v2extendedheader.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "ExtendedHeaderPrivate": {
+    "void": 1, 
+    "params": 1, 
+    "ExtendedHeaderPrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "ExtendedHeader": {
+    "void": 1, 
+    "ExtendedHeader *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "size": {
+    "uint": 1, 
+    "ExtendedHeader *": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~ExtendedHeader": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "ExtendedHeader *": 1, 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }
+}

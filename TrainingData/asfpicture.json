@@ -1,0 +1,217 @@
+{
+  "operator=": {
+    "params": 2, 
+    "Picture *": 2, 
+    "return": 1
+  }, 
+  "fromInvalid": {
+    "params": 0, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "_GLOBAL__sub_I_asfpicture.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setMimeType": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "Picture *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "description": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Picture *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "setDescription": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "Picture *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "mimeType": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Picture *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "type": {
+    "params": 1, 
+    "Picture *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "swap<TagLib::ASF::Picture::PicturePrivate_*>": {
+    "PicturePrivate * *": 2, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "Picture": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "Picture *": 2, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "render": {
+    "params": 1, 
+    "Picture *": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "swap": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "Picture *": 2, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "isValid": {
+    "params": 1, 
+    "Picture *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "dataSize": {
+    "params": 1, 
+    "int": 1, 
+    "Picture *": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "parse": {
+    "if (.* < \\d*)": 3, 
+    "void": 1, 
+    "if (.* < .*)": 3, 
+    "label": "parse", 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "Picture *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 8, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "setType": {
+    "void": 1, 
+    "return; param": 1, 
+    "label": "set", 
+    "params": 2, 
+    "Type *": 1, 
+    "return;": 1, 
+    "Picture *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "picture": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Picture *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "renderString": {
+    "if (.* != 0)": 1, 
+    "String *": 1, 
+    "bool": 1, 
+    "params": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }, 
+  "setPicture": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "Picture *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~PicturePrivate": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "PicturePrivate *": 1, 
+    "return": 0
+  }, 
+  "~Picture": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Picture *": 1, 
+    "return": 0
+  }, 
+  "PicturePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "PicturePrivate *": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

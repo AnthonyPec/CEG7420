@@ -1,0 +1,158 @@
+{
+  "formatString": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "char *": 1, 
+    "printf(.*)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "_M_do_sanitize": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "bitset<8> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_maskbit": {
+    "size_t": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "debug": {
+    "void": 1, 
+    "String *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "_GLOBAL__sub_I_tdebug.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "to_string<char,_std::char_traits<char>,_std::allocator<char>_>": {
+    "params": 1, 
+    "bitset<8> *": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "bitset": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "ulong": 1, 
+    "return;": 1, 
+    "bitset<8> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_whichbit": {
+    "size_t": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "_S_do_sanitize": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "_WordT *": 1, 
+    "return": 0
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_Unchecked_test": {
+    "label": "test", 
+    "size_t": 1, 
+    "params": 2, 
+    "bitset<8> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_copy_to_string<char,_std::char_traits<char>,_std::allocator<char>_>": {
+    "void": 1, 
+    "label": "copy", 
+    "params": 4, 
+    "return;": 1, 
+    "bitset<8> *": 1, 
+    "for (.*)": 1, 
+    "char": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    "basic_string<char,_std::char_traits<char>,_std::allocator<char>_> *": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_getword": {
+    "_Base_bitset<1> *": 1, 
+    "label": "get", 
+    "size_t": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_Base_bitset": {
+    "void": 1, 
+    "_Base_bitset<1> *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "ulong": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "debugData": {
+    "void": 1, 
+    "break": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 1
+  }, 
+  "_M_hiword": {
+    "_Base_bitset<1> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "to_string": {
+    "params": 1, 
+    "bitset<8> *": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "assign": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "char_type *": 2, 
+    "return": 0
+  }
+}

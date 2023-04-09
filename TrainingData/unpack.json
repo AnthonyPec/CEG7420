@@ -1,0 +1,49 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "raw_was_read": {
+    "if (.* == 0) param": 1, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    "LibRaw *": 1, 
+    ".*\\+": 5, 
+    "= .*\\+": 5
+  }, 
+  "unpack": {
+    "if (.* != 0)": 8, 
+    "malloc(.*) param": 1, 
+    "if (.* < .*)": 18, 
+    "if (.* == 0) param": 1, 
+    ".*\\+ 0x.*": 99, 
+    "undefined": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 18, 
+    "for (.*)": 2, 
+    ".*\\-": 12, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+": 153, 
+    "case": 4, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < \\d*)": 18, 
+    "if (.* != 0) param": 1, 
+    "params": 1, 
+    "malloc(.*)": 4, 
+    "if (.*) param": 1, 
+    "if (.*)": 47, 
+    ".*\\+ 0x.* param": 1, 
+    "= .*\\+": 79, 
+    "LibRaw *": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

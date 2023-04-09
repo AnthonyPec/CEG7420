@@ -1,24 +1,28 @@
 {
   "uncompress": {
-    "param3": "Bytef", 
-    "param4": "uLong", 
-    "param1": "Bytef", 
+    "uLong": 1, 
+    "params": 4, 
     "int": 1, 
-    "param2": "uLongf", 
-    "return": "int"
+    "Bytef *": 2, 
+    "uLongf *": 1, 
+    "return": 1
   }, 
   "uncompress2": {
     "if (.* != 0)": 2, 
-    "param3": "Bytef", 
-    "param4": "uLong", 
-    "param1": "Bytef", 
-    "int": 6, 
-    "param2": "uLongf", 
+    "uLong *": 1, 
+    "if (.* == 0) param": 1, 
+    "params": 4, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    "Bytef *": 2, 
+    "if (.*) param": 1, 
     "if (.* == 0)": 4, 
     "while(.*)": 1, 
+    "uLongf *": 1, 
     ".*\\-": 5, 
     "if (.*)": 9, 
-    "return": "int", 
-    ".*\\+": 3
+    "return": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
   }
 }

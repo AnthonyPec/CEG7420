@@ -1,0 +1,698 @@
+{
+  "CommentsFramePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "CommentsFramePrivate *": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator--": {
+    "params": 1, 
+    "_List_iterator<TagLib::ByteVector> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "deallocate": {
+    "pointer": 1, 
+    "void": 1, 
+    "size_type": 1, 
+    "delete(.*)": 1, 
+    "new_allocator<std::_List_node<TagLib::ByteVector>_> *": 1, 
+    "params": 3, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_List_base": {
+    "void": 1, 
+    "_Node_alloc_type *": 1, 
+    "params": 2, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "renderFields": {
+    "params": 1, 
+    ".*\\+ 0x.*": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 1
+  }, 
+  "language": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\+": 1
+  }, 
+  "_M_get_Node_allocator": {
+    "label": "get", 
+    "params": 1, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return": 1
+  }, 
+  "construct": {
+    "pointer": 1, 
+    "void": 1, 
+    "params": 3, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    "new_allocator<TagLib::ByteVector> *": 1, 
+    "return": 0
+  }, 
+  "_M_clear": {
+    "void": 1, 
+    "while(.*) param": 1, 
+    "params": 1, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "ListPrivateBase": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "ListPrivateBase *": 1
+  }, 
+  "parseFields": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "parse", 
+    "params": 2, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 11, 
+    "if (.*)": 5, 
+    "return": 0, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 2
+  }, 
+  "_M_inc_size": {
+    "void": 1, 
+    "size_t": 1, 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "ref": {
+    "void": 1, 
+    "RefCounterOld *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "allocator": {
+    "void": 1, 
+    "params": 2, 
+    "allocator<std::_List_node<TagLib::ByteVector>_> *": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~ListPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "ListPrivate<TagLib::ID3v2::Frame_*> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_node_count": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "label": "count", 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "List": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "List<TagLib::ID3v2::Frame_*> *": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "text": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "operator*": {
+    "params": 1, 
+    "_List_iterator<TagLib::ByteVector> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setTextEncoding": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "Type": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "ListPrivate": {
+    "ListPrivate<TagLib::ByteVector> *": 1, 
+    "void": 1, 
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "textEncoding": {
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator!=": {
+    "_Self *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "allocator<std::_List_node<TagLib::ByteVector>_>": {
+    "void": 1, 
+    "allocator<TagLib::ByteVector> *": 1, 
+    "params": 2, 
+    "allocator<std::_List_node<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_List_iterator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "_List_iterator<TagLib::ByteVector> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "findByDescription": {
+    "if (.* != 0)": 1, 
+    "String *": 1, 
+    "Tag *": 1, 
+    "params": 2, 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "new_allocator": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "new_allocator<TagLib::ByteVector> *": 1, 
+    "return": 0
+  }, 
+  "count": {
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "destroy": {
+    "pointer": 1, 
+    "void": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "new_allocator<TagLib::ByteVector> *": 1, 
+    "return": 0
+  }, 
+  "list": {
+    "void": 1, 
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "asProperties": {
+    "params": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 2
+  }, 
+  "max_size": {
+    "new_allocator<std::_List_node<TagLib::ByteVector>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "_GLOBAL__sub_I_commentsframe.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~List": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "List<TagLib::ID3v2::Frame_*> *": 1, 
+    "return": 0
+  }, 
+  "_M_get_size": {
+    "label": "get", 
+    "params": 1, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "size": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "size_type": 1, 
+    "if (.* < .*)": 1, 
+    "new_allocator<std::_List_node<TagLib::ByteVector>_> *": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "void *": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "_M_get_node": {
+    "label": "get", 
+    "params": 1, 
+    "int": 1, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return": 1
+  }, 
+  "_List_const_iterator": {
+    "void": 1, 
+    "_List_const_iterator<TagLib::ByteVector> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "_Node_alloc_type *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "begin": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~list": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::Frame_*,_std::allocator<TagLib::ID3v2::Frame_*>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setLanguage": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1
+  }, 
+  "RefCounterOld": {
+    "void": 1, 
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_create_node": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "label": "create", 
+    "params": 2, 
+    "value_type *": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "deref": {
+    "RefCounterOld *": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator++": {
+    "_List_const_iterator<TagLib::ByteVector> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "description": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "back": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "allocator<std::_List_node<TagLib::ID3v2::Frame_*>_>": {
+    "void": 1, 
+    "allocator<TagLib::ID3v2::Frame_*> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "allocator<std::_List_node<TagLib::ID3v2::Frame_*>_> *": 1, 
+    "return": 0
+  }, 
+  "_M_insert": {
+    "void": 1, 
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 3, 
+    "value_type *": 1, 
+    "iterator": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setDescription": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_valptr": {
+    "params": 1, 
+    "_List_node<TagLib::ByteVector> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "push_back": {
+    "void": 1, 
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 2, 
+    "value_type *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__addressof<const_TagLib::ByteVector>": {
+    "label": "add", 
+    "params": 1, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_initialize_dispatch<std::_List_const_iterator<TagLib::ID3v2::Frame_*>_>": {
+    "void": 1, 
+    "label": "init", 
+    "params": 3, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "list<TagLib::ID3v2::Frame_*,_std::allocator<TagLib::ID3v2::Frame_*>_> *": 1, 
+    "return": 0, 
+    "_List_const_iterator<TagLib::ID3v2::Frame_*>": 2
+  }, 
+  "_M_initialize_dispatch<std::_List_const_iterator<TagLib::ByteVector>_>": {
+    "void": 1, 
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "_List_const_iterator<TagLib::ByteVector>": 2, 
+    "label": "init", 
+    "params": 3, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": 0
+  }, 
+  "end": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "~new_allocator": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "new_allocator<TagLib::ByteVector> *": 1, 
+    "return": 0
+  }, 
+  "~CommentsFramePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "CommentsFramePrivate *": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_List_node_header": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    "return": 0
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "clear": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "list<TagLib::ID3v2::Frame_*,_std::allocator<TagLib::ID3v2::Frame_*>_> *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__addressof<TagLib::ID3v2::Frame_*const>": {
+    "label": "add", 
+    "params": 1, 
+    "Frame * *": 1, 
+    "return": 1
+  }, 
+  "CommentsFrame": {
+    "void": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "Header *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 2, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "__addressof<TagLib::ID3v2::Frame_*>": {
+    "label": "add", 
+    "params": 1, 
+    "Frame * *": 1, 
+    "return": 1
+  }, 
+  "~allocator": {
+    "void": 1, 
+    "allocator<TagLib::ByteVector> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_put_node": {
+    "pointer": 1, 
+    "void": 1, 
+    "params": 2, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__addressof<TagLib::ByteVector>": {
+    "label": "add", 
+    "params": 1, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "~_List_base": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "_List_base<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_S_select_on_copy": {
+    "label": "copy", 
+    "params": 1, 
+    "allocator<std::_List_node<TagLib::ByteVector>_> *": 1, 
+    "return": 1
+  }, 
+  "detach": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    "List<TagLib::ByteVector> *": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 1
+  }, 
+  "toString": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    "CommentsFrame *": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~CommentsFrame": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0, 
+    "CommentsFrame *": 1
+  }, 
+  "front": {
+    "list<TagLib::ByteVector,_std::allocator<TagLib::ByteVector>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "setText": {
+    "void": 1, 
+    "String *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    "CommentsFrame *": 1, 
+    ".*\\- param": 1
+  }
+}

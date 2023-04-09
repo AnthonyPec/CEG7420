@@ -1,0 +1,858 @@
+{
+  "charArrayToString": {
+    "if (.* == 0) param": 1, 
+    "params": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "char *": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "taglib_tag_set_artist": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "operator=": {
+    "nullptr_t": 1, 
+    "params": 2, 
+    "__allocated_ptr<std::allocator<std::_List_node<char_*>_>_> *": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_List_base": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "void": 1, 
+    "_Node_alloc_type *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "deallocate": {
+    "pointer": 1, 
+    "void": 1, 
+    "size_type": 1, 
+    "delete(.*)": 1, 
+    "params": 3, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 1, 
+    "return": 0
+  }, 
+  "construct<char_*,_char_*const_&>": {
+    "void": 1, 
+    "params": 3, 
+    "char * *": 2, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 1, 
+    "return": 0
+  }, 
+  "_M_get_Node_allocator": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "label": "get", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "move<std::allocator<std::_List_node<char_*>_>_&>": {
+    "params": 1, 
+    "return": 1, 
+    "allocator<std::_List_node<char_*>_> *": 1
+  }, 
+  "ListPrivateBase": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "ListPrivateBase *": 1
+  }, 
+  "_M_clear": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "void": 1, 
+    "while(.*) param": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "select_on_container_copy_construction": {
+    "label": "copy", 
+    "params": 1, 
+    "allocator_type *": 1, 
+    "return": 1
+  }, 
+  "taglib_free": {
+    "void": 1, 
+    "label": "free", 
+    "params": 1, 
+    "return;": 1, 
+    "void *": 1, 
+    "return": 0
+  }, 
+  "_M_inc_size": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "void": 1, 
+    "size_t": 1, 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "allocator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0, 
+    "allocator<std::_List_node<char_*>_> *": 2
+  }, 
+  "taglib_id3v2_set_default_text_encoding": {
+    "void": 1, 
+    "break": 3, 
+    "label": "set", 
+    "params": 1, 
+    "TagLib_ID3v2_Encoding": 1, 
+    "return;": 1, 
+    "return": 0, 
+    "case": 4
+  }, 
+  "~ListPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "ListPrivate<char_*> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_GLOBAL__sub_I_tag_c.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_insert<char_*const_&>": {
+    "void": 1, 
+    "params": 3, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "iterator": 1, 
+    "char * *": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "taglib_tag_free_strings": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "break": 1, 
+    "label": "free", 
+    "params": 0, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "List": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "List<char_*> *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator*": {
+    "params": 1, 
+    "_List_const_iterator<char_*> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_init": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "void": 1, 
+    "label": "init", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "ListPrivate": {
+    "void": 1, 
+    "params": 2, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "ListPrivate<char_*> *": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator!=": {
+    "_Self *": 2, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_List_iterator": {
+    "void": 1, 
+    "_List_iterator<char_*> *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "new_allocator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 2, 
+    "return": 0
+  }, 
+  "count": {
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "taglib_tag_set_title": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "taglib_file_is_valid": {
+    "params": 1, 
+    "int": 1, 
+    "TagLib_File *": 1, 
+    "return": 1
+  }, 
+  "taglib_file_new_type": {
+    "break": 10, 
+    "params": 2, 
+    "TagLib_File_Type": 1, 
+    "char *": 1, 
+    "return": 1, 
+    "case": 10
+  }, 
+  "list": {
+    "void": 1, 
+    "params": 2, 
+    "list<char_*,_std::allocator<char_*>_> *": 2, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "max_size": {
+    "params": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 1, 
+    "return": 1
+  }, 
+  "~List": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "List<char_*> *": 1, 
+    "return": 0
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "size_type": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "void *": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 1, 
+    "return": 1
+  }, 
+  "_M_get_node": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "label": "get", 
+    "params": 1, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "_List_const_iterator": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "_List_const_iterator<char_*> *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_List_node_base *": 1
+  }, 
+  "taglib_tag_set_album": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "stringToCharArray": {
+    "String *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1
+  }, 
+  "_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "_Node_alloc_type *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "begin": {
+    "params": 1, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~list": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "taglib_tag_year": {
+    "TagLib_Tag *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "taglib_file_save": {
+    "label": "save", 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "TagLib_File *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "taglib_tag_track": {
+    "TagLib_Tag *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "RefCounterOld": {
+    "void": 1, 
+    "RefCounterOld *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "deref": {
+    "RefCounterOld *": 1, 
+    "params": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator++": {
+    "params": 1, 
+    "_List_const_iterator<char_*> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~_List_impl": {
+    "void": 1, 
+    "_List_impl *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_valptr": {
+    "_List_node<char_*> *": 1, 
+    "params": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "push_back": {
+    "void": 1, 
+    "params": 2, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "value_type *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~__allocated_ptr": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "__allocated_ptr<std::allocator<std::_List_node<char_*>_>_> *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "taglib_tag_set_year": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "taglib_tag_title": {
+    "if (.* != 0)": 1, 
+    "TagLib_Tag *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "taglib_audioproperties_samplerate": {
+    "TagLib_AudioProperties *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "taglib_file_audioproperties": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "TagLib_File *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "__cxx_global_var_init.1": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "taglib_tag_artist": {
+    "if (.* != 0)": 1, 
+    "TagLib_Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "taglib_file_free": {
+    "void": 1, 
+    "label": "free", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "TagLib_File *": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "taglib_audioproperties_channels": {
+    "TagLib_AudioProperties *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "taglib_tag_set_comment": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "_M_create_node<char_*const_&>": {
+    "label": "create", 
+    "params": 2, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "char * *": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "taglib_audioproperties_bitrate": {
+    "TagLib_AudioProperties *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "taglib_tag_set_track": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "end": {
+    "params": 1, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "return": 1
+  }, 
+  "~new_allocator": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 1, 
+    "return": 0
+  }, 
+  "taglib_tag_genre": {
+    "if (.* != 0)": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "gen", 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "emplace_back<char_*const_&>": {
+    "void": 1, 
+    "params": 2, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "char * *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "taglib_tag_comment": {
+    "if (.* != 0)": 1, 
+    "TagLib_Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "_List_node_header": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "_List_node_header *": 1, 
+    "return": 0
+  }, 
+  "__allocated_ptr": {
+    "pointer": 1, 
+    "void": 1, 
+    "params": 3, 
+    "return;": 1, 
+    "__allocated_ptr<std::allocator<std::_List_node<char_*>_>_> *": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "allocator<std::_List_node<char_*>_> *": 1
+  }, 
+  "taglib_tag_set_genre": {
+    "void": 1, 
+    "TagLib_Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "char *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "taglib_audioproperties_length": {
+    "TagLib_AudioProperties *": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "clear": {
+    "void": 1, 
+    "params": 1, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "taglib_set_strings_unicode": {
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "int": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "taglib_file_new": {
+    "params": 1, 
+    "char *": 1, 
+    "return": 1
+  }, 
+  "forward<char_*const_&>": {
+    "type *": 1, 
+    "params": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "taglib_tag_album": {
+    "if (.* != 0)": 1, 
+    "TagLib_Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "~allocator": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0, 
+    "allocator<std::_List_node<char_*>_> *": 1
+  }, 
+  "_M_put_node": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "pointer": 1, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "taglib_set_string_management_enabled": {
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "int": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~_List_base": {
+    "_List_base<char_*,_std::allocator<char_*>_> *": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_initialize_dispatch<std::_List_const_iterator<char_*>_>": {
+    "void": 1, 
+    "_List_const_iterator<char_*>": 2, 
+    "label": "init", 
+    "params": 3, 
+    "list<char_*,_std::allocator<char_*>_> *": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "return": 0
+  }, 
+  "_S_select_on_copy": {
+    "label": "copy", 
+    "params": 1, 
+    "char": 1, 
+    "return": 1, 
+    "allocator<std::_List_node<char_*>_> *": 1
+  }, 
+  "taglib_file_tag": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "TagLib_File *": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "destroy<char_*>": {
+    "void": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "char * *": 1, 
+    "return;": 1, 
+    "new_allocator<std::_List_node<char_*>_> *": 1, 
+    "return": 0
+  }, 
+  "detach": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "List<char_*> *": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_M_ptr": {
+    "params": 1, 
+    "__aligned_membuf<char_*> *": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "__addressof<std::allocator<std::_List_node<char_*>_>_>": {
+    "label": "add", 
+    "params": 1, 
+    "char": 1, 
+    "return": 1, 
+    "allocator<std::_List_node<char_*>_> *": 1
+  }, 
+  "append": {
+    "params": 2, 
+    "char * *": 1, 
+    "List<char_*> *": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "_M_addr": {
+    "void": 1, 
+    "label": "add", 
+    "params": 1, 
+    "__aligned_membuf<char_*> *": 1, 
+    "return": 0
+  }
+}

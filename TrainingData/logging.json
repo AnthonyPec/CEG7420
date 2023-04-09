@@ -1,0 +1,27 @@
+{
+  "wolfSSL_SetLoggingCb": {
+    "wolfSSL_Logging_cb": 1, 
+    "label": "set", 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }, 
+  "wolfSSL_Debugging_OFF": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "wolfSSL_GetLoggingCb": {
+    "label": "get", 
+    "params": 0, 
+    "return": 1
+  }, 
+  "wolfSSL_Debugging_ON": {
+    "params": 0, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "set_dng_host": {
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "return;": 1, 
+    "void *": 1, 
+    "return": 0
+  }, 
+  "try_dngsdk": {
+    "params": 0, 
+    "undefined": 1, 
+    "return 0": 1, 
+    "return": 1
+  }, 
+  "valid_for_dngsdk": {
+    "params": 0, 
+    "undefined": 1, 
+    "return 0": 1, 
+    "return": 1
+  }
+}

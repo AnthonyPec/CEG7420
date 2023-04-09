@@ -1,0 +1,100 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "swap<TagLib::MP4::CoverArt::CoverArtPrivate_*>": {
+    "void": 1, 
+    "params": 2, 
+    "CoverArtPrivate * *": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator=": {
+    "CoverArt *": 2, 
+    "params": 2, 
+    "return": 1
+  }, 
+  "data": {
+    "CoverArt *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "_GLOBAL__sub_I_mp4coverart.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "swap": {
+    "CoverArt *": 2, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "format": {
+    "CoverArt *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "CoverArt": {
+    "CoverArt *": 2, 
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~CoverArtPrivate": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "CoverArtPrivate *": 1, 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~CoverArt": {
+    "CoverArt *": 1, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "CoverArtPrivate": {
+    "void": 1, 
+    "CoverArtPrivate *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

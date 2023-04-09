@@ -1,0 +1,73 @@
+{
+  "png_do_write_transformations": {
+    "if (.* != 0)": 10, 
+    "void": 1, 
+    "label": "transform", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 21, 
+    "if (.*)": 11, 
+    "return": 0, 
+    ".*\\+": 10
+  }, 
+  "png_do_write_invert_alpha": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "write", 
+    "params": 2, 
+    "return;": 1, 
+    "for (.*)": 4, 
+    ".*\\-": 14, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\+": 16, 
+    "= .*\\+": 16
+  }, 
+  "png_do_pack": {
+    "if (.* < \\d*)": 2, 
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 2, 
+    "byte": 1, 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "for (.*)": 3, 
+    ".*\\-": 12, 
+    "if (.*)": 12, 
+    "return": 0, 
+    ".*\\+": 10, 
+    "= .*\\+": 10
+  }, 
+  "png_do_write_swap_alpha": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "write", 
+    "params": 2, 
+    "return;": 1, 
+    "for (.*)": 4, 
+    ".*\\-": 8, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\+": 20, 
+    "= .*\\+": 20
+  }, 
+  "png_do_shift": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 4, 
+    "void": 1, 
+    "if (.* < .*)": 4, 
+    "byte": 1, 
+    "params": 3, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    "for (.*)": 6, 
+    ".*\\-": 27, 
+    "if (.*)": 10, 
+    "return": 0, 
+    ".*\\+": 17, 
+    "= .*\\+": 13
+  }
+}

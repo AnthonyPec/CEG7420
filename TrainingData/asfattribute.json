@@ -1,0 +1,308 @@
+{
+  "operator=": {
+    "params": 2, 
+    "Attribute *": 2, 
+    "return": 1
+  }, 
+  "Attribute": {
+    "void": 1, 
+    "bool": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 6, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "toUShort": {
+    "params": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "toByteVector": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "Attribute *": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "readQWORD": {
+    "label": "read", 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "bool *": 1
+  }, 
+  "language": {
+    "params": 1, 
+    "int": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "type": {
+    "params": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~AttributePrivate": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "AttributePrivate *": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toULongLong": {
+    "params": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "stream": {
+    "params": 1, 
+    "int": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "render": {
+    "if (.* != 0)": 1, 
+    "String *": 1, 
+    "break": 6, 
+    "params": 3, 
+    ".*\\+ 0x.*": 2, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 2, 
+    "Attribute *": 1, 
+    ".*\\-": 9, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 4, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 12, 
+    "case": 7, 
+    "= .*\\+": 1
+  }, 
+  "readDWORD": {
+    "label": "read", 
+    "File *": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "bool *": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "~Attribute": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "Attribute *": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_asfattribute.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "toUInt": {
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "setStream": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "swap": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "Attribute *": 2, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "readString": {
+    "label": "read", 
+    "File *": 1, 
+    "params": 2, 
+    "int": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "dataSize": {
+    "if (.* != 0)": 1, 
+    "break": 6, 
+    "params": 1, 
+    "int": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    "case": 7, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "toBool": {
+    "if (.* != 0)": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "parse": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* != 0)": 3, 
+    "if (.* < .*)": 1, 
+    "break": 5, 
+    "label": "parse", 
+    "File *": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 16, 
+    "int": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 2, 
+    "if (.*) param": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "if (.* < .*) param": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 8, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 25, 
+    "case": 7, 
+    "= .*\\+": 5
+  }, 
+  "readWORD": {
+    "label": "read", 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    "bool *": 1
+  }, 
+  "toPicture": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Attribute *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "renderString": {
+    "if (.* != 0)": 1, 
+    "String *": 1, 
+    "bool": 1, 
+    "params": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 2
+  }, 
+  "swap<TagLib::ASF::Attribute::AttributePrivate_*>": {
+    "void": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0, 
+    "AttributePrivate * *": 2
+  }, 
+  "toString": {
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "Attribute *": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "AttributePrivate": {
+    "void": 1, 
+    "params": 1, 
+    "AttributePrivate *": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 7, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "setLanguage": {
+    "void": 1, 
+    "label": "set", 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "Attribute *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }
+}

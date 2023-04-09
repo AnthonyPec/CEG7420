@@ -1,0 +1,74 @@
+{
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "findID3v1": {
+    "if (.* != 0)": 5, 
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "File *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 7, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "readHeader": {
+    "if (.* != 0)": 2, 
+    "if (.* != 0) param": 1, 
+    "bool": 1, 
+    "if (.* == 0) param": 1, 
+    "label": "read", 
+    "uint": 1, 
+    "params": 4, 
+    ".*\\+ 0x.*": 7, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "IOStream *": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 4, 
+    "long *": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 7, 
+    "= .*\\+": 2
+  }, 
+  "findID3v2": {
+    "File *": 1, 
+    "params": 1, 
+    "if (.* == 0)": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 2, 
+    "return": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_tagutils.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "findAPE": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "File *": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    "long": 1, 
+    "if (.* == 0)": 2, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 1
+  }
+}

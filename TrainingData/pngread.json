@@ -1,0 +1,603 @@
+{
+  "png_read_rows": {
+    "void": 1, 
+    "byte": 1, 
+    "label": "read", 
+    "uint": 1, 
+    "params": 4, 
+    "int": 1, 
+    "return;": 1, 
+    "for (.*)": 3, 
+    "if (.*)": 4, 
+    "return": 0, 
+    ".*\\+": 7, 
+    "= .*\\+": 7
+  }, 
+  "png_set_read_status_fn": {
+    "void": 1, 
+    "label": "read", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "png_image_begin_read_from_file": {
+    "if (.* != 0)": 1, 
+    "string": [
+      "png_image_begin_read_from_file: incorrect PNG_IMAGE_VERSION", 
+      "png_image_begin_read_from_file: invalid argument"
+    ], 
+    "label": "read", 
+    "params": 2, 
+    "int": 1, 
+    "return 0": 1, 
+    "char*": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "png_image_format": {
+    "if (.* != 0)": 3, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 5, 
+    "return": 1
+  }, 
+  "png_image_read_init": {
+    "string": [
+      "png_image_read: out of memory", 
+      "png_image_read: opaque pointer not NULL"
+    ], 
+    "label": "read", 
+    "params": 1, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "memset(.*)": 1, 
+    ".*\\-": 12, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "make_gray_colormap": {
+    "label": "make", 
+    "params": 1, 
+    "int": 1, 
+    "for (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_image_finish_read": {
+    "if (.* < \\d*)": 4, 
+    "if (.* != 0)": 1, 
+    "void*": 1, 
+    "string": [
+      "png_image_finish_read: damaged PNG_IMAGE_VERSION", 
+      "png_image_finish_read: row_stride too large", 
+      "png_image_finish_read: invalid argument", 
+      "png_image_finish_read: image too large", 
+      "png_image_finish_read[color-map]: no color-map"
+    ], 
+    "if (.* < .*)": 4, 
+    "label": "read", 
+    "params": 5, 
+    "int": 1, 
+    "if (.* == 0)": 6, 
+    "memset(.*)": 1, 
+    ".*\\-": 14, 
+    "if (.*)": 12, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "png_image_read_direct": {
+    "if (.* != 0)": 16, 
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "png_read_image: unsupported transformation", 
+      "png_image_read: alpha channel lost", 
+      "unexpected alpha swap transformation", 
+      "png_read_image: invalid transformations"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 13, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "if (.* == 0)": 8, 
+    "while(.*)": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 12, 
+    "if (.*)": 40, 
+    "return": 1, 
+    ".*\\+": 19, 
+    "= .*\\+": 13
+  }, 
+  "make_gray_file_colormap": {
+    "label": "make", 
+    "params": 1, 
+    "int": 1, 
+    "for (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_create_read_struct_2": {
+    "void": 1, 
+    "label": "read", 
+    "params": 7, 
+    "malloc(.*)": 2, 
+    "char": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "png_image_begin_read_from_stdio": {
+    "if (.* != 0)": 1, 
+    "string": [
+      "png_image_begin_read_from_stdio: incorrect PNG_IMAGE_VERSION", 
+      "png_image_begin_read_from_stdio: invalid argument"
+    ], 
+    "label": "read", 
+    "params": 2, 
+    "int": 1, 
+    "return 0": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "png_image_begin_read_from_memory": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "png_image_begin_read_from_memory: incorrect PNG_IMAGE_VERSION", 
+      "png_image_begin_read_from_memory: invalid argument"
+    ], 
+    "label": "read", 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "return 0": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 4, 
+    "return": 1
+  }, 
+  "png_create_read_struct": {
+    "void": 1, 
+    "label": "read", 
+    "params": 4, 
+    "malloc(.*)": 1, 
+    "char": 1, 
+    "return": 1
+  }, 
+  "png_image_read_header": {
+    "if (.* != 0)": 1, 
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 4, 
+    "int": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 2
+  }, 
+  "set_file_encoding": {
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_image_read_composite": {
+    "if (.* < \\d*)": 3, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "unknown interlace type"
+    ], 
+    "if (.* < .*)": 3, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "for (.*)": 3, 
+    ".*\\-": 12, 
+    "if (.*)": 11, 
+    "return": 1, 
+    ".*\\+": 15, 
+    "= .*\\+": 11
+  }, 
+  "png_image_read_background": {
+    "if (.* != 0)": 8, 
+    "if (.* < \\d*)": 6, 
+    "void": 1, 
+    "string": [
+      "lost rgb to gray", 
+      "unexpected compose", 
+      "lost/gained channels", 
+      "unexpected 8-bit transformation", 
+      "unknown interlace type", 
+      "unexpected bit depth"
+    ], 
+    "if (.* < .*)": 6, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 12, 
+    "int": 1, 
+    "if (.* == 0)": 5, 
+    "goto": 2, 
+    "for (.*)": 8, 
+    ".*\\-": 25, 
+    "if (.*)": 27, 
+    "return": 1, 
+    ".*\\+": 49, 
+    "= .*\\+": 37
+  }, 
+  "png_read_destroy": {
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "label": "read", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 27, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "make_ga_colormap": {
+    "label": "make", 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    "while(.*)": 1, 
+    "for (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 6, 
+    "= .*\\+": 6
+  }, 
+  "png_image_memory_read": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "read beyond end of data", 
+      "invalid memory read"
+    ], 
+    "byte": 1, 
+    "label": "read", 
+    "params": 3, 
+    ".*\\+ 0x.*": 4, 
+    "return;": 2, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 4, 
+    "= .*\\+": 3
+  }, 
+  "png_colormap_compose": {
+    "uint": 1, 
+    "params": 6, 
+    ".*\\+ 0x.*": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "decode_gamma": {
+    "string": [
+      "unexpected encoding (internal error)"
+    ], 
+    "break": 4, 
+    "uint": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 2, 
+    "return": 1, 
+    "case": 4, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "png_read_update_info": {
+    "void": 1, 
+    "string": [
+      "png_read_update_info/png_start_read_image: duplicate call"
+    ], 
+    "label": "read", 
+    "params": 2, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_create_colormap_entry": {
+    "if (.* < \\d*)": 5, 
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "string": [
+      "color-map index out of range", 
+      "bad encoding (internal error)"
+    ], 
+    "if (.* < .*)": 5, 
+    "break": 2, 
+    "label": "create", 
+    "uint": 1, 
+    "params": 7, 
+    ".*\\+ 0x.*": 11, 
+    "int": 1, 
+    "if (.* == 0)": 7, 
+    "return;": 1, 
+    ".*\\-": 17, 
+    "if (.*)": 25, 
+    "return": 0, 
+    ".*\\+": 35, 
+    "= .*\\+": 16, 
+    "case": 8
+  }, 
+  "png_read_png": {
+    "if (.* < \\d*)": 1, 
+    "if (.* != 0)": 14, 
+    "void": 1, 
+    "string": [
+      "Image is too high to process with png_read_png()"
+    ], 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 4, 
+    "int": 1, 
+    "malloc(.*)": 2, 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 14, 
+    "if (.*)": 17, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "make_rgb_colormap": {
+    "label": "make", 
+    "params": 1, 
+    "int": 1, 
+    "for (.*)": 3, 
+    "return": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 4
+  }, 
+  "png_read_info": {
+    "if (.* != 0)": 3, 
+    "void": 1, 
+    "string": [
+      "Missing IHDR before IDAT", 
+      "Missing PLTE before IDAT", 
+      "Too many IDATs found"
+    ], 
+    "break": 4, 
+    "label": "read", 
+    "params": 2, 
+    "if (.* == 0)": 2, 
+    "return;": 2, 
+    "while(.*)": 5, 
+    ".*\\-": 11, 
+    "if (.*)": 30, 
+    "return": 0
+  }, 
+  "png_read_image": {
+    "void": 1, 
+    "string": [
+      "Interlace handling should be turned on when using png_read_image"
+    ], 
+    "byte": 1, 
+    "label": "read", 
+    "params": 2, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "for (.*)": 2, 
+    ".*\\-": 4, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "png_image_read_colormapped": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "string": [
+      "bad color-map processing (internal error)"
+    ], 
+    "break": 3, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 13, 
+    "int": 1, 
+    "malloc(.*)": 1, 
+    "if (.* == 0)": 2, 
+    "goto": 4, 
+    "while(.*)": 1, 
+    "for (.*)": 1, 
+    ".*\\-": 16, 
+    "if (.*)": 7, 
+    "return": 1, 
+    ".*\\+": 23, 
+    "case": 5, 
+    "= .*\\+": 8
+  }, 
+  "png_image_skip_unused_chunks": {
+    "void": 1, 
+    "string": [
+      "bKGD"
+    ], 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "png_read_end": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "string": [
+      "Read palette index exceeding num_palette", 
+      "..Too many IDATs found", 
+      ".Too many IDATs found"
+    ], 
+    "label": "read", 
+    "params": 2, 
+    "if (.* == 0)": 3, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 31, 
+    "return": 0
+  }, 
+  "png_gamma_not_sRGB": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 1
+  }, 
+  "png_image_read_colormap": {
+    "if (.* != 0)": 7, 
+    "if (.* < \\d*)": 20, 
+    "void": 1, 
+    "string": [
+      "background color must be supplied to remove alpha/transparency", 
+      "gray[8] color-map: too few entries", 
+      "gray[16] color-map: too few entries", 
+      "invalid PNG color type", 
+      "rgb[ga] color-map: too few entries", 
+      "rgb[gray] color-map: too few entries", 
+      "rgb-alpha color-map: too few entries", 
+      "rgb+alpha color-map: too few entries", 
+      "rgb color-map: too few entries", 
+      "palette color-map: too few entries", 
+      "gray-alpha color-map: too few entries", 
+      "ga-alpha color-map: too few entries", 
+      "gray+alpha color-map: too few entries", 
+      "bad data option (internal error)", 
+      "color map overflow (BAD internal error)", 
+      "bad processing option (internal error)", 
+      "bad background index (internal error)"
+    ], 
+    "if (.* < .*)": 20, 
+    "break": 9, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 40, 
+    "int": 1, 
+    "if (.* == 0)": 19, 
+    "while(.*)": 1, 
+    "goto": 6, 
+    "for (.*)": 10, 
+    ".*\\-": 15, 
+    "if (.*)": 61, 
+    "return": 1, 
+    ".*\\+": 85, 
+    "= .*\\+": 50, 
+    "case": 10
+  }, 
+  "png_start_read_image": {
+    "void": 1, 
+    "string": [
+      "png_start_read_image/png_read_update_info: duplicate call"
+    ], 
+    "label": "read", 
+    "params": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_image_read_and_map": {
+    "if (.* < \\d*)": 7, 
+    "if (.* != 0)": 6, 
+    "void": 1, 
+    "string": [
+      "unknown interlace type"
+    ], 
+    "if (.* < .*)": 7, 
+    "break": 3, 
+    "label": "read", 
+    "params": 1, 
+    ".*\\+ 0x.*": 13, 
+    "int": 1, 
+    "if (.* == 0)": 2, 
+    "goto": 1, 
+    "while(.*)": 1, 
+    "for (.*)": 5, 
+    ".*\\-": 12, 
+    "if (.*)": 20, 
+    "return": 1, 
+    ".*\\+": 36, 
+    "= .*\\+": 29, 
+    "case": 4
+  }, 
+  "png_read_row": {
+    "if (.* < \\d*)": 7, 
+    "if (.* != 0)": 9, 
+    "void": 1, 
+    "string": [
+      "Invalid attempt to read row data", 
+      "bad adaptive filter value", 
+      "sequential row overflow", 
+      "internal sequential row size calculation error"
+    ], 
+    "if (.* < .*)": 7, 
+    "break": 6, 
+    "byte": 1, 
+    "label": "read", 
+    "params": 3, 
+    "if (.* == 0)": 4, 
+    "return;": 9, 
+    "memcpy(.*)": 1, 
+    ".*\\-": 37, 
+    "if (.*)": 32, 
+    "return": 0, 
+    ".*\\+": 6, 
+    "= .*\\+": 1, 
+    "case": 6
+  }, 
+  "png_destroy_read_struct": {
+    "void": 1, 
+    "label": "read", 
+    "params": 3, 
+    "return;": 1, 
+    "if (.*)": 2, 
+    "return": 0
+  }, 
+  "png_do_read_intrapixel": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "byte": 1, 
+    "label": "read", 
+    "params": 2, 
+    "return;": 3, 
+    "for (.*)": 2, 
+    ".*\\-": 8, 
+    "if (.*)": 7, 
+    "return": 0, 
+    ".*\\+": 8, 
+    "= .*\\+": 8
+  }
+}

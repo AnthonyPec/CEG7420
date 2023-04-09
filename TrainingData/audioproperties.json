@@ -1,0 +1,51 @@
+{
+  "_GLOBAL__sub_I_audioproperties.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "lengthInSeconds": {
+    "AudioProperties *": 1, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 13, 
+    "if (.*)": 39, 
+    "return": 1
+  }, 
+  "AudioProperties": {
+    "AudioProperties *": 1, 
+    "void": 1, 
+    "params": 2, 
+    "ReadStyle": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "lengthInMilliseconds": {
+    "AudioProperties *": 1, 
+    "params": 1, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 13, 
+    "if (.*)": 39, 
+    "return": 1
+  }, 
+  "~AudioProperties": {
+    "AudioProperties *": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }
+}

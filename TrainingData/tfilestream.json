@@ -1,0 +1,289 @@
+{
+  "openFile": {
+    "bool": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "tell": {
+    "params": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "FileStream": {
+    "void": 1, 
+    "bool": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 7, 
+    "if (.*)": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "insert": {
+    "if (.* < \\d*)": 2, 
+    "void": 1, 
+    "if (.* < .*)": 2, 
+    "break": 1, 
+    "params": 4, 
+    ".*\\+ 0x.*": 11, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 3, 
+    "ulong": 2, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    "while(.*)": 1, 
+    "for (.*)": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 5, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 6, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 15, 
+    "= .*\\+": 6, 
+    ".*\\- param": 1
+  }, 
+  "FileStreamPrivate": {
+    "void": 1, 
+    "params": 2, 
+    "FileName *": 1, 
+    "FileStreamPrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "removeBlock": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 5, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "ulong": 2, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 8, 
+    "= .*\\+": 4, 
+    ".*\\- param": 1
+  }, 
+  "seek": {
+    "void": 1, 
+    "Position": 1, 
+    "params": 3, 
+    ".*\\+ 0x.*": 1, 
+    "long": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 2, 
+    "FileStream *": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 4, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "readBlock": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < .*)": 1, 
+    "label": "read", 
+    "params": 2, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 2, 
+    "ulong": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 3, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "_GLOBAL__sub_I_tfilestream.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~FileStreamPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "FileStreamPrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "truncate": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "fflush(.*)": 1, 
+    "params": 2, 
+    "fflush(.*) param": 1, 
+    "long": 1, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 3, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "writeBlock": {
+    "void": 1, 
+    "label": "write", 
+    "params": 2, 
+    ".*\\+ 0x.*": 2, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 2, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 3, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 2, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\+": 2, 
+    "= .*\\+": 2, 
+    ".*\\- param": 1
+  }, 
+  "operator_const_char_*": {
+    "params": 1, 
+    "FileNameHandle *": 1, 
+    "return": 1
+  }, 
+  "writeFile": {
+    "FileHandle": 1, 
+    "label": "write", 
+    "params": 2, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "closeFile": {
+    "void": 1, 
+    "FileHandle": 1, 
+    "label": "close", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "length": {
+    "params": 1, 
+    ".*\\+ 0x.*": 5, 
+    ".*\\+ param": 1, 
+    "if (.* == 0)": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 5, 
+    "= .*\\+": 3
+  }, 
+  "clear": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "readOnly": {
+    "label": "read", 
+    "params": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "isOpen": {
+    "params": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "FileNameHandle": {
+    "void": 1, 
+    "FileName": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "FileNameHandle *": 1, 
+    "return": 0
+  }, 
+  "~FileNameHandle": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "FileNameHandle *": 1, 
+    "return": 0
+  }, 
+  "readFile": {
+    "FileHandle": 1, 
+    "label": "read", 
+    "params": 2, 
+    "ByteVector *": 1, 
+    "return": 1
+  }, 
+  "name": {
+    "params": 1, 
+    "FileStream *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~FileStream": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "FileStream *": 1, 
+    "return": 0
+  }, 
+  "bufferSize": {
+    "uint": 1, 
+    "params": 0, 
+    "int": 1, 
+    "return 0": 1, 
+    "return": 1
+  }
+}

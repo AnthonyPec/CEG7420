@@ -1,0 +1,303 @@
+{
+  "artist": {
+    "Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "year": {
+    "Tag *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    "return": 1
+  }, 
+  "~Tag": {
+    "void": 1, 
+    "delete(.*)": 1, 
+    "Tag *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setArtist": {
+    "void": 1, 
+    "String *": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setGenre": {
+    "void": 1, 
+    "String *": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setTrack": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 2, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "title": {
+    "Tag *": 1, 
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~TagPrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "TagPrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_GLOBAL__sub_I_id3v1tag.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setGenreNumber": {
+    "if (.* < \\d*)": 1, 
+    "void": 1, 
+    "if (.* < .*)": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 2, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "genreNumber": {
+    "Tag *": 1, 
+    "label": "gen", 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init.1": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "genre": {
+    "Tag *": 1, 
+    "label": "gen", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "setAlbum": {
+    "void": 1, 
+    "String *": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "track": {
+    "Tag *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "render": {
+    "Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 4, 
+    "return": 1, 
+    ".*\\+": 10
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "read": {
+    "if (.* != 0)": 1, 
+    "Tag *": 1, 
+    "label": "read", 
+    "size_t": 1, 
+    "params": 4, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 2, 
+    "void *": 1, 
+    ".*\\-": 2, 
+    "if (.*)": 4, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "album": {
+    "Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "fileIdentifier": {
+    "params": 0, 
+    "return": 1
+  }, 
+  "setTitle": {
+    "void": 1, 
+    "String *": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "parse": {
+    "void": 1, 
+    "Tag *": 1, 
+    "label": "parse", 
+    "params": 2, 
+    ".*\\+ 0x.*": 4, 
+    "return;": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 8, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 5, 
+    "= .*\\+": 5
+  }, 
+  "StringHandler": {
+    "void": 1, 
+    "params": 1, 
+    "StringHandler *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setYear": {
+    "void": 1, 
+    "Tag *": 1, 
+    "if (.* == 0) param": 1, 
+    "label": "set", 
+    "uint": 1, 
+    "params": 2, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "TagPrivate": {
+    "void": 1, 
+    "params": 1, 
+    "TagPrivate *": 1, 
+    "return;": 1, 
+    ".*\\-": 9, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setComment": {
+    "void": 1, 
+    "String *": 1, 
+    "Tag *": 1, 
+    "label": "set", 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "comment": {
+    "Tag *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "= .*\\+ param": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "Tag": {
+    "void": 1, 
+    "Tag *": 1, 
+    "File *": 1, 
+    "params": 3, 
+    "long": 1, 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "setStringHandler": {
+    "void": 1, 
+    "label": "set", 
+    "params": 1, 
+    "StringHandler *": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }
+}

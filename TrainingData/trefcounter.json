@@ -1,0 +1,63 @@
+{
+  "deref": {
+    "RefCounter *": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 3, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "RefCounterPrivate": {
+    "void": 1, 
+    "label": "count", 
+    "params": 1, 
+    "return;": 1, 
+    "RefCounterPrivate *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "RefCounter": {
+    "void": 1, 
+    "RefCounter *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "count": {
+    "RefCounter *": 1, 
+    "label": "count", 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "ref": {
+    "void": 1, 
+    "RefCounter *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    ".*\\-": 2, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "~RefCounter": {
+    "void": 1, 
+    "RefCounter *": 1, 
+    "delete(.*)": 1, 
+    "label": "~", 
+    "params": 1, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }
+}

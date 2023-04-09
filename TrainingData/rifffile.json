@@ -1,0 +1,852 @@
+{
+  "operator=": {
+    "Chunk *": 2, 
+    "params": 2, 
+    ".*\\-": 4, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator--": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "deallocate": {
+    "pointer": 1, 
+    "void": 1, 
+    "new_allocator<Chunk> *": 1, 
+    "size_type": 1, 
+    "delete(.*)": 1, 
+    "params": 3, 
+    "delete(.*) param": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "__copy_move_a<false,_Chunk_*,_Chunk_*>": {
+    "Chunk *": 3, 
+    "label": "copy", 
+    "params": 3, 
+    "return": 1
+  }, 
+  "~File": {
+    "void": 1, 
+    "label": "~", 
+    "File *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "construct": {
+    "pointer": 1, 
+    "void": 1, 
+    "new_allocator<Chunk> *": 1, 
+    "Chunk *": 1, 
+    "params": 3, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "advance<__gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>,_unsigned_int>": {
+    "void": 1, 
+    "uint": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    "return": 0
+  }, 
+  "empty": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "FilePrivate": {
+    "void": 1, 
+    "Endianness": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_Vector_base": {
+    "void": 1, 
+    "_Vector_base<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "isValidChunkName": {
+    "if (.* < \\d*)": 1, 
+    "break": 1, 
+    "if (.* < .*)": 1, 
+    "params": 1, 
+    "while(.*)": 1, 
+    "ByteVector *": 1, 
+    "if (.*)": 3, 
+    "return": 1
+  }, 
+  "__addressof<Chunk>": {
+    "Chunk *": 1, 
+    "label": "add", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "allocator": {
+    "void": 1, 
+    "allocator<Chunk> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator-": {
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "difference_type": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "_M_check_len": {
+    "if (.* < \\d*)": 1, 
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "size_type": 1, 
+    "if (.* < .*)": 1, 
+    "label": "check", 
+    "params": 3, 
+    "if (.*) param": 1, 
+    "char *": 1, 
+    ".*\\-": 1, 
+    "if (.*)": 2, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "operator->": {
+    "params": 1, 
+    "int": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "~_Vector_base": {
+    "void": 1, 
+    "_Vector_base<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__uninitialized_copy_a<Chunk_*,_Chunk_*,_Chunk>": {
+    "allocator<Chunk> *": 1, 
+    "Chunk *": 3, 
+    "label": "init", 
+    "params": 4, 
+    "return": 1
+  }, 
+  "operator*": {
+    "params": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator+": {
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "difference_type": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "__copy_move_a2<false,___gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>,___gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>_>": {
+    "label": "copy", 
+    "params": 3, 
+    "return": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": 3
+  }, 
+  "__niter_wrap<__gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>,_Chunk_*>": {
+    "Chunk *": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": 1
+  }, 
+  "updateGlobalSize": {
+    "void": 1, 
+    "label": "update", 
+    "File *": 1, 
+    "params": 1, 
+    ".*\\+ 0x.*": 1, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    ".*\\-": 6, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "read": {
+    "if (.* < \\d*)": 2, 
+    "if (.* != 0)": 2, 
+    "if (.* < .*)": 2, 
+    "label": "read", 
+    "File *": 1, 
+    "size_t": 1, 
+    "params": 4, 
+    "int": 1, 
+    "while(.*)": 1, 
+    "void *": 1, 
+    ".*\\-": 9, 
+    "if (.*)": 8, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 11, 
+    "= .*\\+": 10
+  }, 
+  "__uninitialized_move_if_noexcept_a<Chunk_*,_Chunk_*,_std::allocator<Chunk>_>": {
+    "allocator<Chunk> *": 1, 
+    "Chunk *": 3, 
+    "label": "init", 
+    "params": 4, 
+    "return": 1
+  }, 
+  "__iterator_category<__gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>_>": {
+    "params": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    "return": 1
+  }, 
+  "chunkCount": {
+    "label": "count", 
+    "File *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "new_allocator": {
+    "void": 1, 
+    "new_allocator<Chunk> *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "destroy": {
+    "pointer": 1, 
+    "void": 1, 
+    "new_allocator<Chunk> *": 1, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "~vector": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "uninitialized_copy<Chunk_*,_Chunk_*>": {
+    "Chunk *": 3, 
+    "label": "init", 
+    "params": 3, 
+    "return": 1
+  }, 
+  "Chunk": {
+    "void": 1, 
+    "Chunk *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    ".*\\-": 4, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__uninit_copy<Chunk_*,_Chunk_*>": {
+    "for (.*) param": 1, 
+    "Chunk *": 3, 
+    "label": "init", 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "for (.*)": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    "= .*\\+": 2
+  }, 
+  "_Destroy<Chunk>": {
+    "void": 1, 
+    "Chunk *": 1, 
+    "label": "destroy", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "max_size": {
+    "new_allocator<Chunk> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "size": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 3, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "allocate": {
+    "if (.* < \\d*)": 1, 
+    "new_allocator<Chunk> *": 1, 
+    "size_type": 1, 
+    "if (.* < .*)": 1, 
+    "params": 3, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "void *": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "copy<__gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>,___gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>_>": {
+    "label": "copy", 
+    "params": 3, 
+    "return": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": 3
+  }, 
+  "removeChunk": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "File *": 1, 
+    "params": 2, 
+    "return;": 1, 
+    "while(.*)": 1, 
+    "ByteVector *": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "_Destroy<Chunk_*>": {
+    "void": 1, 
+    "Chunk *": 2, 
+    "label": "destroy", 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_Vector_impl": {
+    "void": 1, 
+    "_Vector_impl *": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "begin": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "File": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "File *": 1, 
+    "Endianness": 1, 
+    "params": 3, 
+    "return;": 1, 
+    ".*\\-": 2, 
+    "IOStream *": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "chunkPadding": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "label": "add", 
+    "File *": 1, 
+    "uint": 2, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 4, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator!=<const_char_*,_std::vector<char,_std::allocator<char>_>_>": {
+    "params": 2, 
+    "return": 1, 
+    "__normal_iterator<const_char_*,_std::vector<char,_std::allocator<char>_>_> *": 2
+  }, 
+  "construct<Chunk>": {
+    "pointer": 1, 
+    "void": 1, 
+    "allocator<Chunk> *": 1, 
+    "Chunk *": 1, 
+    "params": 3, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "operator[]": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "size_type": 1, 
+    "params": 2, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "~_Vector_impl": {
+    "void": 1, 
+    "_Vector_impl *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_erase": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 2, 
+    "iterator": 1, 
+    ".*\\-": 4, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "chunkOffset": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "uint": 2, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 4, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "operator++": {
+    "params": 1, 
+    ".*\\+ param": 1, 
+    "char": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1, 
+    "__normal_iterator<const_char_*,_std::vector<char,_std::allocator<char>_>_> *": 1
+  }, 
+  "back": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "writeChunk": {
+    "if (.* != 0)": 1, 
+    "void": 1, 
+    "label": "write", 
+    "File *": 1, 
+    "params": 5, 
+    "ulong": 2, 
+    "return;": 1, 
+    "ByteVector *": 2, 
+    ".*\\-": 1, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "push_back": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "void": 1, 
+    "params": 2, 
+    "value_type *": 1, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    ".*\\-": 5, 
+    "if (.*)": 1, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 1
+  }, 
+  "operator==<const_Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": {
+    "params": 2, 
+    "__normal_iterator<const_Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 2, 
+    "return": 1
+  }, 
+  "~FilePrivate": {
+    "void": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "FilePrivate *": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "__cxx_global_var_init": {
+    "void": 1, 
+    "label": "init", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "setChunkData": {
+    "if (.* != 0)": 2, 
+    "void": 1, 
+    "bool": 1, 
+    "label": "set", 
+    "File *": 1, 
+    "params": 4, 
+    "if (.* == 0)": 2, 
+    "return;": 2, 
+    "for (.*)": 2, 
+    "ByteVector *": 2, 
+    ".*\\-": 13, 
+    "if (.*)": 6, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 4, 
+    "= .*\\+": 4
+  }, 
+  "max<unsigned_int>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "uint *": 2, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "_Vector_impl_data": {
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 3, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    "_Vector_impl_data *": 1
+  }, 
+  "__copy_m<Chunk_*,_Chunk_*>": {
+    "Chunk *": 3, 
+    "label": "copy", 
+    "params": 3, 
+    "for (.*)": 1, 
+    ".*\\-": 2, 
+    "return": 1, 
+    ".*\\- param": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 3
+  }, 
+  "chunkData": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "File *": 1, 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 3, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 2, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 3, 
+    ".*\\- param": 1
+  }, 
+  "operator+=": {
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "difference_type": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "= .*\\+ param": 1, 
+    "return": 1, 
+    ".*\\+": 1, 
+    ".*\\- param": 1, 
+    "= .*\\+": 1
+  }, 
+  "__miter_base<__gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>_>": {
+    "params": 1, 
+    "return": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": 1
+  }, 
+  "chunkDataSize": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "File *": 1, 
+    "uint": 2, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 4, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "end": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "vector": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "void": 1, 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "~new_allocator": {
+    "void": 1, 
+    "new_allocator<Chunk> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "riffSize": {
+    "File *": 1, 
+    "uint": 1, 
+    "params": 1, 
+    "int": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }, 
+  "__clang_call_terminate": {
+    "void": 1, 
+    "params": 0, 
+    "return": 0
+  }, 
+  "erase": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 2, 
+    "iterator": 1, 
+    "return": 1
+  }, 
+  "_S_max_size": {
+    "params": 1, 
+    "_Tp_alloc_type *": 1, 
+    "return": 1
+  }, 
+  "min<unsigned_int>": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "uint *": 2, 
+    "uint": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "__niter_base<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": {
+    "params": 1, 
+    "return": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": 1
+  }, 
+  "_M_deallocate": {
+    "pointer": 1, 
+    "void": 1, 
+    "_Vector_base<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "size_t": 1, 
+    "params": 3, 
+    "if (.*) param": 1, 
+    "return;": 1, 
+    "if (.*)": 1, 
+    "return": 0
+  }, 
+  "__advance<__gnu_cxx::__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>,_int>": {
+    "void": 1, 
+    "params": 2, 
+    "int": 1, 
+    "return;": 1, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    "return": 0
+  }, 
+  "~Chunk": {
+    "void": 1, 
+    "Chunk *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator-<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": {
+    "params": 2, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 2, 
+    ".*\\-": 2, 
+    "return": 1
+  }, 
+  "_M_allocate": {
+    "_Vector_base<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "if (.* == 0) param": 1, 
+    "size_t": 1, 
+    "params": 2, 
+    "int": 1, 
+    "if (.*) param": 1, 
+    "if (.* == 0)": 1, 
+    "if (.*)": 1, 
+    "return": 1
+  }, 
+  "_GLOBAL__sub_I_rifffile.cpp": {
+    "void": 1, 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_Construct<Chunk,_Chunk>": {
+    "void": 1, 
+    "Chunk *": 2, 
+    "params": 2, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "chunkName": {
+    "if (.* < \\d*)": 1, 
+    "if (.* < \\d*) param": 1, 
+    "if (.* < .*)": 1, 
+    "File *": 1, 
+    "uint": 1, 
+    "params": 2, 
+    ".*\\+ 0x.*": 2, 
+    ".*\\+ param": 1, 
+    "if (.*) param": 1, 
+    ".*\\-": 2, 
+    "if (.* < .*) param": 1, 
+    "if (.*)": 1, 
+    ".*\\+ 0x.* param": 1, 
+    "return": 1, 
+    ".*\\+": 2, 
+    ".*\\- param": 1
+  }, 
+  "~allocator": {
+    "void": 1, 
+    "allocator<Chunk> *": 1, 
+    "label": "~", 
+    "params": 1, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "_M_get_Tp_allocator": {
+    "_Vector_base<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "label": "get", 
+    "params": 1, 
+    "return": 1
+  }, 
+  "__destroy<Chunk_*>": {
+    "for (.*) param": 1, 
+    "void": 1, 
+    "Chunk *": 2, 
+    "label": "destroy", 
+    "params": 2, 
+    ".*\\+ param": 1, 
+    "return;": 1, 
+    "for (.*)": 1, 
+    "= .*\\+ param": 1, 
+    "return": 0, 
+    ".*\\+": 1, 
+    "= .*\\+": 1
+  }, 
+  "_M_realloc_insert": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "void": 1, 
+    "params": 3, 
+    ".*\\+ param": 1, 
+    "value_type *": 1, 
+    "iterator": 1, 
+    "return;": 1, 
+    ".*\\-": 12, 
+    "return": 0, 
+    ".*\\- param": 1, 
+    ".*\\+": 3, 
+    "= .*\\+": 1
+  }, 
+  "_Destroy<Chunk_*,_Chunk>": {
+    "void": 1, 
+    "allocator<Chunk> *": 1, 
+    "Chunk *": 2, 
+    "label": "destroy", 
+    "params": 3, 
+    "return;": 1, 
+    "return": 0
+  }, 
+  "front": {
+    "vector<Chunk,_std::allocator<Chunk>_> *": 1, 
+    "params": 1, 
+    "return": 1
+  }, 
+  "__normal_iterator": {
+    "void": 1, 
+    "Chunk * *": 1, 
+    "params": 2, 
+    "__normal_iterator<const_Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    "return;": 1, 
+    ".*\\-": 1, 
+    "return": 0, 
+    ".*\\- param": 1
+  }, 
+  "operator!=<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_>": {
+    "params": 2, 
+    "__normal_iterator<Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 2, 
+    "return": 1
+  }, 
+  "base": {
+    "params": 1, 
+    "__normal_iterator<const_Chunk_*,_std::vector<Chunk,_std::allocator<Chunk>_>_> *": 1, 
+    ".*\\-": 1, 
+    "return": 1, 
+    ".*\\- param": 1
+  }
+}

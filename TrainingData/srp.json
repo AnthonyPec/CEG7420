@@ -1,0 +1,9 @@
+{
+  "SrpTest": {
+    "void": 1, 
+    "label": "test", 
+    "params": 0, 
+    "return;": 1, 
+    "return": 0
+  }
+}
