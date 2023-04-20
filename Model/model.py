@@ -43,11 +43,6 @@ def GetImportantFeatures(X_train, y_train, X_test, y_test, names, plot=False):
 
     fig.savefig('rf_individualtree.png')
 
-    # print(len(selected_feat))
-    # print("random forest mean accuracy " + str(sel.estimator_.score(X_test, y_test)))
-    # predictions = sel.estimator_.predict(X_test)
-    # print("random forest f1_score " + str(f1_score(predictions, y_test)))
-
     if (plot):
         perm = False
 
@@ -68,10 +63,6 @@ def GetImportantFeatures(X_train, y_train, X_test, y_test, names, plot=False):
             plt.show()
 
         else:
-            # ohe = (rf.named_steps['preprocess']
-            #     .named_transformers_['cat'])
-            # feature_names = ohe.get_feature_names_out(categorical_columns)
-            # feature_names = np.r_[feature_names, numerical_columns]
 
             feature_names = selected_feat
             tree_feature_importances = (
@@ -87,10 +78,6 @@ def GetImportantFeatures(X_train, y_train, X_test, y_test, names, plot=False):
             fig.tight_layout()
             plt.show()
     return selected_feat
-    # plt.barh(selected_feat, rf.feature_importances_)
-    # plt.title("Gini Importance Random Forest")
-    # plt.show()
-
 
 def RandomForest(X_train, y_train, X_test, y_test, classNames):
     rf = RandomForestClassifier(n_estimators=100)
@@ -158,21 +145,7 @@ def main():
         df.to_csv(os.path.join(directory, 'out.zip'), index=False,
                   compression=compression_opts)
 
-    # creating instance of one-hot-encoder
-    # encoder = OneHotEncoder(handle_unknown='ignore')
-
-    # perform one-hot encoding on 'team' column
-    # encoder_df = pd.DataFrame(encoder.fit_transform(df[['return']]).toarray()
-
-    # one_hot = pd.get_dummies(df['return'])
-    # merge one-hot encoded columns back with original DataFrame
-    # df.drop('return', axis=1, inplace=True)
-    # drop 'team' column
-    # final_df.drop('return', axis=1, inplace=True)
-    # df = df.join(one_hot)
     for i in df:
-        # print(i)
-        # print(df[i].value_counts())
         if len(df[i].unique()) == 1:
             print("dropped " + i)
             df = df.drop(columns=i)
