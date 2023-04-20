@@ -1,10 +1,5 @@
 # Python program to read
-# json file
 import pandas
-import sklearn
-from sklearn.ensemble import RandomForestClassifier
-import json
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, precision_score
 import seaborn as sns
 import pandas as pd
@@ -22,7 +17,7 @@ from sklearn.tree import plot_tree
 
 
 def GetImportantFeatures(X_train, y_train, X_test, y_test, names, plot=False):
-    clf = RandomForestClassifier(n_estimators=100, max_depth=3)
+    clf = RandomForestClassifier(n_estimators=100)
 
     fig = plt.figure(figsize=(10, 10))
 
@@ -32,7 +27,7 @@ def GetImportantFeatures(X_train, y_train, X_test, y_test, names, plot=False):
 
     selected_feat = X_train.columns[(sel.get_support())]
 
-    rf = RandomForestRegressor(n_estimators=100, max_depth=3)
+    rf = RandomForestRegressor(n_estimators=100)
     rf.fit(X_train[selected_feat], y_train)
 
     plot_tree(rf.estimators_[0],
