@@ -5,11 +5,11 @@ binaries_list = []
 binaries_name = []
 directory = "../Downloads/Binaries"
 
-op = "import"
+op = "-import"
 
 if len(sys.argv) > 2:
-    if sys.argv[1] == "process":
-        op = "process"
+    if sys.argv[1] == "-process":
+        op = "-process"
 
 for filename in os.listdir(directory):
     path = os.path.join(directory, filename)
@@ -25,6 +25,6 @@ project = "../test2.gpr "
 postScript = "CreateJson.py"
 
 for i in binaries_name:
-    cmd = "{0} {1} {2} -{3} {4} -postScript {5}".format(headless, project_path, project,op, i, postScript)
+    cmd = "{0} {1} {2} {3} {4} -postScript {5}".format(headless, project_path, project,op, i, postScript)
     # cmd = "{0} {1} {2} -import {3} -postScript {4}".format(headless,project_path,project,i,postScript)
     os.system(cmd)
